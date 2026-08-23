@@ -1,0 +1,20 @@
+# Coverage Gate thresholds (docs/RAG_IMPLEMENTATION.md section 6.3).
+#
+# These are PLACEHOLDER defaults, not calibrated values -- Phase 4 of the
+# build sequence calibrates tau_hard/tau_soft against the reranker-score
+# distributions of the in-scope vs out-of-scope halves of the golden eval
+# set (a 60/40 calibration/held-out split, to avoid the circularity of
+# tuning and reporting accuracy on the same data). Until that eval set
+# exists, app/retrieval/coverage_gate.py falls back to these same numbers
+# if this file is ever deleted, so the two must be kept in sync by hand.
+#
+# Deliberately conservative (tau_hard biased high, toward abstaining): for
+# a government policy bot, an incorrect refusal is far cheaper than an
+# answer that isn't actually grounded in the policy text.
+
+tau_hard: 0.35   # below this reranker score -> abstain, the LLM is never called
+tau_soft: 0.55   # below this (but >= tau_hard) -> answer, flagged low-confidence
+
+calibrated: false
+calibrated_at: null
+calibrated_against: null   # eval run id, once Phase 4 runs

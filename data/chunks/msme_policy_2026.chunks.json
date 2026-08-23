@@ -1,0 +1,1993 @@
+{
+  "policy_id": "BIHAR_MSME_2026",
+  "policy_version": "draft-v1",
+  "policy_status": "DRAFT_NOT_NOTIFIED",
+  "chunk_count": 85,
+  "chunks": [
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item1.capital_subsidy.micro",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 1 Capital Subsidy > Micro Enterprise > p.18]\n\nCapital Subsidy for a MICRO enterprise: 30% of Fixed Capital Investment (Cap 25 Lakhs) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 25 Lakhs) in B Category District as defined in BIIPP Policy. Governing conditions: section(s) 9.1. Known open questions on this incentive: AMB-01, AMB-02, AMB-07, AMB-20.",
+      "parent_text": "Capital Subsidy (item 1 of the section 7.9 incentive table, p.18):\n  Micro enterprises: 30% of Fixed Capital Investment (Cap 25 Lakhs) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 25 Lakhs) in B Category District as defined in BIIPP Policy\n  Small enterprises: 30% of Fixed Capital Investment (Cap 1.5 Crore) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 1.5 Crore) in B Category District as defined in BIIPP Policy\n  Medium enterprises: 30% of Fixed Capital Investment (Cap 5 croe) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 5 croe) in B Category District as defined in BIIPP Policy\n Governing conditions: section(s) 9.1. Known open questions on this incentive: AMB-01, AMB-02, AMB-07, AMB-20.",
+      "clause_path": "S7.9 > Item 1 Capital Subsidy > Micro",
+      "page_start": 18,
+      "page_end": 18,
+      "enterprise_category": [
+        "micro"
+      ],
+      "district_region": [],
+      "incentive_type": "capital_subsidy",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.1"
+      ],
+      "ambiguity_flags": [
+        "AMB-01",
+        "AMB-02",
+        "AMB-07",
+        "AMB-20"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item1.capital_subsidy.small",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 1 Capital Subsidy > Small Enterprise > p.18]\n\nCapital Subsidy for a SMALL enterprise: 30% of Fixed Capital Investment (Cap 1.5 Crore) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 1.5 Crore) in B Category District as defined in BIIPP Policy. Governing conditions: section(s) 9.1. Known open questions on this incentive: AMB-01, AMB-02, AMB-07, AMB-20.",
+      "parent_text": "Capital Subsidy (item 1 of the section 7.9 incentive table, p.18):\n  Micro enterprises: 30% of Fixed Capital Investment (Cap 25 Lakhs) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 25 Lakhs) in B Category District as defined in BIIPP Policy\n  Small enterprises: 30% of Fixed Capital Investment (Cap 1.5 Crore) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 1.5 Crore) in B Category District as defined in BIIPP Policy\n  Medium enterprises: 30% of Fixed Capital Investment (Cap 5 croe) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 5 croe) in B Category District as defined in BIIPP Policy\n Governing conditions: section(s) 9.1. Known open questions on this incentive: AMB-01, AMB-02, AMB-07, AMB-20.",
+      "clause_path": "S7.9 > Item 1 Capital Subsidy > Small",
+      "page_start": 18,
+      "page_end": 18,
+      "enterprise_category": [
+        "small"
+      ],
+      "district_region": [],
+      "incentive_type": "capital_subsidy",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.1"
+      ],
+      "ambiguity_flags": [
+        "AMB-01",
+        "AMB-02",
+        "AMB-07",
+        "AMB-20"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item1.capital_subsidy.medium",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 1 Capital Subsidy > Medium Enterprise > p.18]\n\nCapital Subsidy for a MEDIUM enterprise: 30% of Fixed Capital Investment (Cap 5 croe) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 5 croe) in B Category District as defined in BIIPP Policy. Governing conditions: section(s) 9.1. Known open questions on this incentive: AMB-01, AMB-02, AMB-07, AMB-20.",
+      "parent_text": "Capital Subsidy (item 1 of the section 7.9 incentive table, p.18):\n  Micro enterprises: 30% of Fixed Capital Investment (Cap 25 Lakhs) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 25 Lakhs) in B Category District as defined in BIIPP Policy\n  Small enterprises: 30% of Fixed Capital Investment (Cap 1.5 Crore) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 1.5 Crore) in B Category District as defined in BIIPP Policy\n  Medium enterprises: 30% of Fixed Capital Investment (Cap 5 croe) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 5 croe) in B Category District as defined in BIIPP Policy\n Governing conditions: section(s) 9.1. Known open questions on this incentive: AMB-01, AMB-02, AMB-07, AMB-20.",
+      "clause_path": "S7.9 > Item 1 Capital Subsidy > Medium",
+      "page_start": 18,
+      "page_end": 18,
+      "enterprise_category": [
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "capital_subsidy",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.1"
+      ],
+      "ambiguity_flags": [
+        "AMB-01",
+        "AMB-02",
+        "AMB-07",
+        "AMB-20"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item2.additional_subsidy_for_disadvantaged_group.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 2 Additional Subsidy for disadvantaged group > Micro / Small / Medium > p.18]\n\nAdditional Subsidy for disadvantaged group (same for Micro, Small and Medium enterprises): Additional 10% for women/SC/ST/BC/PwD/Transgender with maximum cap of 7 Crore. Governing conditions: section(s) 9.1. Known open questions on this incentive: AMB-05.",
+      "parent_text": "Additional Subsidy for disadvantaged group (item 2 of the section 7.9 incentive table, p.18):\n  Micro enterprises: Additional 10% for women/SC/ST/BC/PwD/Transgender with maximum cap of 7 Crore\n  Small enterprises: Additional 10% for women/SC/ST/BC/PwD/Transgender with maximum cap of 7Crore\n  Medium enterprises: Additional 10% for women/SC/ST/BC/PwD/Transgender with maximum cap of 7 Crore\n Governing conditions: section(s) 9.1. Known open questions on this incentive: AMB-05.",
+      "clause_path": "S7.9 > Item 2 Additional Subsidy for disadvantaged group > All categories",
+      "page_start": 18,
+      "page_end": 18,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "additional_subsidy_for_disadvantaged_group",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.1"
+      ],
+      "ambiguity_flags": [
+        "AMB-05"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item3.additional_subsidy_for_scaling_up.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 3 Additional Subsidy for Scaling up > Micro / Small / Medium > p.18]\n\nAdditional Subsidy for Scaling up (same for Micro, Small and Medium enterprises): 5% additional capital subsidy (Maximum Cap 25 Lakhs). Governing conditions: section(s) 9.3. Known open questions on this incentive: AMB-08.",
+      "parent_text": "Additional Subsidy for Scaling up (item 3 of the section 7.9 incentive table, p.18):\n  Micro enterprises: 5% additional capital subsidy (Maximum Cap 25 Lakhs)\n  Small enterprises: 5% additional capital subsidy (Maximum Cap 25 Lakhs)\n  Medium enterprises: 5% additional capital subsidy (Maximum Cap 25 Lakhs)\n Governing conditions: section(s) 9.3. Known open questions on this incentive: AMB-08.",
+      "clause_path": "S7.9 > Item 3 Additional Subsidy for Scaling up > All categories",
+      "page_start": 18,
+      "page_end": 18,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "additional_subsidy_for_scaling_up",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.3"
+      ],
+      "ambiguity_flags": [
+        "AMB-08"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item4.payroll_subsidy.micro",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 4 Payroll subsidy > Micro Enterprise > p.18]\n\nPayroll subsidy for a MICRO enterprise: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 10 persons, subject to a maximum of Rs, 24,000/- per employee per annum. Governing conditions: section(s) 9.4.",
+      "parent_text": "Payroll subsidy (item 4 of the section 7.9 incentive table, p.18):\n  Micro enterprises: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 10 persons, subject to a maximum of Rs, 24,000/- per employee per annum\n  Small enterprises: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 20 persons, subject to a maximum of Rs, 24,000/- per employee per annum\n  Medium enterprises: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 50 persons, subject to a maximum of Rs, 24,000/- per employee per annum\n Governing conditions: section(s) 9.4.",
+      "clause_path": "S7.9 > Item 4 Payroll subsidy > Micro",
+      "page_start": 18,
+      "page_end": 18,
+      "enterprise_category": [
+        "micro"
+      ],
+      "district_region": [],
+      "incentive_type": "payroll_subsidy",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.4"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item4.payroll_subsidy.small",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 4 Payroll subsidy > Small Enterprise > p.18]\n\nPayroll subsidy for a SMALL enterprise: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 20 persons, subject to a maximum of Rs, 24,000/- per employee per annum. Governing conditions: section(s) 9.4.",
+      "parent_text": "Payroll subsidy (item 4 of the section 7.9 incentive table, p.18):\n  Micro enterprises: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 10 persons, subject to a maximum of Rs, 24,000/- per employee per annum\n  Small enterprises: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 20 persons, subject to a maximum of Rs, 24,000/- per employee per annum\n  Medium enterprises: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 50 persons, subject to a maximum of Rs, 24,000/- per employee per annum\n Governing conditions: section(s) 9.4.",
+      "clause_path": "S7.9 > Item 4 Payroll subsidy > Small",
+      "page_start": 18,
+      "page_end": 18,
+      "enterprise_category": [
+        "small"
+      ],
+      "district_region": [],
+      "incentive_type": "payroll_subsidy",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.4"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item4.payroll_subsidy.medium",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 4 Payroll subsidy > Medium Enterprise > p.18]\n\nPayroll subsidy for a MEDIUM enterprise: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 50 persons, subject to a maximum of Rs, 24,000/- per employee per annum. Governing conditions: section(s) 9.4.",
+      "parent_text": "Payroll subsidy (item 4 of the section 7.9 incentive table, p.18):\n  Micro enterprises: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 10 persons, subject to a maximum of Rs, 24,000/- per employee per annum\n  Small enterprises: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 20 persons, subject to a maximum of Rs, 24,000/- per employee per annum\n  Medium enterprises: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 50 persons, subject to a maximum of Rs, 24,000/- per employee per annum\n Governing conditions: section(s) 9.4.",
+      "clause_path": "S7.9 > Item 4 Payroll subsidy > Medium",
+      "page_start": 18,
+      "page_end": 18,
+      "enterprise_category": [
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "payroll_subsidy",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.4"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item5.low_tension_power_tariff_subsidy.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 5 Low Tension Power Tariff Subsidy > Micro / Small / Medium > p.18]\n\nLow Tension Power Tariff Subsidy (same for Micro, Small and Medium enterprises): 20% of the power charges paid by the enterprise for the first 3 years from the date of commencement of production or from the date of power connection, whichever is later. Governing conditions: section(s) 9.5.",
+      "parent_text": "Low Tension Power Tariff Subsidy (item 5 of the section 7.9 incentive table, p.18):\n  Micro enterprises: 20% of the power charges paid by the enterprise for the first 3 years from the date of commencement of production or from the date of power connection, whichever is later\n  Small enterprises: 20% of the power charges paid by the enterprise for the first 3 years from the date of commencement of production or from the date of power connection, whichever is later\n  Medium enterprises: 20% of the power charges paid by the enterprise for the first 3 years from the date of commencement of production or from the date of power connection, whichever is later\n Governing conditions: section(s) 9.5.",
+      "clause_path": "S7.9 > Item 5 Low Tension Power Tariff Subsidy > All categories",
+      "page_start": 18,
+      "page_end": 18,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "low_tension_power_tariff_subsidy",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.5"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item6.roof_top_solar_subsidy.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 6 Roof Top Solar Subsidy > Micro / Small / Medium > p.18]\n\nRoof Top Solar Subsidy (same for Micro, Small and Medium enterprises): 25% of the cost of Roof Top Solar set up to the capacity of 300 Kw, subject to a maximum limit of 5.0 Lakhs. Governing conditions: section(s) 9.6.",
+      "parent_text": "Roof Top Solar Subsidy (item 6 of the section 7.9 incentive table, p.18):\n  Micro enterprises: 25% of the cost of Roof Top Solar set up to the capacity of 300 Kw, subject to a maximum limit of 5.0 Lakhs\n  Small enterprises: 25% of the cost of Roof Top Solar set up to the capacity of 300 Kw, subject to a maximum limit of 5.0 Lakhs\n  Medium enterprises: 25% of the cost of Roof Top Solar set up to the capacity of 300 Kw, subject to a maximum limit of 5.0 Lakhs\n Governing conditions: section(s) 9.6.",
+      "clause_path": "S7.9 > Item 6 Roof Top Solar Subsidy > All categories",
+      "page_start": 18,
+      "page_end": 18,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "roof_top_solar_subsidy",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.6"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item7.energy_audit_incentive.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 7 Energy Audit Incentive > Micro / Small / Medium > p.19]\n\nEnergy Audit Incentive (same for Micro, Small and Medium enterprises): 75% of the cost of the audit subject to a maximum of 1 lakhs per energy audit. Governing conditions: section(s) 9.7.",
+      "parent_text": "Energy Audit Incentive (item 7 of the section 7.9 incentive table, p.19):\n  Micro enterprises: 75% of the cost of the audit subject to a maximum of 1 lakhs per energy audit\n  Small enterprises: 75% of the cost of the audit subject to a maximum of 1 lakhs per energy audit\n  Medium enterprises: 75% of the cost of the audit subject to a maximum of 1 lakhs per energy audit\n Governing conditions: section(s) 9.7.",
+      "clause_path": "S7.9 > Item 7 Energy Audit Incentive > All categories",
+      "page_start": 19,
+      "page_end": 19,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "energy_audit_incentive",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.7"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item8.water_audit_incentive.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 8 Water Audit Incentive > Micro / Small / Medium > p.19]\n\nWater Audit Incentive (same for Micro, Small and Medium enterprises): 75% of the cost of the audit subject to a maximum of 1 lakhs per water audit.",
+      "parent_text": "Water Audit Incentive (item 8 of the section 7.9 incentive table, p.19):\n  Micro enterprises: 75% of the cost of the audit subject to a maximum of 1 lakhs per water audit\n  Small enterprises: 75% of the cost of the audit subject to a maximum of 1 lakhs per water audit\n  Medium enterprises: 75% of the cost of the audit subject to a maximum of 1 lakhs per water audit",
+      "clause_path": "S7.9 > Item 8 Water Audit Incentive > All categories",
+      "page_start": 19,
+      "page_end": 19,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "water_audit_incentive",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item9.stamp_duty.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 9 Stamp Duty > Micro / Small / Medium > p.19]\n\nStamp Duty (same for Micro, Small and Medium enterprises): 100% stamp duty reimbursement on land purchase to new manufacturing enterprises. Governing conditions: section(s) 9.9.",
+      "parent_text": "Stamp Duty (item 9 of the section 7.9 incentive table, p.19):\n  Micro enterprises: 100% stamp duty reimbursement on land purchase to new manufacturing enterprises\n  Small enterprises: 100% stamp duty reimbursement on land purchase to new manufacturing enterprises\n  Medium enterprises: 100% stamp duty reimbursement on land purchase to new manufacturing enterprises\n Governing conditions: section(s) 9.9.",
+      "clause_path": "S7.9 > Item 9 Stamp Duty > All categories",
+      "page_start": 19,
+      "page_end": 19,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "stamp_duty",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.9"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item10.quality_certification.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 10 Quality Certification > Micro / Small / Medium > p.19]\n\nQuality Certification (same for Micro, Small and Medium enterprises): 100% reimbursement of certification and consulting charges subject to maximum of 2 lakhs for National Certification and 10 Lakhs for International Certification. Governing conditions: section(s) 9.8.",
+      "parent_text": "Quality Certification (item 10 of the section 7.9 incentive table, p.19):\n  Micro enterprises: 100% reimbursement of certification and consulting charges subject to maximum of 2 lakhs for National Certification and 10 Lakhs for International Certification\n  Small enterprises: 100% reimbursement of certification and consulting charges subject to maximum of 2 lakhs for National Certification and 10 Lakhs for International Certification\n  Medium enterprises: 100% reimbursement of certification and consulting charges subject to maximum of 2 lakhs for National Certification and 10 Lakhs for International Certification\n Governing conditions: section(s) 9.8.",
+      "clause_path": "S7.9 > Item 10 Quality Certification > All categories",
+      "page_start": 19,
+      "page_end": 19,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "quality_certification",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.8"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item11.subsidy_for_asset_creation_for_intellectual_property.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 11 Subsidy for Asset creation for Intellectual Property > Micro / Small / Medium > p.19]\n\nSubsidy for Asset creation for Intellectual Property (same for Micro, Small and Medium enterprises): 75% subsidy on the cost of filing of the application for patent registration including the cost of first time maintenance fee of the granted application, subject to a maximum of Rs. 3 Lakhs per patent registration.",
+      "parent_text": "Subsidy for Asset creation for Intellectual Property (item 11 of the section 7.9 incentive table, p.19):\n  Micro enterprises: 75% subsidy on the cost of filing of the application for patent registration including the cost of first time maintenance fee of the granted application, subject to a maximum of Rs. 3 Lakhs per patent registration\n  Small enterprises: 75% subsidy on the cost of filing of the application for patent registration including the cost of first time maintenance fee of the granted application, subject to a maximum of Rs. 3 Lakhs per patent registration\n  Medium enterprises: 75% subsidy on the cost of filing of the application for patent registration including the cost of first time maintenance fee of the granted application, subject to a maximum of Rs. 3 Lakhs per patent registration",
+      "clause_path": "S7.9 > Item 11 Subsidy for Asset creation for Intellectual Property > All categories",
+      "page_start": 19,
+      "page_end": 19,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "subsidy_for_asset_creation_for_intellectual_property",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item12.trade_mark_registration_for_gi_registration.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 12 Trade Mark Registration for GI registration > Micro / Small / Medium > p.19]\n\nTrade Mark Registration for GI registration (same for Micro, Small and Medium enterprises): 50% subsidy on the cost of filing of the application for Trade Mark registration including the cost of first time maintenance fee of the granted application, subject to a maximum of Rs. 25, 000 per Trade Mark if GI registration.",
+      "parent_text": "Trade Mark Registration for GI registration (item 12 of the section 7.9 incentive table, p.19):\n  Micro enterprises: 50% subsidy on the cost of filing of the application for Trade Mark registration including the cost of first time maintenance fee of the granted application, subject to a maximum of Rs. 25, 000 per Trade Mark if GI registration\n  Small enterprises: 50% subsidy on the cost of filing of the application for Trade Mark registration including the cost of first time maintenance fee of the granted application, subject to a maximum of Rs. 25, 000 per Trade Mark if GI registration\n  Medium enterprises: 50% subsidy on the cost of filing of the application for Trade Mark registration including the cost of first time maintenance fee of the granted application, subject to a maximum of Rs. 25, 000 per Trade Mark if GI registration",
+      "clause_path": "S7.9 > Item 12 Trade Mark Registration for GI registration > All categories",
+      "page_start": 19,
+      "page_end": 19,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "trade_mark_registration_for_gi_registration",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item13.incentive_for_sme_exchange.micro",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 13 Incentive for SME exchange > Micro Enterprise > p.20]\n\nIncentive for SME exchange for a MICRO enterprise: Not applicable (no assistance shown for Micro enterprises in the source table). Governing conditions: section(s) 9.10. Known open questions on this incentive: AMB-13.",
+      "parent_text": "Incentive for SME exchange (item 13 of the section 7.9 incentive table, p.20):\n  Micro enterprises: Not applicable (no assistance shown for Micro enterprises in the source table)\n  Small enterprises: One time assistance of 20% of the expenditure incurred for listing subject to a maximum of 5 Lakhs for successful listing on SME exchange\n  Medium enterprises: One time assistance of 20% of the expenditure incurred for listing subject to a maximum of 5 Lakhs for successful listing on SME exchange\n Governing conditions: section(s) 9.10. Known open questions on this incentive: AMB-13.",
+      "clause_path": "S7.9 > Item 13 Incentive for SME exchange > Micro",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "micro"
+      ],
+      "district_region": [],
+      "incentive_type": "incentive_for_sme_exchange",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.10"
+      ],
+      "ambiguity_flags": [
+        "AMB-13"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item13.incentive_for_sme_exchange.small",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 13 Incentive for SME exchange > Small Enterprise > p.20]\n\nIncentive for SME exchange for a SMALL enterprise: One time assistance of 20% of the expenditure incurred for listing subject to a maximum of 5 Lakhs for successful listing on SME exchange. Governing conditions: section(s) 9.10. Known open questions on this incentive: AMB-13.",
+      "parent_text": "Incentive for SME exchange (item 13 of the section 7.9 incentive table, p.20):\n  Micro enterprises: Not applicable (no assistance shown for Micro enterprises in the source table)\n  Small enterprises: One time assistance of 20% of the expenditure incurred for listing subject to a maximum of 5 Lakhs for successful listing on SME exchange\n  Medium enterprises: One time assistance of 20% of the expenditure incurred for listing subject to a maximum of 5 Lakhs for successful listing on SME exchange\n Governing conditions: section(s) 9.10. Known open questions on this incentive: AMB-13.",
+      "clause_path": "S7.9 > Item 13 Incentive for SME exchange > Small",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "small"
+      ],
+      "district_region": [],
+      "incentive_type": "incentive_for_sme_exchange",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.10"
+      ],
+      "ambiguity_flags": [
+        "AMB-13"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item13.incentive_for_sme_exchange.medium",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 13 Incentive for SME exchange > Medium Enterprise > p.20]\n\nIncentive for SME exchange for a MEDIUM enterprise: One time assistance of 20% of the expenditure incurred for listing subject to a maximum of 5 Lakhs for successful listing on SME exchange. Governing conditions: section(s) 9.10. Known open questions on this incentive: AMB-13.",
+      "parent_text": "Incentive for SME exchange (item 13 of the section 7.9 incentive table, p.20):\n  Micro enterprises: Not applicable (no assistance shown for Micro enterprises in the source table)\n  Small enterprises: One time assistance of 20% of the expenditure incurred for listing subject to a maximum of 5 Lakhs for successful listing on SME exchange\n  Medium enterprises: One time assistance of 20% of the expenditure incurred for listing subject to a maximum of 5 Lakhs for successful listing on SME exchange\n Governing conditions: section(s) 9.10. Known open questions on this incentive: AMB-13.",
+      "clause_path": "S7.9 > Item 13 Incentive for SME exchange > Medium",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "incentive_for_sme_exchange",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.10"
+      ],
+      "ambiguity_flags": [
+        "AMB-13"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item14.net_sgst_reimbursement.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 14 Net SGST Reimbursement > Micro / Small / Medium > p.20]\n\nNet SGST Reimbursement (same for Micro, Small and Medium enterprises): 50% for 6 years with annual cap of 5% of Annual turnover. Known open questions on this incentive: AMB-14.",
+      "parent_text": "Net SGST Reimbursement (item 14 of the section 7.9 incentive table, p.20):\n  Micro enterprises: 50% for 6 years with annual cap of 5% of Annual turnover\n  Small enterprises: 50% for 6 years with annual cap of 5% of Annual turnover\n  Medium enterprises: 50% for 6 years with annual cap of 5% of Annual turnover\n Known open questions on this incentive: AMB-14.",
+      "clause_path": "S7.9 > Item 14 Net SGST Reimbursement > All categories",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "net_sgst_reimbursement",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [
+        "AMB-14"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item15.e-commerce_adoption.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 15 E-Commerce Adoption > Micro / Small / Medium > p.20]\n\nE-Commerce Adoption (same for Micro, Small and Medium enterprises): 75% reimbursement of e-commerce platform subscription charges, subject to a maximum assistance of ₹1.00 lakh per unit, one time.",
+      "parent_text": "E-Commerce Adoption (item 15 of the section 7.9 incentive table, p.20):\n  Micro enterprises: 75% reimbursement of e-commerce platform subscription charges, subject to a maximum assistance of ₹1.00 lakh per unit, one time\n  Small enterprises: 75% reimbursement of e-commerce platform subscription charges, subject to a maximum assistance of ₹1.00 lakh per unit, one time\n  Medium enterprises: 75% reimbursement of e-commerce platform subscription charges, subject to a maximum assistance of ₹1.00 lakh per unit, one time",
+      "clause_path": "S7.9 > Item 15 E-Commerce Adoption > All categories",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "e-commerce_adoption",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item16.export_linked_performance_subsidy.all",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 16 Export Linked Performance Subsidy > Micro / Small / Medium > p.20]\n\nExport Linked Performance Subsidy (same for Micro, Small and Medium enterprises): Export performance incentive at 1% of incremental export growth, subject to a maximum assistance of ₹20.00 lakh per unit per financial year.",
+      "parent_text": "Export Linked Performance Subsidy (item 16 of the section 7.9 incentive table, p.20):\n  Micro enterprises: Export performance incentive at 1% of incremental export growth, subject to a maximum assistance of ₹20.00 lakh per unit per financial year\n  Small enterprises: Export performance incentive at 1% of incremental export growth, subject to a maximum assistance of ₹20.00 lakh per unit per financial year\n  Medium enterprises: Export performance incentive at 1% of incremental export growth, subject to a maximum assistance of ₹20.00 lakh per unit per financial year",
+      "clause_path": "S7.9 > Item 16 Export Linked Performance Subsidy > All categories",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "export_linked_performance_subsidy",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item17.revival_package_for_units.micro",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 17 Revival package for units > Micro Enterprise > p.20]\n\nRevival package for units for a MICRO enterprise: Revival package for units closed for more than one year, with investment up to INR 1 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE. Known open questions on this incentive: AMB-09.",
+      "parent_text": "Revival package for units (item 17 of the section 7.9 incentive table, p.20):\n  Micro enterprises: Revival package for units closed for more than one year, with investment up to INR 1 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE\n  Small enterprises: Revival package for units closed for more than one year, with investment up to INR 5 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE\n  Medium enterprises: Revival package for units closed for more than one year, with investment up to INR 12 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE\n Known open questions on this incentive: AMB-09.",
+      "clause_path": "S7.9 > Item 17 Revival package for units > Micro",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "micro"
+      ],
+      "district_region": [],
+      "incentive_type": "revival_package_for_units",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [
+        "AMB-09"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item17.revival_package_for_units.small",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 17 Revival package for units > Small Enterprise > p.20]\n\nRevival package for units for a SMALL enterprise: Revival package for units closed for more than one year, with investment up to INR 5 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE. Known open questions on this incentive: AMB-09.",
+      "parent_text": "Revival package for units (item 17 of the section 7.9 incentive table, p.20):\n  Micro enterprises: Revival package for units closed for more than one year, with investment up to INR 1 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE\n  Small enterprises: Revival package for units closed for more than one year, with investment up to INR 5 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE\n  Medium enterprises: Revival package for units closed for more than one year, with investment up to INR 12 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE\n Known open questions on this incentive: AMB-09.",
+      "clause_path": "S7.9 > Item 17 Revival package for units > Small",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "small"
+      ],
+      "district_region": [],
+      "incentive_type": "revival_package_for_units",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [
+        "AMB-09"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s7_9.item17.revival_package_for_units.medium",
+      "chunk_type": "table_atom",
+      "text": "[MSME Policy 2026 (Draft) > Section 7.9 Financial Incentives > Item 17 Revival package for units > Medium Enterprise > p.20]\n\nRevival package for units for a MEDIUM enterprise: Revival package for units closed for more than one year, with investment up to INR 12 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE. Known open questions on this incentive: AMB-09.",
+      "parent_text": "Revival package for units (item 17 of the section 7.9 incentive table, p.20):\n  Micro enterprises: Revival package for units closed for more than one year, with investment up to INR 1 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE\n  Small enterprises: Revival package for units closed for more than one year, with investment up to INR 5 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE\n  Medium enterprises: Revival package for units closed for more than one year, with investment up to INR 12 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE\n Known open questions on this incentive: AMB-09.",
+      "clause_path": "S7.9 > Item 17 Revival package for units > Medium",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "revival_package_for_units",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [
+        "AMB-09"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s8.8.1.r&d_and_testing_centre_capital_incentives",
+      "chunk_type": "residual_incentive",
+      "text": "[MSME Policy 2026 (Draft) > Section 8 Residual Incentives and Support Provisions > 8.1 R&D and Testing Centre Capital Incentives > p.20]\n\nState Government shall provide capital subsidy equivalent to 5% of eligible Plant & Machinery investment, subject to a maximum of ₹25 lakh.",
+      "parent_text": "[MSME Policy 2026 (Draft) > Section 8 Residual Incentives and Support Provisions > 8.1 R&D and Testing Centre Capital Incentives > p.20]\n\nState Government shall provide capital subsidy equivalent to 5% of eligible Plant & Machinery investment, subject to a maximum of ₹25 lakh.",
+      "clause_path": "S8 > 8.1 R&D and Testing Centre Capital Incentives",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "r&d_and_testing_centre_capital_incentives",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s8.8.2.special_package_for_emerging_industries",
+      "chunk_type": "residual_incentive",
+      "text": "[MSME Policy 2026 (Draft) > Section 8 Residual Incentives and Support Provisions > 8.2 Special Package for Emerging Industries > p.20]\n\n25% Capital Subsidy on eligible Plant & Machinery investment, subject to a maximum of ₹10 Crore.",
+      "parent_text": "[MSME Policy 2026 (Draft) > Section 8 Residual Incentives and Support Provisions > 8.2 Special Package for Emerging Industries > p.20]\n\n25% Capital Subsidy on eligible Plant & Machinery investment, subject to a maximum of ₹10 Crore.",
+      "clause_path": "S8 > 8.2 Special Package for Emerging Industries",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "special_package_for_emerging_industries",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [
+        "AMB-04"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s8.8.3.private_msme_park_development_subsidies",
+      "chunk_type": "residual_incentive",
+      "text": "[MSME Policy 2026 (Draft) > Section 8 Residual Incentives and Support Provisions > 8.3 Private MSME Park Development Subsidies > p.20]\n\nThe State will provide ₹2 Crore assistance for Nano Clusters and ₹5 Crore assistance for Mega Clusters.",
+      "parent_text": "[MSME Policy 2026 (Draft) > Section 8 Residual Incentives and Support Provisions > 8.3 Private MSME Park Development Subsidies > p.20]\n\nThe State will provide ₹2 Crore assistance for Nano Clusters and ₹5 Crore assistance for Mega Clusters.",
+      "clause_path": "S8 > 8.3 Private MSME Park Development Subsidies",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "private_msme_park_development_subsidies",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s8.8.4.heritage_cluster_infrastructure_grants",
+      "chunk_type": "residual_incentive",
+      "text": "[MSME Policy 2026 (Draft) > Section 8 Residual Incentives and Support Provisions > 8.4 Heritage Cluster Infrastructure Grants > p.20]\n\n90% Grant-in-Aid of project cost up to ₹3 Crore for Mega Clusters and 90% Grant-in-Aid of project cost up to ₹1 Crore for Mini Clusters.",
+      "parent_text": "[MSME Policy 2026 (Draft) > Section 8 Residual Incentives and Support Provisions > 8.4 Heritage Cluster Infrastructure Grants > p.20]\n\n90% Grant-in-Aid of project cost up to ₹3 Crore for Mega Clusters and 90% Grant-in-Aid of project cost up to ₹1 Crore for Mini Clusters.",
+      "clause_path": "S8 > 8.4 Heritage Cluster Infrastructure Grants",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "heritage_cluster_infrastructure_grants",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [
+        "AMB-11"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s8.8.5.export_and_supply_chain_intervention_subsidies",
+      "chunk_type": "residual_incentive",
+      "text": "[MSME Policy 2026 (Draft) > Section 8 Residual Incentives and Support Provisions > 8.5 Export and Supply Chain Intervention Subsidies > p.21]\n\nSupport to be provided as per approved project proposals and scheme guidelines.",
+      "parent_text": "[MSME Policy 2026 (Draft) > Section 8 Residual Incentives and Support Provisions > 8.5 Export and Supply Chain Intervention Subsidies > p.21]\n\nSupport to be provided as per approved project proposals and scheme guidelines.",
+      "clause_path": "S8 > 8.5 Export and Supply Chain Intervention Subsidies",
+      "page_start": 21,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "export_and_supply_chain_intervention_subsidies",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s8.8.6.msme_retail_outlet_development_subsidies",
+      "chunk_type": "residual_incentive",
+      "text": "[MSME Policy 2026 (Draft) > Section 8 Residual Incentives and Support Provisions > 8.6 MSME Retail Outlet Development Subsidies > p.21]\n\nRental assistance, setup grants, and space allotment support as per approved norms and scheme guidelines.",
+      "parent_text": "[MSME Policy 2026 (Draft) > Section 8 Residual Incentives and Support Provisions > 8.6 MSME Retail Outlet Development Subsidies > p.21]\n\nRental assistance, setup grants, and space allotment support as per approved norms and scheme guidelines.",
+      "clause_path": "S8 > 8.6 MSME Retail Outlet Development Subsidies",
+      "page_start": 21,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": "msme_retail_outlet_development_subsidies",
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.1.a",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.1 General Conditions for Capital Investment Incentives > (a) > p.21]\n\nThe incentive shall be admissible only on investment made in plant and machinery, equipment, and related building infrastructure. The cost of land shall not be eligible for any incentive under this category.",
+      "parent_text": "Section 9.1 General Conditions for Capital Investment Incentives (full clause set):\n  (a) The incentive shall be admissible only on investment made in plant and machinery, equipment, and related building infrastructure. The cost of land shall not be eligible for any incentive under this category.\n  (b) The eligible incentive shall be disbursed in two equal instalments. The first instalment shall be released upon achievement of the prescribed project implementation milestones, while the second instalment shall be released after the unit achieves at least 50% of its commercial production capacity.\n  (c) The cost of land shall not be considered while calculating benefits under Capital Subsidy, Capital Interest Subsidy, or any other investment-linked incentive.\n  (d) The aggregate financial assistance availed by any enterprise under this policy shall not exceed 50% of the eligible project cost or ₹10 Crore, whichever is lower.\n  (e) An MSME that has availed assistance under the Capital Subsidy scheme shall not be eligible for assistance under the Special Capital Subsidy scheme for the same investment.",
+      "clause_path": "S9.1 General Conditions for Capital Investment Incentives > (a)",
+      "page_start": 21,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.1"
+      ],
+      "ambiguity_flags": [
+        "AMB-07"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.1.b",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.1 General Conditions for Capital Investment Incentives > (b) > p.21]\n\nThe eligible incentive shall be disbursed in two equal instalments. The first instalment shall be released upon achievement of the prescribed project implementation milestones, while the second instalment shall be released after the unit achieves at least 50% of its commercial production capacity.",
+      "parent_text": "Section 9.1 General Conditions for Capital Investment Incentives (full clause set):\n  (a) The incentive shall be admissible only on investment made in plant and machinery, equipment, and related building infrastructure. The cost of land shall not be eligible for any incentive under this category.\n  (b) The eligible incentive shall be disbursed in two equal instalments. The first instalment shall be released upon achievement of the prescribed project implementation milestones, while the second instalment shall be released after the unit achieves at least 50% of its commercial production capacity.\n  (c) The cost of land shall not be considered while calculating benefits under Capital Subsidy, Capital Interest Subsidy, or any other investment-linked incentive.\n  (d) The aggregate financial assistance availed by any enterprise under this policy shall not exceed 50% of the eligible project cost or ₹10 Crore, whichever is lower.\n  (e) An MSME that has availed assistance under the Capital Subsidy scheme shall not be eligible for assistance under the Special Capital Subsidy scheme for the same investment.",
+      "clause_path": "S9.1 General Conditions for Capital Investment Incentives > (b)",
+      "page_start": 21,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.1"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.1.c",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.1 General Conditions for Capital Investment Incentives > (c) > p.21]\n\nThe cost of land shall not be considered while calculating benefits under Capital Subsidy, Capital Interest Subsidy, or any other investment-linked incentive.",
+      "parent_text": "Section 9.1 General Conditions for Capital Investment Incentives (full clause set):\n  (a) The incentive shall be admissible only on investment made in plant and machinery, equipment, and related building infrastructure. The cost of land shall not be eligible for any incentive under this category.\n  (b) The eligible incentive shall be disbursed in two equal instalments. The first instalment shall be released upon achievement of the prescribed project implementation milestones, while the second instalment shall be released after the unit achieves at least 50% of its commercial production capacity.\n  (c) The cost of land shall not be considered while calculating benefits under Capital Subsidy, Capital Interest Subsidy, or any other investment-linked incentive.\n  (d) The aggregate financial assistance availed by any enterprise under this policy shall not exceed 50% of the eligible project cost or ₹10 Crore, whichever is lower.\n  (e) An MSME that has availed assistance under the Capital Subsidy scheme shall not be eligible for assistance under the Special Capital Subsidy scheme for the same investment.",
+      "clause_path": "S9.1 General Conditions for Capital Investment Incentives > (c)",
+      "page_start": 21,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.1"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.1.d",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.1 General Conditions for Capital Investment Incentives > (d) > p.21]\n\nThe aggregate financial assistance availed by any enterprise under this policy shall not exceed 50% of the eligible project cost or ₹10 Crore, whichever is lower.",
+      "parent_text": "Section 9.1 General Conditions for Capital Investment Incentives (full clause set):\n  (a) The incentive shall be admissible only on investment made in plant and machinery, equipment, and related building infrastructure. The cost of land shall not be eligible for any incentive under this category.\n  (b) The eligible incentive shall be disbursed in two equal instalments. The first instalment shall be released upon achievement of the prescribed project implementation milestones, while the second instalment shall be released after the unit achieves at least 50% of its commercial production capacity.\n  (c) The cost of land shall not be considered while calculating benefits under Capital Subsidy, Capital Interest Subsidy, or any other investment-linked incentive.\n  (d) The aggregate financial assistance availed by any enterprise under this policy shall not exceed 50% of the eligible project cost or ₹10 Crore, whichever is lower.\n  (e) An MSME that has availed assistance under the Capital Subsidy scheme shall not be eligible for assistance under the Special Capital Subsidy scheme for the same investment.",
+      "clause_path": "S9.1 General Conditions for Capital Investment Incentives > (d)",
+      "page_start": 21,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.1"
+      ],
+      "ambiguity_flags": [
+        "AMB-06"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.1.e",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.1 General Conditions for Capital Investment Incentives > (e) > p.21]\n\nAn MSME that has availed assistance under the Capital Subsidy scheme shall not be eligible for assistance under the Special Capital Subsidy scheme for the same investment.",
+      "parent_text": "Section 9.1 General Conditions for Capital Investment Incentives (full clause set):\n  (a) The incentive shall be admissible only on investment made in plant and machinery, equipment, and related building infrastructure. The cost of land shall not be eligible for any incentive under this category.\n  (b) The eligible incentive shall be disbursed in two equal instalments. The first instalment shall be released upon achievement of the prescribed project implementation milestones, while the second instalment shall be released after the unit achieves at least 50% of its commercial production capacity.\n  (c) The cost of land shall not be considered while calculating benefits under Capital Subsidy, Capital Interest Subsidy, or any other investment-linked incentive.\n  (d) The aggregate financial assistance availed by any enterprise under this policy shall not exceed 50% of the eligible project cost or ₹10 Crore, whichever is lower.\n  (e) An MSME that has availed assistance under the Capital Subsidy scheme shall not be eligible for assistance under the Special Capital Subsidy scheme for the same investment.",
+      "clause_path": "S9.1 General Conditions for Capital Investment Incentives > (e)",
+      "page_start": 21,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.1"
+      ],
+      "ambiguity_flags": [
+        "AMB-04"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.2.a",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.2 Interest Subsidy > (a) > p.21]\n\nInterest Subsidy shall be provided on an annual basis.",
+      "parent_text": "Section 9.2 Interest Subsidy (full clause set):\n  (a) Interest Subsidy shall be provided on an annual basis.\n  (b) Eligible units shall be entitled to claim the subsidy only after payment of the full interest due to the lending institution.",
+      "clause_path": "S9.2 Interest Subsidy > (a)",
+      "page_start": 21,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.2"
+      ],
+      "ambiguity_flags": [
+        "AMB-03"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.2.b",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.2 Interest Subsidy > (b) > p.21]\n\nEligible units shall be entitled to claim the subsidy only after payment of the full interest due to the lending institution.",
+      "parent_text": "Section 9.2 Interest Subsidy (full clause set):\n  (a) Interest Subsidy shall be provided on an annual basis.\n  (b) Eligible units shall be entitled to claim the subsidy only after payment of the full interest due to the lending institution.",
+      "clause_path": "S9.2 Interest Subsidy > (b)",
+      "page_start": 21,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.2"
+      ],
+      "ambiguity_flags": [
+        "AMB-03"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.3.a",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.3 Additional Incentive for Scaling Up > (a) > p.21]\n\nIncentives sanctioned under the Scaling Up category shall be over and above the eligible Capital Subsidy or Special Capital Subsidy available for expansion, diversification, or modernization resulting in graduation to a higher enterprise category.",
+      "parent_text": "Section 9.3 Additional Incentive for Scaling Up (full clause set):\n  (a) Incentives sanctioned under the Scaling Up category shall be over and above the eligible Capital Subsidy or Special Capital Subsidy available for expansion, diversification, or modernization resulting in graduation to a higher enterprise category.\n  (b) Enterprises that have already availed Scaling Up incentives and subsequently move to a lower category due to annual updation of Udyam Registration arising from reduction in turnover or written down value of plant and machinery shall not be eligible to claim Scaling Up incentives again upon re-graduation to a higher category.\n  (c) A Micro or Small Enterprise shall be eligible to avail the Scaling Up incentive only once for a particular enterprise category.",
+      "clause_path": "S9.3 Additional Incentive for Scaling Up > (a)",
+      "page_start": 21,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.3"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.3.b",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.3 Additional Incentive for Scaling Up > (b) > p.22]\n\nEnterprises that have already availed Scaling Up incentives and subsequently move to a lower category due to annual updation of Udyam Registration arising from reduction in turnover or written down value of plant and machinery shall not be eligible to claim Scaling Up incentives again upon re-graduation to a higher category.",
+      "parent_text": "Section 9.3 Additional Incentive for Scaling Up (full clause set):\n  (a) Incentives sanctioned under the Scaling Up category shall be over and above the eligible Capital Subsidy or Special Capital Subsidy available for expansion, diversification, or modernization resulting in graduation to a higher enterprise category.\n  (b) Enterprises that have already availed Scaling Up incentives and subsequently move to a lower category due to annual updation of Udyam Registration arising from reduction in turnover or written down value of plant and machinery shall not be eligible to claim Scaling Up incentives again upon re-graduation to a higher category.\n  (c) A Micro or Small Enterprise shall be eligible to avail the Scaling Up incentive only once for a particular enterprise category.",
+      "clause_path": "S9.3 Additional Incentive for Scaling Up > (b)",
+      "page_start": 22,
+      "page_end": 22,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.3"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.3.c",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.3 Additional Incentive for Scaling Up > (c) > p.22]\n\nA Micro or Small Enterprise shall be eligible to avail the Scaling Up incentive only once for a particular enterprise category.",
+      "parent_text": "Section 9.3 Additional Incentive for Scaling Up (full clause set):\n  (a) Incentives sanctioned under the Scaling Up category shall be over and above the eligible Capital Subsidy or Special Capital Subsidy available for expansion, diversification, or modernization resulting in graduation to a higher enterprise category.\n  (b) Enterprises that have already availed Scaling Up incentives and subsequently move to a lower category due to annual updation of Udyam Registration arising from reduction in turnover or written down value of plant and machinery shall not be eligible to claim Scaling Up incentives again upon re-graduation to a higher category.\n  (c) A Micro or Small Enterprise shall be eligible to avail the Scaling Up incentive only once for a particular enterprise category.",
+      "clause_path": "S9.3 Additional Incentive for Scaling Up > (c)",
+      "page_start": 22,
+      "page_end": 22,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.3"
+      ],
+      "ambiguity_flags": [
+        "AMB-08"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.4.a",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.4 Payroll Subsidy > (a) > p.22]\n\nEligible MSMEs shall submit claims for Payroll Subsidy within three months from the close of the relevant financial year.",
+      "parent_text": "Section 9.4 Payroll Subsidy (full clause set):\n  (a) Eligible MSMEs shall submit claims for Payroll Subsidy within three months from the close of the relevant financial year.\n  (b) Only regular employees shall be considered for determining eligibility under Payroll Subsidy.\n  (c) As proof of employment, the enterprise shall furnish copies of valid returns filed under the Employees' Provident Funds and Miscellaneous Provisions Act, 1952.\n  (d) In case the employee strength falls below the prescribed threshold during any month, the subsidy shall be restricted proportionately to the months in which the eligibility conditions are fulfilled.",
+      "clause_path": "S9.4 Payroll Subsidy > (a)",
+      "page_start": 22,
+      "page_end": 22,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.4"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.4.b",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.4 Payroll Subsidy > (b) > p.22]\n\nOnly regular employees shall be considered for determining eligibility under Payroll Subsidy.",
+      "parent_text": "Section 9.4 Payroll Subsidy (full clause set):\n  (a) Eligible MSMEs shall submit claims for Payroll Subsidy within three months from the close of the relevant financial year.\n  (b) Only regular employees shall be considered for determining eligibility under Payroll Subsidy.\n  (c) As proof of employment, the enterprise shall furnish copies of valid returns filed under the Employees' Provident Funds and Miscellaneous Provisions Act, 1952.\n  (d) In case the employee strength falls below the prescribed threshold during any month, the subsidy shall be restricted proportionately to the months in which the eligibility conditions are fulfilled.",
+      "clause_path": "S9.4 Payroll Subsidy > (b)",
+      "page_start": 22,
+      "page_end": 22,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.4"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.4.c",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.4 Payroll Subsidy > (c) > p.22]\n\nAs proof of employment, the enterprise shall furnish copies of valid returns filed under the Employees' Provident Funds and Miscellaneous Provisions Act, 1952.",
+      "parent_text": "Section 9.4 Payroll Subsidy (full clause set):\n  (a) Eligible MSMEs shall submit claims for Payroll Subsidy within three months from the close of the relevant financial year.\n  (b) Only regular employees shall be considered for determining eligibility under Payroll Subsidy.\n  (c) As proof of employment, the enterprise shall furnish copies of valid returns filed under the Employees' Provident Funds and Miscellaneous Provisions Act, 1952.\n  (d) In case the employee strength falls below the prescribed threshold during any month, the subsidy shall be restricted proportionately to the months in which the eligibility conditions are fulfilled.",
+      "clause_path": "S9.4 Payroll Subsidy > (c)",
+      "page_start": 22,
+      "page_end": 22,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.4"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.4.d",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.4 Payroll Subsidy > (d) > p.22]\n\nIn case the employee strength falls below the prescribed threshold during any month, the subsidy shall be restricted proportionately to the months in which the eligibility conditions are fulfilled.",
+      "parent_text": "Section 9.4 Payroll Subsidy (full clause set):\n  (a) Eligible MSMEs shall submit claims for Payroll Subsidy within three months from the close of the relevant financial year.\n  (b) Only regular employees shall be considered for determining eligibility under Payroll Subsidy.\n  (c) As proof of employment, the enterprise shall furnish copies of valid returns filed under the Employees' Provident Funds and Miscellaneous Provisions Act, 1952.\n  (d) In case the employee strength falls below the prescribed threshold during any month, the subsidy shall be restricted proportionately to the months in which the eligibility conditions are fulfilled.",
+      "clause_path": "S9.4 Payroll Subsidy > (d)",
+      "page_start": 22,
+      "page_end": 22,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.4"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.5.a",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.5 Low Tension Power Tariff Subsidy > (a) > p.22]\n\nClaims under the Low Tension Power Tariff Subsidy shall be submitted online once every six months.",
+      "parent_text": "Section 9.5 Low Tension Power Tariff Subsidy (full clause set):\n  (a) Claims under the Low Tension Power Tariff Subsidy shall be submitted online once every six months.\n  (b) Enterprises sharing a common electricity connection or occupying a part of another enterprise's premises and jointly consuming electricity shall not be eligible for this subsidy.",
+      "clause_path": "S9.5 Low Tension Power Tariff Subsidy > (a)",
+      "page_start": 22,
+      "page_end": 22,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.5"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.5.b",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.5 Low Tension Power Tariff Subsidy > (b) > p.22]\n\nEnterprises sharing a common electricity connection or occupying a part of another enterprise's premises and jointly consuming electricity shall not be eligible for this subsidy.",
+      "parent_text": "Section 9.5 Low Tension Power Tariff Subsidy (full clause set):\n  (a) Claims under the Low Tension Power Tariff Subsidy shall be submitted online once every six months.\n  (b) Enterprises sharing a common electricity connection or occupying a part of another enterprise's premises and jointly consuming electricity shall not be eligible for this subsidy.",
+      "clause_path": "S9.5 Low Tension Power Tariff Subsidy > (b)",
+      "page_start": 22,
+      "page_end": 22,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.5"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.6.a",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.6 Roof Top Solar Subsidy > (a) > p.22]\n\nRoof Top Solar Subsidy shall be available only for new equipment purchased from the original manufacturer or an authorized dealer.",
+      "parent_text": "Section 9.6 Roof Top Solar Subsidy (full clause set):\n  (a) Roof Top Solar Subsidy shall be available only for new equipment purchased from the original manufacturer or an authorized dealer.",
+      "clause_path": "S9.6 Roof Top Solar Subsidy > (a)",
+      "page_start": 22,
+      "page_end": 22,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.6"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.7.b",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.7 Energy Audit Subsidy > (b) > p.22]\n\nMSMEs undertaking a subsequent Energy Audit after a minimum interval of three years shall be eligible for subsidy.",
+      "parent_text": "Section 9.7 Energy Audit Subsidy (full clause set):\n  (b) MSMEs undertaking a subsequent Energy Audit after a minimum interval of three years shall be eligible for subsidy.\n  (c) Eligible units shall submit their claim after completion of one year from the date of the Energy Audit.",
+      "clause_path": "S9.7 Energy Audit Subsidy > (b)",
+      "page_start": 22,
+      "page_end": 22,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.7"
+      ],
+      "ambiguity_flags": [
+        "AMB-16"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.7.c",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.7 Energy Audit Subsidy > (c) > p.23]\n\nEligible units shall submit their claim after completion of one year from the date of the Energy Audit.",
+      "parent_text": "Section 9.7 Energy Audit Subsidy (full clause set):\n  (b) MSMEs undertaking a subsequent Energy Audit after a minimum interval of three years shall be eligible for subsidy.\n  (c) Eligible units shall submit their claim after completion of one year from the date of the Energy Audit.",
+      "clause_path": "S9.7 Energy Audit Subsidy > (c)",
+      "page_start": 23,
+      "page_end": 23,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.7"
+      ],
+      "ambiguity_flags": [
+        "AMB-16"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.8.a",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.8 Quality Certification Reimbursement > (a) > p.23]\n\nExpenditure incurred for obtaining quality certifications relating to products, processes, or social standards shall be eligible for reimbursement, provided such certifications are recognized by the Quality Council of India or internationally recognized accreditation bodies.",
+      "parent_text": "Section 9.8 Quality Certification Reimbursement (full clause set):\n  (a) Expenditure incurred for obtaining quality certifications relating to products, processes, or social standards shall be eligible for reimbursement, provided such certifications are recognized by the Quality Council of India or internationally recognized accreditation bodies.\n  (b) Expenditure incurred towards renewal of quality certifications shall not be eligible for reimbursement.",
+      "clause_path": "S9.8 Quality Certification Reimbursement > (a)",
+      "page_start": 23,
+      "page_end": 23,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.8"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.8.b",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.8 Quality Certification Reimbursement > (b) > p.23]\n\nExpenditure incurred towards renewal of quality certifications shall not be eligible for reimbursement.",
+      "parent_text": "Section 9.8 Quality Certification Reimbursement (full clause set):\n  (a) Expenditure incurred for obtaining quality certifications relating to products, processes, or social standards shall be eligible for reimbursement, provided such certifications are recognized by the Quality Council of India or internationally recognized accreditation bodies.\n  (b) Expenditure incurred towards renewal of quality certifications shall not be eligible for reimbursement.",
+      "clause_path": "S9.8 Quality Certification Reimbursement > (b)",
+      "page_start": 23,
+      "page_end": 23,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.8"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.9.c",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.9 Stamp Duty Reimbursement > (c) > p.23]\n\nEligible enterprises shall submit applications for Stamp Duty Reimbursement within six months from the date of commencement of commercial production.",
+      "parent_text": "Section 9.9 Stamp Duty Reimbursement (full clause set):\n  (c) Eligible enterprises shall submit applications for Stamp Duty Reimbursement within six months from the date of commencement of commercial production.",
+      "clause_path": "S9.9 Stamp Duty Reimbursement > (c)",
+      "page_start": 23,
+      "page_end": 23,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.9"
+      ],
+      "ambiguity_flags": [
+        "AMB-16"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.10.a",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.10 Incentive for Listing on SME Exchange > (a) > p.23]\n\nEligible MSMEs shall submit applications for reimbursement within six months from the date of listing on a recognized SME Exchange.",
+      "parent_text": "Section 9.10 Incentive for Listing on SME Exchange (full clause set):\n  (a) Eligible MSMEs shall submit applications for reimbursement within six months from the date of listing on a recognized SME Exchange.\n  (b) Eligible expenditure for reimbursement shall include Merchant Banker Fees, Due Diligence Fees, Registrar and Transfer Agent Fees, Peer Review Auditor Fees, Exchange Fees, and Listing Charges.",
+      "clause_path": "S9.10 Incentive for Listing on SME Exchange > (a)",
+      "page_start": 23,
+      "page_end": 23,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.10"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.s9.9.10.b",
+      "chunk_type": "guiding_clause",
+      "text": "[MSME Policy 2026 (Draft) > Section 9 Guiding Principles for availing incentive benefits > 9.10 Incentive for Listing on SME Exchange > (b) > p.23]\n\nEligible expenditure for reimbursement shall include Merchant Banker Fees, Due Diligence Fees, Registrar and Transfer Agent Fees, Peer Review Auditor Fees, Exchange Fees, and Listing Charges.",
+      "parent_text": "Section 9.10 Incentive for Listing on SME Exchange (full clause set):\n  (a) Eligible MSMEs shall submit applications for reimbursement within six months from the date of listing on a recognized SME Exchange.\n  (b) Eligible expenditure for reimbursement shall include Merchant Banker Fees, Due Diligence Fees, Registrar and Transfer Agent Fees, Peer Review Auditor Fees, Exchange Fees, and Listing Charges.",
+      "clause_path": "S9.10 Incentive for Listing on SME Exchange > (b)",
+      "page_start": 23,
+      "page_end": 23,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.10"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-01",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-01 > p.18,13,25]\n\nThe draft refers to both 'BIPP' and 'BIIPP' policy, and to both 2025 and 2026 editions, without clarifying if they are the same document. This has not been resolved by the Department.",
+      "parent_text": "The incentive table names 'BIPP Policy' while section 7.4(ii) and Annexure I name 'BIIPP Policy'; Annexure I is dated 2025 while section 7.4(ii) references BIIPP 2026. It is unclear whether these are the same document.\n\nHindi: यह प्रारूप 'BIPP' और 'BIIPP' नीति दोनों नामों का उल्लेख करता है, और 2025 व 2026 दोनों संस्करणों का, बिना यह स्पष्ट किए कि क्या ये एक ही दस्तावेज़ हैं। विभाग द्वारा इसे अभी स्पष्ट नहीं किया गया है।",
+      "clause_path": "Ambiguity Register > AMB-01",
+      "page_start": 13,
+      "page_end": 25,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "7.9 Item 1",
+        "7.4(ii)",
+        "Annexure I"
+      ],
+      "ambiguity_flags": [
+        "AMB-01"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-02",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-02 > p.13,25]\n\nThe draft promises an extra 5% subsidy for 'backward districts' but never defines which districts count as backward -- only Region A and Region B are defined.",
+      "parent_text": "Section 7.4(ii) promises an additional 5% Capital Subsidy to 'backward districts as defined in the BIIPP Policy 2026', but Annexure I defines only Region A / Region B, never 'backward districts'.\n\nHindi: प्रारूप 'पिछड़े जिलों' के लिए अतिरिक्त 5% सब्सिडी का वादा करता है, लेकिन यह कभी परिभाषित नहीं करता कि कौन से जिले 'पिछड़े' माने जाएंगे -- केवल क्षेत्र A और क्षेत्र B परिभाषित हैं।",
+      "clause_path": "Ambiguity Register > AMB-02",
+      "page_start": 13,
+      "page_end": 25,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "7.4(ii)",
+        "Annexure I"
+      ],
+      "ambiguity_flags": [
+        "AMB-02"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-03",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-03 > p.21]\n\nThe draft describes when Interest Subsidy can be claimed, but never states the rate, cap, or duration. Departmental clarification is required before any figure can be given.",
+      "parent_text": "Interest Subsidy and Capital Interest Subsidy carry claim conditions (annual basis; claimable only after full interest payment) but no rate, cap, or tenure is specified anywhere in the document.\n\nHindi: प्रारूप बताता है कि ब्याज सब्सिडी (Interest Subsidy) कब दावा की जा सकती है, लेकिन दर, सीमा या अवधि कहीं नहीं बताई गई है। कोई आंकड़ा देने से पहले विभागीय स्पष्टीकरण आवश्यक है।",
+      "clause_path": "Ambiguity Register > AMB-03",
+      "page_start": 21,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.2",
+        "9.1(c)"
+      ],
+      "ambiguity_flags": [
+        "AMB-03"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-04",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-04 > p.21]\n\nThe draft refers to a 'Special Capital Subsidy scheme' that is never defined elsewhere in the document.",
+      "parent_text": "'Special Capital Subsidy scheme' is referenced twice but never defined. It may refer to section 8.2 (Special Package for Emerging Industries) but this is not stated.\n\nHindi: प्रारूप एक 'विशेष पूंजी सब्सिडी योजना' का उल्लेख करता है जो दस्तावेज़ में कहीं और परिभाषित नहीं है।",
+      "clause_path": "Ambiguity Register > AMB-04",
+      "page_start": 21,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.1(e)",
+        "9.3(a)"
+      ],
+      "ambiguity_flags": [
+        "AMB-04"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-05",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-05 > p.18]\n\nThe disadvantaged-group top-up subsidy carries a Rs.7 Crore cap even for Micro enterprises, though the Micro base subsidy cap is only Rs.25 lakh. This inconsistency is unresolved in the draft.",
+      "parent_text": "The disadvantaged-group additional-subsidy cap is Rs.7 Crore even for Micro enterprises, whose base Capital Subsidy cap is only Rs.25 lakh -- roughly 28x larger. Likely a drafting error, but not stated as such.\n\nHindi: वंचित वर्ग के लिए अतिरिक्त सब्सिडी की सीमा सूक्ष्म उद्यमों के लिए भी 7 करोड़ रुपये है, जबकि सूक्ष्म उद्यमों की मूल सब्सिडी सीमा केवल 25 लाख रुपये है। यह विसंगति प्रारूप में अनसुलझी है।",
+      "clause_path": "Ambiguity Register > AMB-05",
+      "page_start": 18,
+      "page_end": 18,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "7.9 Item 2"
+      ],
+      "ambiguity_flags": [
+        "AMB-05"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-06",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-06 > p.21,18,20]\n\nThe draft's overall cap on total assistance (Rs.10 Crore) can be lower than the sum of individual incentive caps that might apply to the same enterprise. The draft does not explain which caps take precedence.",
+      "parent_text": "The aggregate cap (50% of project cost or Rs.10 Cr, whichever is lower) is arithmetically incompatible with summed individual caps -- e.g. Medium capital subsidy (Rs.5 Cr) plus disadvantaged-group top-up (Rs.7 Cr) already exceeds Rs.10 Cr, and section 8.2 alone permits up to Rs.10 Cr. Netting order is unstated.\n\nHindi: प्रारूप की समग्र सहायता सीमा (10 करोड़ रुपये) व्यक्तिगत प्रोत्साहन सीमाओं के योग से कम हो सकती है। प्रारूप यह स्पष्ट नहीं करता कि किस सीमा को प्राथमिकता दी जाएगी।",
+      "clause_path": "Ambiguity Register > AMB-06",
+      "page_start": 18,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.1(d)",
+        "7.9",
+        "8.2"
+      ],
+      "ambiguity_flags": [
+        "AMB-06"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-07",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-07 > p.18,21,20]\n\nThe draft uses at least three different phrases for the investment base that incentives are calculated on ('Fixed Capital Investment', 'plant and machinery, equipment and related building infrastructure', 'eligible Plant & Machinery') without clarifying whether they mean the same thing.",
+      "parent_text": "'Fixed Capital Investment' (the base for Capital Subsidy) is never defined. Section 9.1(a) separately narrows eligibility to plant, machinery, equipment and related building infrastructure; sections 8.1/8.2 use the narrower 'eligible Plant & Machinery'. Three different bases appear across the document.\n\nHindi: प्रारूप प्रोत्साहन गणना के आधार के लिए कम से कम तीन भिन्न वाक्यांशों का उपयोग करता है, बिना यह स्पष्ट किए कि क्या इनका अर्थ एक ही है।",
+      "clause_path": "Ambiguity Register > AMB-07",
+      "page_start": 18,
+      "page_end": 21,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "7.9 Item 1",
+        "9.1(a)",
+        "8.1",
+        "8.2"
+      ],
+      "ambiguity_flags": [
+        "AMB-07"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-08",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-08 > p.22]\n\nThe draft's rule limiting Scaling-Up incentives to once per category is stated only for Micro and Small enterprises; Medium enterprises are not addressed.",
+      "parent_text": "Scaling-Up eligibility ('once per enterprise category') is stated only for Micro and Small enterprises. Medium enterprises appear in the section 7.9 Scaling-Up row but are not addressed by this condition.\n\nHindi: स्केलिंग-अप प्रोत्साहन को प्रति श्रेणी एक बार तक सीमित करने वाला नियम केवल सूक्ष्म और लघु उद्यमों के लिए बताया गया है; मध्यम उद्यमों को संबोधित नहीं किया गया है।",
+      "clause_path": "Ambiguity Register > AMB-08",
+      "page_start": 22,
+      "page_end": 22,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.3(c)"
+      ],
+      "ambiguity_flags": [
+        "AMB-08"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-09",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-09 > p.20]\n\nThe draft states who qualifies for the Revival Package but never states how much assistance is given. Departmental clarification is required before any figure can be given.",
+      "parent_text": "The Revival Package states eligibility (unit closed for more than one year; investment ceilings of Rs.1/5/12 Crore by category) but no rate or amount of assistance is specified anywhere.\n\nHindi: प्रारूप यह बताता है कि पुनरुद्धार पैकेज (Revival Package) के लिए कौन पात्र है, लेकिन यह कभी नहीं बताता कि कितनी सहायता दी जाएगी। कोई आंकड़ा देने से पहले विभागीय स्पष्टीकरण आवश्यक है।",
+      "clause_path": "Ambiguity Register > AMB-09",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "7.9 Item 17"
+      ],
+      "ambiguity_flags": [
+        "AMB-09"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-10",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-10 > p.25,25]\n\nThe draft lists 'High Priority' and 'Priority' sectors but no incentive amount anywhere in the document actually depends on this classification.",
+      "parent_text": "High Priority Sector (9 entries) and Priority Sector (20 entries) are enumerated in the Annexures, but no incentive elsewhere in the policy differentiates its rate or eligibility by these sector lists.\n\nHindi: प्रारूप 'उच्च प्राथमिकता' और 'प्राथमिकता' क्षेत्रों की सूची देता है, लेकिन दस्तावेज़ में कहीं भी कोई प्रोत्साहन राशि इस वर्गीकरण पर निर्भर नहीं है।",
+      "clause_path": "Ambiguity Register > AMB-10",
+      "page_start": 25,
+      "page_end": 25,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "Annexure II",
+        "Annexure III"
+      ],
+      "ambiguity_flags": [
+        "AMB-10"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-11",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-11 > p.27,20]\n\nThe heritage-cluster list is titled as being eligible for a 'special incentive', but the only related grant in the draft (section 8.4) goes to cluster infrastructure, not to individual heritage-craft businesses.",
+      "parent_text": "The heritage-cluster annexure is titled 'eligible for special incentive under the Policy', but section 8.4 grants go to clusters (infrastructure), not to individual units within a heritage cluster. No unit-level special incentive is quantified.\n\nHindi: विरासत समूह सूची को 'विशेष प्रोत्साहन' के लिए पात्र बताया गया है, लेकिन प्रारूप में संबंधित अनुदान (धारा 8.4) समूह अवसंरचना के लिए है, न कि व्यक्तिगत विरासत-शिल्प व्यवसायों के लिए।",
+      "clause_path": "Ambiguity Register > AMB-11",
+      "page_start": 20,
+      "page_end": 27,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "Heritage Cluster Annexure",
+        "8.4"
+      ],
+      "ambiguity_flags": [
+        "AMB-11"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-12",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-12 > p.26]\n\nThe draft excludes 'any industry which impacts the environment negatively' from all incentives, without stating who decides this or by what criteria.",
+      "parent_text": "The negative list excludes 'any industry which impacts the environment negatively' with no defined criteria and no named determining authority.\n\nHindi: प्रारूप 'पर्यावरण पर नकारात्मक प्रभाव डालने वाले किसी भी उद्योग' को सभी प्रोत्साहनों से बाहर रखता है, बिना यह बताए कि इसका निर्णय कौन करेगा या किन मानदंडों से।",
+      "clause_path": "Ambiguity Register > AMB-12",
+      "page_start": 26,
+      "page_end": 26,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "Annexure V(iv)"
+      ],
+      "ambiguity_flags": [
+        "AMB-12"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-13",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-13 > p.20]\n\nThe draft shows no entry for Micro enterprises under the SME Exchange incentive, without clarifying whether this means Micro enterprises are excluded or simply not applicable.",
+      "parent_text": "The SME Exchange row shows '-' for Micro enterprises. It is not stated whether this means Micro enterprises are ineligible, or simply not applicable (e.g. because SME Exchange listing itself may not apply to Micro enterprises).\n\nHindi: एसएमई एक्सचेंज प्रोत्साहन के अंतर्गत सूक्ष्म उद्यमों के लिए कोई प्रविष्टि नहीं दिखाई गई है, बिना यह स्पष्ट किए कि क्या इसका अर्थ है कि सूक्ष्म उद्यम बाहर रखे गए हैं या यह केवल लागू नहीं होता।",
+      "clause_path": "Ambiguity Register > AMB-13",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "7.9 Item 13"
+      ],
+      "ambiguity_flags": [
+        "AMB-13"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-14",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-14 > p.20]\n\nThe draft's SGST reimbursement uses the term 'Net SGST' without defining it, and does not clarify which year's turnover the 5% cap is calculated against.",
+      "parent_text": "'Net SGST' is undefined, and the 5%-of-annual-turnover cap does not specify which turnover year (the claim year or a base year).\n\nHindi: प्रारूप की SGST प्रतिपूर्ति 'नेट SGST' शब्द का उपयोग करती है, बिना इसे परिभाषित किए, और यह स्पष्ट नहीं करती कि 5% सीमा किस वर्ष के टर्नओवर पर गणना की जाएगी।",
+      "clause_path": "Ambiguity Register > AMB-14",
+      "page_start": 20,
+      "page_end": 20,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "7.9 Item 14"
+      ],
+      "ambiguity_flags": [
+        "AMB-14"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-15",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-15 > p.25,26,27]\n\nThe draft has duplicate annexure numbers and titles (e.g. 'Annexure IV' is used for two different lists). This is a drafting inconsistency, not a policy gap, but is disclosed for transparency.",
+      "parent_text": "Annexure III is titled 'High Priority Sector', duplicating Annexure II's title (it should read 'Priority Sector'). 'Annexure IV' is used twice, once for Emerging Industries and once for Heritage Clusters. Heritage cluster numbering also skips several numbers.\n\nHindi: प्रारूप में डुप्लिकेट अनुबंध संख्या और शीर्षक हैं (जैसे 'अनुबंध IV' दो अलग-अलग सूचियों के लिए उपयोग किया गया है)। यह एक प्रारूपण असंगति है, नीतिगत कमी नहीं, लेकिन पारदर्शिता के लिए इसका खुलासा किया जा रहा है।",
+      "clause_path": "Ambiguity Register > AMB-15",
+      "page_start": 25,
+      "page_end": 27,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "Annexure III",
+        "Annexure IV (Emerging)",
+        "Annexure IV (Heritage)"
+      ],
+      "ambiguity_flags": [
+        "AMB-15"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-16",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-16 > p.22,23]\n\nTwo sections of the draft (Energy Audit Subsidy, Stamp Duty Reimbursement) have sub-clause lettering that skips the first letter, suggesting a clause may be missing from the published draft.",
+      "parent_text": "Sub-clause lettering in sections 9.7 and 9.9 begins at '(b)'/'(c)' with no '(a)' present -- a clause appears to have been dropped during drafting.\n\nHindi: प्रारूप के दो खंडों (ऊर्जा ऑडिट सब्सिडी, स्टाम्प शुल्क प्रतिपूर्ति) में उप-खंड लेबलिंग पहले अक्षर को छोड़ देती है, जो सुझाव देता है कि प्रकाशित प्रारूप से कोई खंड छूट गया हो सकता है।",
+      "clause_path": "Ambiguity Register > AMB-16",
+      "page_start": 22,
+      "page_end": 23,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "9.7",
+        "9.9"
+      ],
+      "ambiguity_flags": [
+        "AMB-16"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-17",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-17 > p.8]\n\nThis entire policy is a DRAFT. It has not yet been formally notified by the Government of Bihar, and no incentive described here is currently in legal effect.",
+      "parent_text": "Policy validity runs '5 years from the date of notification', but this document is a draft and no notification date exists yet.\n\nHindi: यह संपूर्ण नीति एक प्रारूप (DRAFT) है। इसे अभी तक बिहार सरकार द्वारा औपचारिक रूप से अधिसूचित नहीं किया गया है, और यहां वर्णित कोई भी प्रोत्साहन वर्तमान में कानूनी रूप से लागू नहीं है।",
+      "clause_path": "Ambiguity Register > AMB-17",
+      "page_start": 8,
+      "page_end": 8,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "4(i)"
+      ],
+      "ambiguity_flags": [
+        "AMB-17"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-18",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-18 > p.8]\n\nSection 5.2 ('Guiding principles of the policy') has a heading in the draft but no content beneath it. This is how the source document was published.",
+      "parent_text": "Section 5.2 'Guiding principles of the policy' is an empty heading in the source PDF -- verified by rendering the page: zero drawings, zero images, and no text after the heading. This is a content gap in the draft itself, not an extraction failure.\n\nHindi: धारा 5.2 ('नीति के मार्गदर्शक सिद्धांत') का प्रारूप में केवल शीर्षक है, इसके नीचे कोई सामग्री नहीं है। स्रोत दस्तावेज़ इसी प्रकार प्रकाशित किया गया था।",
+      "clause_path": "Ambiguity Register > AMB-18",
+      "page_start": 8,
+      "page_end": 8,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "5.2"
+      ],
+      "ambiguity_flags": [
+        "AMB-18"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-19",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-19 > p.10]\n\nThis section's text required a technical repair during ingestion; the repaired text has been verified against the source PDF.",
+      "parent_text": "Page 10's text layer originally rendered section 7.1 (I)-(V) across two overlapping columns whose boundary split words mid-token. Repaired deterministically (see extract.py); the page also carries a rasterised diagram of 8 pillar boxes whose labels are not in the text layer and are not part of the retrievable corpus (see AMB-21).\n\nHindi: इस खंड के पाठ को अंतर्ग्रहण (ingestion) के दौरान तकनीकी मरम्मत की आवश्यकता थी; मरम्मत किए गए पाठ को स्रोत PDF के विरुद्ध सत्यापित किया गया है।",
+      "clause_path": "Ambiguity Register > AMB-19",
+      "page_start": 10,
+      "page_end": 10,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "7.1"
+      ],
+      "ambiguity_flags": [
+        "AMB-19"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-20",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-20 > p.25]\n\nAraria district does not appear in the draft's district categorisation table (Annexure I). This means the capital subsidy rate for an enterprise in Araria cannot currently be determined from this document. Departmental clarification is required.",
+      "parent_text": "Annexure I categorises only 37 of Bihar's 38 districts into Region A/B. Araria district is absent from both lists (verified by diffing Annexure I against the official 38-district list). An enterprise in Araria therefore has no defined capital-subsidy region and no determinable rate.\n\nHindi: अराय़िया (Araria) जिला प्रारूप की जिला वर्गीकरण तालिका (अनुबंध I) में शामिल नहीं है। इसका अर्थ है कि अराय़िया में किसी उद्यम के लिए पूंजी सब्सिडी दर वर्तमान में इस दस्तावेज़ से निर्धारित नहीं की जा सकती। विभागीय स्पष्टीकरण आवश्यक है।",
+      "clause_path": "Ambiguity Register > AMB-20",
+      "page_start": 25,
+      "page_end": 25,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "Annexure I"
+      ],
+      "ambiguity_flags": [
+        "AMB-20"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.ambiguity.amb-21",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Ambiguity Register > AMB-21 > p.10]\n\nA diagram in the draft names an eighth policy pillar, 'Special Assistance for Inclusion', that has no corresponding section anywhere in the written policy text.",
+      "parent_text": "The page 10 diagram shows 8 policy pillars; 7 map to sections 7.1-7.7. The eighth, 'Special Assistance for Inclusion', has no corresponding numbered section anywhere in the policy text.\n\nHindi: प्रारूप के एक चित्र में आठवें नीति स्तंभ के रूप में 'समावेशन हेतु विशेष सहायता' का नाम दिया गया है, जिसके लिए नीति पाठ में कहीं कोई संबंधित खंड नहीं है।",
+      "clause_path": "Ambiguity Register > AMB-21",
+      "page_start": 10,
+      "page_end": 10,
+      "enterprise_category": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "p.10 diagram"
+      ],
+      "ambiguity_flags": [
+        "AMB-21"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.annexure1.region_a",
+      "chunk_type": "reference_list",
+      "text": "[MSME Policy 2026 (Draft) > Annexure I: District Categorization (BIIPP) > Region A > p.25]\n\nRegion A districts (30% capital subsidy rate under section 7.9 item 1): Aurangabad, Arwal, Banka, Bhagalpur, Bhojpur, Darbhanga, East Champaran, Gopalganj, Jamui, Jehanabad, Kaimur, Katihar, Khagaria, Kishanganj, Lakhisarai, Madhepura, Madhubani, Munger, Nawada, Nalanda, Purnea, Rohtas, Saharsa, Samastipur, Saran, Supaul, Sitamarhi, Sheikhpura, Sheohar, Siwan, West Champaran.",
+      "parent_text": "Region A (31 districts): Aurangabad, Arwal, Banka, Bhagalpur, Bhojpur, Darbhanga, East Champaran, Gopalganj, Jamui, Jehanabad, Kaimur, Katihar, Khagaria, Kishanganj, Lakhisarai, Madhepura, Madhubani, Munger, Nawada, Nalanda, Purnea, Rohtas, Saharsa, Samastipur, Saran, Supaul, Sitamarhi, Sheikhpura, Sheohar, Siwan, West Champaran",
+      "clause_path": "Annexure I > Region A",
+      "page_start": 25,
+      "page_end": 25,
+      "enterprise_category": [],
+      "district_region": [
+        "A"
+      ],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "AMB-01",
+        "AMB-20"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.annexure1.region_b",
+      "chunk_type": "reference_list",
+      "text": "[MSME Policy 2026 (Draft) > Annexure I: District Categorization (BIIPP) > Region B > p.25]\n\nRegion B districts (25% capital subsidy rate under section 7.9 item 1): Begusarai, Buxar, Gaya, Muzaffarpur, Patna, Vaishali.",
+      "parent_text": "Region B (6 districts): Begusarai, Buxar, Gaya, Muzaffarpur, Patna, Vaishali",
+      "clause_path": "Annexure I > Region B",
+      "page_start": 25,
+      "page_end": 25,
+      "enterprise_category": [],
+      "district_region": [
+        "B"
+      ],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "AMB-01"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.annexure1.araria_gap",
+      "chunk_type": "ambiguity_note",
+      "text": "[MSME Policy 2026 (Draft) > Annexure I: District Categorization (BIIPP) > Araria district > p.25]\n\nAraria district does not appear in either Region A or Region B of Annexure I. The capital subsidy district-category rate for an enterprise located in Araria cannot be determined from this document.",
+      "parent_text": "See AMB-20 in the Policy Ambiguity Register.",
+      "clause_path": "Annexure I > Araria (not categorised)",
+      "page_start": 25,
+      "page_end": 25,
+      "enterprise_category": [],
+      "district_region": [
+        "unclassified"
+      ],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "AMB-20"
+      ],
+      "ambiguity_flags": [
+        "AMB-20"
+      ],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.annexure2.high_priority_sectors",
+      "chunk_type": "reference_list",
+      "text": "[MSME Policy 2026 (Draft) > Annexure II: High Priority Sector > p.25]\n\nHigh Priority Sectors: Food Processing; Textiles and Leather; Creation for Media and Entertainment Houses; Logistics; Information Technology Enabled Services (ITeS), Electronics System Design and Manufacturing (ESDM), and Global Capability Centres (GCC); Electric Vehicle (EV); Pharmaceuticals and Medical Devices; Toys Manufacturing; Renewable and Green Energy (including CBG, Fuel-based Ethanol, and Methanol). Note: no incentive rate or eligibility elsewhere in the policy is stated to differ based on this classification (see AMB-10).",
+      "parent_text": "Food Processing; Textiles and Leather; Creation for Media and Entertainment Houses; Logistics; Information Technology Enabled Services (ITeS), Electronics System Design and Manufacturing (ESDM), and Global Capability Centres (GCC); Electric Vehicle (EV); Pharmaceuticals and Medical Devices; Toys Manufacturing; Renewable and Green Energy (including CBG, Fuel-based Ethanol, and Methanol)",
+      "clause_path": "Annexure II > High Priority Sector",
+      "page_start": 25,
+      "page_end": 25,
+      "enterprise_category": [],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "AMB-10"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.annexure3.priority_sectors",
+      "chunk_type": "reference_list",
+      "text": "[MSME Policy 2026 (Draft) > Annexure III: Priority Sector > p.25-26]\n\nPriority Sectors: Automobiles; Small Machine Manufacturing; Mechanical Appliances; FMCG Products (Soap, Detergents, Washing Preparations, Organics, etc.); Plastic and Rubber; Healthcare; Wood-Based Industries; General Manufacturing; Paints and Chemical Products; Health and Wellness Centres; Waste Recycling; Fertilizers; Clocks and Watches; Beverages, Spirits and Vinegars; Ceramic Products; Arms and Ammunition; Glass and Glassware; Bullion, Gems and Jewellery Manufacturing; Sports Goods Manufacturing; Furniture Manufacturing (Plastic, Glass, Leather, Modular, MDF, Aluminium, Metal, or a combination of these materials). Note: no incentive rate or eligibility elsewhere in the policy is stated to differ based on this classification (see AMB-10).",
+      "parent_text": "Automobiles; Small Machine Manufacturing; Mechanical Appliances; FMCG Products (Soap, Detergents, Washing Preparations, Organics, etc.); Plastic and Rubber; Healthcare; Wood-Based Industries; General Manufacturing; Paints and Chemical Products; Health and Wellness Centres; Waste Recycling; Fertilizers; Clocks and Watches; Beverages, Spirits and Vinegars; Ceramic Products; Arms and Ammunition; Glass and Glassware; Bullion, Gems and Jewellery Manufacturing; Sports Goods Manufacturing; Furniture Manufacturing (Plastic, Glass, Leather, Modular, MDF, Aluminium, Metal, or a combination of these materials)",
+      "clause_path": "Annexure III > Priority Sector",
+      "page_start": 25,
+      "page_end": 26,
+      "enterprise_category": [],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "AMB-10"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.annexure4.emerging_industries",
+      "chunk_type": "reference_list",
+      "text": "[MSME Policy 2026 (Draft) > Annexure IV: Emerging Industries eligible for Special Package (section 8.2) > p.26]\n\nEmerging Industry Sectors eligible for the 25% Capital Subsidy Special Package for Emerging Industries (section 8.2, max Rs.10 Crore): Electronics System Design & Manufacturing (ESDM); Electric Vehicles (EV) and EV Components; Battery and Energy Storage Systems; Renewable & Green Energy; Green Hydrogen; Aerospace & Defence Manufacturing; Medical Devices & Pharmaceuticals; Semiconductor & Electronics Components; Artificial Intelligence (AI), Internet of Things (IoT), Robotics & Automation; Drones and Unmanned Systems; Biotechnology; Advanced Textiles (Technical Textiles); Precision Engineering; Data Centres & Cloud Infrastructure; Circular Economy & Waste Recycling Technologies.",
+      "parent_text": "Electronics System Design & Manufacturing (ESDM); Electric Vehicles (EV) and EV Components; Battery and Energy Storage Systems; Renewable & Green Energy; Green Hydrogen; Aerospace & Defence Manufacturing; Medical Devices & Pharmaceuticals; Semiconductor & Electronics Components; Artificial Intelligence (AI), Internet of Things (IoT), Robotics & Automation; Drones and Unmanned Systems; Biotechnology; Advanced Textiles (Technical Textiles); Precision Engineering; Data Centres & Cloud Infrastructure; Circular Economy & Waste Recycling Technologies",
+      "clause_path": "Annexure IV > Emerging Industries",
+      "page_start": 26,
+      "page_end": 26,
+      "enterprise_category": [],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "8.2"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.annexure5.negative_list",
+      "chunk_type": "reference_list",
+      "text": "[MSME Policy 2026 (Draft) > Annexure V: Units not eligible for any kind of incentive > p.26]\n\nThe following units are NOT eligible for any incentive under this policy: Units manufacturing narcotic drugs; Units manufacturing alcoholic beverages; Units manufacturing asbestos; Any industry which impacts the environment negatively.",
+      "parent_text": "Units manufacturing narcotic drugs; Units manufacturing alcoholic beverages; Units manufacturing asbestos; Any industry which impacts the environment negatively",
+      "clause_path": "Annexure V > Negative List",
+      "page_start": 26,
+      "page_end": 26,
+      "enterprise_category": [],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "AMB-12"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.annexure_heritage.clusters",
+      "chunk_type": "reference_list",
+      "text": "[MSME Policy 2026 (Draft) > Heritage & Traditional Clusters eligible for special incentive > p.26-27]\n\nHeritage and Traditional Clusters: Bhagalpuri Silk (Tussar & Mulberry); Madhubani Painting; Sikki Grass Craft; Sujani Embroidery; Tikuli Art; Manjusha Art; Stone Carving & Stone Craft; Terracotta & Pottery; Bamboo & Cane Craft; Banana Fibre Products; Water Hyacinth Products; Makhana Processing & Value Addition; Handloom & Cotton Weaving; Jute & Natural Fibre Products; Wood Craft & Wooden Furniture; Metal Craft (Brass, Iron & Bell Metal); Lac & Lac Products; Mithila Textile & Apparel; Other Heritage & Traditional Clusters as notified by the State Government. Note: no unit-level special incentive amount is quantified for these clusters anywhere in the policy; section 8.4 grants (up to 90% Grant-in-Aid) go to cluster infrastructure, not individual units (see AMB-11).",
+      "parent_text": "Bhagalpuri Silk (Tussar & Mulberry); Madhubani Painting; Sikki Grass Craft; Sujani Embroidery; Tikuli Art; Manjusha Art; Stone Carving & Stone Craft; Terracotta & Pottery; Bamboo & Cane Craft; Banana Fibre Products; Water Hyacinth Products; Makhana Processing & Value Addition; Handloom & Cotton Weaving; Jute & Natural Fibre Products; Wood Craft & Wooden Furniture; Metal Craft (Brass, Iron & Bell Metal); Lac & Lac Products; Mithila Textile & Apparel; Other Heritage & Traditional Clusters as notified by the State Government",
+      "clause_path": "Heritage & Traditional Clusters",
+      "page_start": 26,
+      "page_end": 27,
+      "enterprise_category": [],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [
+        "8.4",
+        "AMB-11"
+      ],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    },
+    {
+      "chunk_id": "bihar_msme_2026.draft-v1.glossary.abbreviations",
+      "chunk_type": "reference_list",
+      "text": "[MSME Policy 2026 (Draft) > List of Abbreviations > p.4]\n\nMSME = Micro, Small and Medium Enterprises; GSDP = Gross State Domestic Product; GDP = Gross Domestic Product; MMUY = Mukhya Mantri Udyami Yojana; BLUY = Bihar Laghu Udyami Yojana; PMFME = Pradhan Mantri Formalisation of Micro Food Processing Enterprises Scheme; PMEGP = Prime Minister's Employment Generation Programme; ODOP = One District One Product; RAMP = Raising and Accelerating MSME Performance; EDP = Entrepreneurship Development Programme; GSTIN = Goods and Services Tax Identification Number; PAN = Permanent Account Number; BIADA = Bihar Industrial Area Development Authority; EDC = Entrepreneurship Development Centre; SEBI = Securities and Exchange Board of India; AIFs = Alternative Investment Funds; IoT = Internet of Things; AI = Artificial Intelligence; ITR = Income Tax Return; TReDS = Trade Receivables Discounting System; GoI = Government of India; MOOCs = Massive Open Online Courses; IT/ITeS = Information Technology / Information Technology Enabled Services; MoU = Memorandum of Understanding; CGTMSE = Credit Guarantee Fund Trust for Micro and Small Enterprises; B2C = Business-to-Consumer; B2B = Business-to-Business",
+      "parent_text": "MSME = Micro, Small and Medium Enterprises; GSDP = Gross State Domestic Product; GDP = Gross Domestic Product; MMUY = Mukhya Mantri Udyami Yojana; BLUY = Bihar Laghu Udyami Yojana; PMFME = Pradhan Mantri Formalisation of Micro Food Processing Enterprises Scheme; PMEGP = Prime Minister's Employment Generation Programme; ODOP = One District One Product; RAMP = Raising and Accelerating MSME Performance; EDP = Entrepreneurship Development Programme; GSTIN = Goods and Services Tax Identification Number; PAN = Permanent Account Number; BIADA = Bihar Industrial Area Development Authority; EDC = Entrepreneurship Development Centre; SEBI = Securities and Exchange Board of India; AIFs = Alternative Investment Funds; IoT = Internet of Things; AI = Artificial Intelligence; ITR = Income Tax Return; TReDS = Trade Receivables Discounting System; GoI = Government of India; MOOCs = Massive Open Online Courses; IT/ITeS = Information Technology / Information Technology Enabled Services; MoU = Memorandum of Understanding; CGTMSE = Credit Guarantee Fund Trust for Micro and Small Enterprises; B2C = Business-to-Consumer; B2B = Business-to-Business",
+      "clause_path": "List of Abbreviations",
+      "page_start": 4,
+      "page_end": 4,
+      "enterprise_category": [],
+      "district_region": [],
+      "incentive_type": null,
+      "monetary_values": [],
+      "percentages": [],
+      "cross_references": [],
+      "ambiguity_flags": [],
+      "visibility": "public"
+    }
+  ]
+}

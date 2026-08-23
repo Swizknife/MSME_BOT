@@ -1,0 +1,979 @@
+{
+  "source_pdf": "C:\\VSC\\work\\NS-APP\\data\\raw\\msme_policy_2026.pdf",
+  "page_count": 27,
+  "pages": [
+    {
+      "page_number": 1,
+      "char_count": 154,
+      "text": " \n \n \n \n \nMICRO, SMALL AND MEDIUM ENTERPRISES POLICY, 2026 \n \n                                       Directorate of MSME, Department of Industries, Bihar\n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 2,
+      "char_count": 4527,
+      "text": "Page 2 of 27 \nDraft of MSME Policy, Government of Bihar \nContents \nList of Abbreviations .............................................................................................................................. 4 \n1. \nIntroduction ..................................................................................................................................... 5 \n2. \nDefinition ........................................................................................................................................ 6 \n2.1Classification of Micro, Small & Medium Enterprises ................................................................. 6 \n2.2Composite Criteria of investment and turnover for classification ................................................. 6 \n2.3Calculation of investment in plant and machinery or equipment .................................................. 7 \n2.4 Calculation of turnover ................................................................................................................. 7 \n3. \nNeed for MSME Policy 2026 .......................................................................................................... 7 \n4. \nPolicy period and Applicability ....................................................................................................... 8 \n5. \nPolicy Roadmap .............................................................................................................................. 8 \n5.1 Vision ............................................................................................................................................ 8 \n5.2 Guiding principles of the policy ................................................................................................... 8 \n6. \nTargets of the Policy .................................................................................................................... 9 \n7. \nPolicy Pillars ................................................................................................................................ 9 \n7.1 MSME Facilitation ...................................................................................................................... 10 \n7.2 Incubation / Mentoring ............................................................................................................... 12 \n7.3 Enhance Unit Level Competiveness ........................................................................................... 13 \n7.4 Access to finance ........................................................................................................................ 13 \n7.5 Sustainability and Circularity ..................................................................................................... 14 \n7.6 Import/Export Promotion/Marketing .......................................................................................... 15 \n7.7 Cluster Infrastructure Development ............................................................................................ 16 \n7.8 Eligibility Criteria for Financial Incentives ................................................................................ 17 \n7.9 Financial Incentives .................................................................................................................... 17 \n8. \nResidual Incentives and Support Provisions ............................................................................. 20 \n9. Guiding Principle for availing the incentive benefits ................................................................... 21 \n9.1 General Conditions for Capital Investment Incentives ........................................................... 21 \n9.2 Interest Subsidy ....................................................................................................................... 21 \n9.3 Additional Incentive for Scaling Up ....................................................................................... 21 \n9.4 Payroll Subsidy ....................................................................................................................... 22 \n9.5  Low Tension Power Tariff Subsidy ....................................................................................... 22 \n9.6 Roof Top Solar Subsidy .......................................................................................................... 22 \n9.7 Energy Audit Subsidy ............................................................................................................. 22 \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 3,
+      "char_count": 1169,
+      "text": "Page 3 of 27 \nDraft of MSME Policy, Government of Bihar \n9.8 Quality Certification Reimbursement ..................................................................................... 23 \n9.9 Stamp Duty Reimbursement ................................................................................................... 23 \n9.10 Incentive for Listing on SME Exchange ............................................................................... 23 \n10. Administration of the Policy ....................................................................................................... 23 \n11. Bihar MSME Development Corporation .................................................................................... 24 \n12. State Level empowered committee ............................................................................................. 24 \n13. State Level Review and Monitoring Committee ........................................................................ 24 \n14. Annexure ........................................................................................................................................ 25 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 4,
+      "char_count": 1224,
+      "text": "Page 4 of 27 \nDraft of MSME Policy, Government of Bihar \nList of Abbreviations \nAbbreviation \nFull Form \nMSME \nMicro, Small and Medium Enterprises \nGSDP \nGross State Domestic Product \nGDP \nGross Domestic Product \nMMUY \nMukhya Mantri Udyami Yojana \nBLUY \nBihar Laghu Udyami Yojana \nPMFME \nPradhan Mantri Formalisation of Micro Food Processing Enterprises Scheme \nPMEGP \nPrime Minister's Employment Generation Programme \nODOP \nOne District One Product \nRAMP \nRaising and Accelerating MSME Performance \nEDP \nEntrepreneurship Development Programme \nGSTIN \nGoods and Services Tax Identification Number \nPAN \nPermanent Account Number \nBIADA \nBihar Industrial Area Development Authority \nEDC \nEntrepreneurship Development Centre \nSEBI \nSecurities and Exchange Board of India \nAIFs \nAlternative Investment Funds \nIoT \nInternet of Things \nAI \nArtificial Intelligence \nITR \nIncome Tax Return \nTReDS \nTrade Receivables Discounting System \nGoI \nGovernment of India \nMOOCs \nMassive Open Online Courses \nIT/ITeS \nInformation Technology / Information Technology Enabled Services \nMoU \nMemorandum of Understanding \nCGTMSE \nCredit Guarantee Fund Trust for Micro and Small Enterprises \nB2C \nBusiness-to-Consumer \nB2B \nBusiness-to-Business \n \n",
+      "repair_applied": null,
+      "tables": [
+        {
+          "page": 4,
+          "bbox": [
+            58.43172270676185,
+            67.56000137329102,
+            567.1282706425108,
+            661.2800089518229
+          ],
+          "rows": [
+            [
+              "Abbreviation",
+              "Full Form"
+            ],
+            [
+              "MSME",
+              "Micro, Small and Medium Enterprises"
+            ],
+            [
+              "GSDP",
+              "Gross State Domestic Product"
+            ],
+            [
+              "GDP",
+              "Gross Domestic Product"
+            ],
+            [
+              "MMUY",
+              "Mukhya Mantri Udyami Yojana"
+            ],
+            [
+              "BLUY",
+              "Bihar Laghu Udyami Yojana"
+            ],
+            [
+              "PMFME",
+              "Pradhan Mantri Formalisation of Micro Food Processing Enterprises Scheme"
+            ],
+            [
+              "PMEGP",
+              "Prime Minister's Employment Generation Programme"
+            ],
+            [
+              "ODOP",
+              "One District One Product"
+            ],
+            [
+              "RAMP",
+              "Raising and Accelerating MSME Performance"
+            ],
+            [
+              "EDP",
+              "Entrepreneurship Development Programme"
+            ],
+            [
+              "GSTIN",
+              "Goods and Services Tax Identification Number"
+            ],
+            [
+              "PAN",
+              "Permanent Account Number"
+            ],
+            [
+              "BIADA",
+              "Bihar Industrial Area Development Authority"
+            ],
+            [
+              "EDC",
+              "Entrepreneurship Development Centre"
+            ],
+            [
+              "SEBI",
+              "Securities and Exchange Board of India"
+            ],
+            [
+              "AIFs",
+              "Alternative Investment Funds"
+            ],
+            [
+              "IoT",
+              "Internet of Things"
+            ],
+            [
+              "AI",
+              "Artificial Intelligence"
+            ],
+            [
+              "ITR",
+              "Income Tax Return"
+            ],
+            [
+              "TReDS",
+              "Trade Receivables Discounting System"
+            ],
+            [
+              "GoI",
+              "Government of India"
+            ],
+            [
+              "MOOCs",
+              "Massive Open Online Courses"
+            ],
+            [
+              "IT/ITeS",
+              "Information Technology / Information Technology Enabled Services"
+            ],
+            [
+              "MoU",
+              "Memorandum of Understanding"
+            ],
+            [
+              "CGTMSE",
+              "Credit Guarantee Fund Trust for Micro and Small Enterprises"
+            ],
+            [
+              "B2C",
+              "Business-to-Consumer"
+            ],
+            [
+              "B2B",
+              "Business-to-Business"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "char_count": 2789,
+      "text": "Page 5 of 27 \nDraft of MSME Policy, Government of Bihar \n1. Introduction \nThe Micro, Small, and Medium Enterprises (MSME) sector has transitioned into the foundational \npillar of Bihar’s modern industrial economy. Fueled by a surging Gross State Domestic Product \n(GSDP) that has reached nearly ₹9.92 lakh crore according to the Bihar Economic Survey 2025–26, \nthe state is sustaining one of the sharpest economic growth trajectories in India. In a labor-intensive \nenvironment like Bihar, MSMEs perform a dual economic and social role; they act as powerful \nengines for localized manufacturing and service enterprises while simultaneously generating \nsustainable, grassroots livelihoods in rural and semi-urban zones, which actively mitigate historical \ndistress migration. \nThe structural backbone of Bihar's MSME expansion rests upon its unique demographic dividend, \nhighly competitive labor costs, and an expanding logistics network across highways, railways, and \ninland waterways. Geographically, the state serves as a strategic corridor to Eastern India and \ninternational markets through its borders with Nepal, West Bengal, Jharkhand, and Uttar Pradesh. \nFurthermore, Bihar leverages a massive agricultural footprint, dominating national production in \nhigh-value commodities like Makhana, maize, litchi, bananas, and honey. This resource wealth feeds \na highly lucrative agro-processing pipeline, while celebrated traditional clusters like Bhagalpuri silk, \nMadhubani painting, and Muzaffarpur bag manufacturing preserve local cultural identity while \nscaling up employment for women and rural artisans. \nTo fully unlock this resource potential, the Government of Bihar has rolled out aggressive financial \nand structural interventions, spearheaded by the flagship Mukhya Mantri Udyami Yojana (MMUY). \nThis model initiative provides aspiring entrepreneurs specifically targeting youth, women, minorities, \nand economically backward classes (EBC/SC/ST) with up to ₹10 lakh in financial assistance, which \ncrucially includes a 50% grant and 50% of loan component to foster a new generation of self-starters. \nThis is supplemented at the grassroots level by the Bihar Laghu Udyami Yojana (BLUY) for low-\nincome households, and seamlessly integrated with Central frameworks such as the PMEGP, PM \nVishwakarma, the Raising and Accelerating MSME Performance (RAMP) programme, and the One \nDistrict One Product (ODOP) initiative to accelerate digital transformation and export readiness. \nConcurrently, the state is overhauling its industrial infrastructure through the Bihar Industrial Area \nDevelopment Authority (BIADA), which currently manages over 90 industrial areas equipped with \nmodern \"Plug and Play\" manufacturing sheds and competitive, long-term land leases. In a massive \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 6,
+      "char_count": 2111,
+      "text": "Page 6 of 27 \nDraft of MSME Policy, Government of Bihar \nforward-looking urban reform, the state cabinet has approved the development of Satellite and \nGreenfield townships across 11 major cities and 9 divisional headquarters to house high-growth \nsectors like IT Cities, Electronic Manufacturing Clusters, Medi-Cities, and specialized textile or \nlogistics parks. When paired with sweeping ease-of-doing-business reforms such as centralized \nonline single-window clearance, self-certification, and automated plot allotments Bihar is \nsystematically building a modernized, friction-free ecosystem poised to become the premier \nmanufacturing and MSME hub of Eastern India. \n2. Definition \nAn “enterprise” as per section 2 (e) of MSME Act, 2006 of Government of India.  \n2.1Classification of Micro, Small & Medium Enterprises \nUnder the provision of Micro, Small & Medium Enterprises Development (MSMED) Act, 2006, The \nGovernment of India has notified criteria for classifying the enterprises and through a notification \ndated on 1st April, 2025, as part of the Union Budget Announcements 2025-26 the GoI has revised \nthe classification of MSME. \nThe revised classification criteria are as follows:- \nEnterprise Category \nInvestment Limit \nTurnover Limit \nMicro Enterprise \n₹2.5 Crore \n₹10 Crore \nSmall Enterprise \n₹25 Crore \n₹100 Crore \nMedium Enterprise \n₹125 Crore \n₹500 Crore \n \nThe classification of MSME enterprises will be as per notification issued by Government of India. \n2.2Composite Criteria of investment and turnover for classification \ni. \nA composite criterion of investment and turnover shall be applied for classification if an \nenterprises as micro, small or medium. \nii. \nIf an enterprises crosses the ceiling limits specified for its present category in either of the two \ncriteria of investment or turnover, it will be cease to exist in that category and will be placed \nin the next higher category but no enterprises shall be placed in the lower category unless it \ngoes below the ceiling limits specified for its present category in both the criteria of \ninvestment as well as turnover. \n",
+      "repair_applied": null,
+      "tables": [
+        {
+          "page": 6,
+          "bbox": [
+            63.79200210571289,
+            392.1599807739258,
+            557.4480224609375,
+            501.17999267578125
+          ],
+          "rows": [
+            [
+              "Enterprise Category",
+              "Investment Limit",
+              "Turnover Limit"
+            ],
+            [
+              "Micro Enterprise",
+              "₹2.5 Crore",
+              "₹10 Crore"
+            ],
+            [
+              "Small Enterprise",
+              "₹25 Crore",
+              "₹100 Crore"
+            ],
+            [
+              "Medium Enterprise",
+              "₹125 Crore",
+              "₹500 Crore"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "char_count": 2585,
+      "text": "Page 7 of 27 \nDraft of MSME Policy, Government of Bihar \n2.3Calculation of investment in plant and machinery or equipment \ni. \nThe calculation of investment in plant and machinery or equipment will be linked to the \nIncome Tax Return (ITR) of the previous year’s filed under the Income Tax Act, 1961 \nii. \nIn case of new enterprises, where no prior ITR is available, the investment will be based on \nself declaration of the promoter of the enterprises and such relaxation shall end after the 31st \nMarch of the financial year in which it files its first ITR.  \niii. \nThe expression plant and machinery or equipment of the enterprise shall have the same \nmeaning as assigned to the plant and machinery in the income tax rules, 1962 framed under \nthe Income Tax Act, 1961 and shall include all tangible assets (other than land and building, \nfurniture and fittings).  \niv. \nThe purchase (invoice) value of plant and machinery or equipment whether purchase first \nhand or second hand shall be taken into account excluding Good and Services Tax (GST), on \nself-disclosure basis, if the enterprises is a new one without any ITR.  \nv. \nThe cost of certain items specified in the explanation 1 to the sub-section (1) of section 7 of \nthe MSMED Act, 2006 shall be excluded from the calculation of the amount of investment in \nplant and machinery.  \n2.4 Calculation of turnover \ni. \nCalculation of Turnover will be calculated as per the CA Certificate provided by MSMEs.  \n3. Need for MSME Policy 2026 \nWith the objective of strengthening the MSME ecosystem and improving the competitiveness of \nenterprises, the Government of Bihar has formulated the Bihar MSME Policy 2026. The policy aims \nto create a conducive environment for entrepreneurship, innovation, employment generation, and \nsustainable industrial growth across the state. \nThe policy provides comprehensive support to MSMEs throughout their business lifecycle by \nfocusing on infrastructure development, access to finance, market linkages, technology upgradation, \nskill development, capacity building, ease of doing business, and sustainability. It also seeks to \npromote manufacturing, strengthening supply chain and exports under the vision of “Make in India” \nand “Make in Bihar” by enhancing the competitiveness of Bihar-based enterprises. \nSpecial emphasis has been given to inclusive industrial development by supporting women \nentrepreneurs, SC/ST entrepreneurs, startups, micro and small enterprises, enterprises in backward \nregions, and revival of sick units through targeted interventions and institutional support. \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 8,
+      "char_count": 1604,
+      "text": "Page 8 of 27 \nDraft of MSME Policy, Government of Bihar \nThe Bihar MSME Policy 2026, also supports the broader vision of “One Family One Enterprise” by \npromoting entrepreneurship at the grassroots level and creating sustainable livelihood opportunities \nfor youth and local communities. The policy is expected to play a transformative role in accelerating \nindustrialization, attracting investments, strengthening local industries, and establishing Bihar as a \ncompetitive MSME destination in India. \n4. Policy period and Applicability \ni. \nThis policy shall remain valid for a period of 5 years from the date of notification of the \npolicy or till a new policy is announced by the Government. \nii. \nThe policy may be amended or modified during the course of implementation. However, all \nsuch amendments or modifications shall be applicable prospectively and shall not affect or \ncurtail any benefits or concessions already granted under the policy. \niii. \nThe Government of Bihar may extend the duration of this policy, as and when required. The \npolicy shall be applicable across the entire state and shall provide direction for boosting \neconomic and industrial development in Bihar. \niv. \nThis policy shall be applicable to both new and existing enterprises investing in or \nestablishing new units, as well as existing enterprises undertaking expansion of their units. \n5. Policy Roadmap \n5.1 Vision \nTo transform Bihar into a leading entrepreneurial state by empowering every family with \nopportunities for enterprise, innovation, and economic prosperity. \n5.2 Guiding principles of the policy \n \n",
+      "repair_applied": "empty_confirmed",
+      "tables": []
+    },
+    {
+      "page_number": 9,
+      "char_count": 897,
+      "text": "Page 9 of 27 \nDraft of MSME Policy, Government of Bihar \n \n \n \n6. Targets of the Policy \nThe Policy intends to achieve the following targets during its operative period  \ni. \n1 Crores MSMEs to be formalize (Including both manufacturing and service sector) \nii. \nGenerate more than 1 crore direct and indirect employment. \niii. \nFacilitate integration of 500+ MSME Champions in Global Value Chains  \niv. \nSetting up of 4 Technology Centre/Extension Centre (Koshi, Bhagalpur, Munger and Purnia) \nas per 7-Nishay of Government of Bihar.  \nv. \nPer year 1 Lakhs MSME will be trained on Industry 4.0. and Sector Specific Industrial \nTraining.  \n7. Policy Pillars \n \nOne Household One \nEnterprenuers\nEmployement \nGeneration\nEase of doing Business\nStrengthening Industrial \nInfrastructure\ntechnology adoption and \ndigital transformation \nFinancial linkage \nenvironmental \nsustainablity \nSkill Development\n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 10,
+      "char_count": 1826,
+      "text": " \n7.1 MSME Facilitation \nI. The State shall create dedicated divisions/cells to strengthen institutional capacity for policy \nformulation, programme implementation, Skill Development, Export Facilitation and \nMarketing of the MSMEs Product under the Directorate of MSME.  \nThe State shall initiate a dedicated helpline and toll free number for MSMEs of the state, also \nII. \na chatbot will be developed for the MSME where they can reach out for their grievances and \nsolution. \nIII. A dedicated Project Management Unit (PMU) will be established in the Directorate of MSME \nfor the effective implementation, monitoring, and coordination of MSME schemes.  \nIV. To provide doorstep support to MSMEs in registration, certification, training, and credit \nlinkages, the State shall establish MSME Kendras at the District Industries Centres (DICs) in \nevery district of Bihar and deploy MSME Mitras based on the number of blocks at the \ndistricts level. The MSME Mitras shall be trained by the Directorate of MSME as field-level \nfacilitators and entrepreneurship support professionals to assist MSMEs and aspiring \nentrepreneurs. The creation of MSME Mitra positions at the DICs shall be undertaken with \nthe approval of competent authority.  \nV. Grassroots volunteer/facilitator who will be recognized by the Directorate of MSME and \ncertified for disseminating information on MSME schemes, entrepreneurship opportunities, \ngovernment support programs, and industrial development and for providing free guidance to \nvillagers, youth, and aspiring entrepreneurs will be deployed at the Panchayat level. These \nGrassroot volunteer will be known as “Udyog Salahkaar”. Directorate of MSME would \nformulate a separate guideline for selection of functioning of Udyog Salahkaar.  \nPage 10 of 27 \nDraft of MSME Policy, Government of Bihar ",
+      "repair_applied": "seam_merge",
+      "tables": []
+    },
+    {
+      "page_number": 11,
+      "char_count": 2909,
+      "text": "Page 11 of 27 \nDraft of MSME Policy, Government of Bihar \nVI. \nThe State will empanel Chartered Accountants (CAs) and Legal Advisors in all districts to \nprovide professional handholding support to MSMEs and aspiring entrepreneurs on matters \nrelated to business registration, statutory compliances, taxation, accounting, financial \nmanagement, loan documentation, contract management, intellectual property rights, dispute \nresolution, and other legal and regulatory requirements. \nVII. \nThe State would establish a dedicated MSME Development Corporation to support the \npromotion, facilitation, and development of MSMEs in the State. The Corporation would \nengage and deploy domain experts and professional personnel in areas such as finance, \ntechnology, marketing, exports, cluster development, entrepreneurship, and business advisory \nservices to strengthen the delivery of MSME support programmes and initiatives. It will be \nmain implementing agency for any MSME schemes whether its state or central schemes.  \nVIII. \nAs per 7- Nischay II commitments of the Government of Bihar,The State shall establish four \nTechnology and Extension Centres in the Koshi, Bhagalpur, Munger,and Purnia Divisions to \nprovide training, technology dissemination, technical assistance, and business facilitation \nservices to MSMEs. \nIX. \nThe Institute of Entrepreneurship Development (IED), Patliputra, shall be developed as a \nCentre of Excellence for entrepreneurship promotion, skill development, research, and \nMSME support services. The Institute shall also function as the awarding and certification \nbody for approved training programmes.  \nX. \nTo expand its outreach and service delivery, IED Extension Centres shall be established in all \ndistricts of the State. These Centres shall also engage with schools, colleges, and universities \nto implement entrepreneurship education programmes aimed at fostering entrepreneurial \nawareness and developing an entrepreneurial mindset among students from an early stage. \nThe Directorate of MSME shall develop a separate curriculum and training framework.  \nXI. \nThe State shall develop and operationalize a dedicated MSME Portal and Mobile Application \nto provide a unified digital platform for easy access to government schemes, registrations, \napprovals, grievance redressal, training, market linkages, and other MSME-related services. \nThe Portal shall be integrated with relevant Central and State Government portals, databases, \nand digital platforms to enable seamless data exchange, single-window service delivery, real-\ntime monitoring, and improved ease of doing business for MSMEs. \nXII. \nIn accordance with the provisions of the MSMED Act, 2006, Micro and Small Enterprises \nFacilitation Councils (MSEFCs) shall be established at the commissionery level under the \nchairmanship of the Divisional Commissioner to facilitate the timely resolution of grievances \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 12,
+      "char_count": 2311,
+      "text": "Page 12 of 27 \nDraft of MSME Policy, Government of Bihar \nand delayed payment disputes of MSMEs. The Directorate of MSMEs would provide the \nnecessary administrative and institutional support for the effective functioning of the \nCouncils. \nXIII. \nThe State shall implement Ease of Doing Business (EoDB) reforms and recommendations \nfrom time to time to simplify regulatory processes, reduce compliance burden, improve \nservice delivery, and create a business-friendly ecosystem for MSMEs. \nXIV. \nThe State shall encourage Micro, Small and Medium Enterprises (MSMEs) to obtain adequate \ninsurance coverage to enhance business resilience against unforeseen risks, including fire, \nflood, natural disasters, machinery breakdown, accidents, theft, and other operational hazards \nthat may result in significant financial losses and disruption of business operations. To \nfacilitate wider insurance coverage, the State may empanel eligible insurance companies and \ndevelop suitable mechanisms to provide MSMEs with easy access to comprehensive and \naffordable insurance products. The State shall also undertake awareness, outreach, and \nfacilitation initiatives to encourage MSMEs to avail themselves of appropriate insurance \ncoverage for safeguarding their assets, business continuity, and employment. \n7.2 Incubation / Mentoring \n \ni. \nThe Directorate would undertake targeted outreach and awareness initiatives to foster an \nentrepreneurial mindset and promote innovation through startup campaigns, innovation \nevents, hackathons, demo days, pitching challenges, startup awards, and other ecosystem \nengagement programmes. \nii. \nIt will be Facilitated creation of new ecosystem infrastructure such as Rapid Prototyping \nLabs, Startup cells, and B- Hubs, while strengthening and expanding existing facilities to \nsupport startup ideation, development, and growth. \niii. \nStrengthen incubation and acceleration capacity across the state by supporting the \ndevelopment and operational excellence of incubators and accelerators as critical ecosystem \nenablers. \niv. \nEstablish a unified digital single-window platform enabling startups to access government \nfinancial schemes, SEBI-registered AIFs, empanelled angel investors, regulatory facilitation, \nmentor networks, and approved Project Management Consultants. \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 13,
+      "char_count": 2318,
+      "text": "Page 13 of 27 \nDraft of MSME Policy, Government of Bihar \nv. \nIntegrate entrepreneurship and innovation into formal education by introducing dedicated \nlearning modules in schools and universities, promoting MOOCs, facilitating internships, and \nencouraging experiential learning opportunities. \nvi. \nImplement a responsive and structured grievance redressal mechanism to promptly address \nstartup concerns and improve ease of doing business. \nvii. \nFoster international collaborations, trade linkages, and global networking opportunities to \nhelp Bihar startups access global markets, technologies, and partnerships. \n7.3 Enhance Unit Level Competiveness \ni. \nThe state shall offer a comprehensive package for new/existing MSMEs to enhance their \ncompetiveness. To encourage setting up/expansion and diversification of enterprises, a \nbouquet of incentives in being offered which has been detailed in financial incentives section \nof this documents, \n7.4 Access to finance \ni. \nAccess to finance is the most critical challenges which MSME faces during the entire \nbusiness/cycle from setting up to growth and transiting to the next level. Government of \nBihar shall put in place to measure to ensure adequacy and availability to finance to the \nMSMEs.  \nii. \nThe State Government is committed to increase the Industrialization of the districts \ntherefore the State Government shall provide additional 5% Capital Subsidy to the \nbackward districts as defined in the BIIPP Policy 2026.  \niii. \nDirectorate of MSME will design the State Specific Schemes to facilitate the MSMEs \nthrough credit linkages. \niv. \nThe State will implement the Trade Receivables Discounting System (TReDS) and \nGovernment shall direct all the State PSUs, companies, NBFCs and financial institution to \nget on-boarded on the TReDS platform. The Government would also issue the guidelines \nfor on-boarding the procuring entities in the TReDS Platform. A government order to this \neffect shall be released and MSMEs will be encouraged to start using the platform \neffectively.  \nv. \nCGTMSE has been a well establish institution supporting micro and small entrepreneurs \nby offering a collateral free loans and guarantee coverage of approximately 75% to 85%. \nFor this purpose, Government of Bihar would set aside a corpus of INR 100 Crore with \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 14,
+      "char_count": 2356,
+      "text": "Page 14 of 27 \nDraft of MSME Policy, Government of Bihar \nCGTMSE which would be used for the additional guarantee issues on behalf of the state \ngovernment. \nvi. \nThe State shall take focus measures to prevent incipient sickness in MSMEs and for the \nrevival of the distressed/sick MSMEs.  \nvii. \nGeneral Manager of DICs will hold regular review meeting in association with all \nconcerned department every month to understand the issues faced by MSMEs and such \nissues will be brought to the notice of District Collector for resolution, the issues which \nrequire Government Intervention shall be forwarded to the MSME Director, Directorate \nof MSME, Department of Industries. Similarly the State would regularly hold the \n“Udyami Panchyat” at the State level under chairmanship of Additional Chief \nSecretary/Principle Secretary/Secretary of the Department of Industries.   \nviii. \nRegular SLBC meetings would held  to discuss measures for revival of sick industries  \nix. \nAs per guideline and instruction of RBI, State Level Inter Intuitional Committee (SLIIC) \nwould be constituted under the chairmanship of Director of Industries for revival and \nrehabilitation of Sick Industries with cooperation of Bankers.  \nx. \nGovernment will promote Digital lending platform for enhanced financial coverage to \nMSMEs. Additionally, Bihar State Financial Corporation will be strengthening to provide \nadditional loans as per their norms and guidelines.  \nxi. \nThe Micro, small and medium enterprises would be encouraged to raise funds through \nStock Exchange. The Government will nominate a facilitation agency for this purpose.  \n7.5 Sustainability and Circularity \nIndia has a global commitment of reducing emissions intensity of GDP by 45% by 2030 (2005 \nlevels) and achieving net zero by 2070. Government of Bihar is committed to contribute towards a \nmore sustainable and responsible Industrial Growth. Government Intends to encourage MSMEs to \ncreate business model with backward and forward linkages to the circular economy for this.  \ni. \nThe Government will initiate an extensive energy mapping exercise to cluster parks \n/pocket of MSMEs industries with average energy consumption/practices indicating areas \nof higher energy intensity.  \nii. \nThe Government would Support for Energy/Water Audits and Adoption for solar roof top \nwill be encouraged.   \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 15,
+      "char_count": 2130,
+      "text": "Page 15 of 27 \nDraft of MSME Policy, Government of Bihar \niii. \nThe Government will prioritize regenerative resources and renewable for common \ninfrastructure investment in the MSMEs Parks.  \niv. \nThe Government will create mechanism for leveraging technologies enabling material and \nenergy recovery, optimization of consumption, waste minimization and re-use of waste as \nresources.  \n7.6 Import/Export Promotion/Marketing \ni. \nAs per GoI estimates, Global cross border e-commerce is estimated MSMEs to grow to \nUSD 800 Billion by 2025 and up to USD 2 Trillion by 2030. Government of Bihar will \nencourage leveraging e-commerce exports opportunity to diversify their markets, earn \nbetter margins and get better visibility.  \nii. \nThe presence of MSMEs across all the major B2B and B2C export promotion platform \nwill be enhanced through appropriate training s for digital marketing and catalogue \nmanagement.  \niii. \nExport specific collaborations will be initiated with all the major export marketplace and \nquarterly workshop/training will be instituted exclusively to promote MSME export \nthrough digital platforms.  \niv. \nA dedicated Export Cell will be established in Directorate of MSME and Subject Matter \nExpert will be deputed to support the potential MSMEs.  \nv. \nLinkages with ODOP scheme will be promoted and cross border B2C e-commerce sales \nof MSME’ Product will be promoted, \nvi. \nThe Bihar State Marketing Authority has been established in the State to strengthen the \nMarketing Ecosystem for MSMEs and facilitate the promotion of Bihar-made products in \ndomestic as well as international markets \nvii. \nThe State will identify the products which are imported in the state from various countries \nand a roadmap will be made to reduce import of such products by manufacturing it in \nBihar.  \nviii. \nThe Directorate of MSME will identify potential exporters and develop them to Export \nChampion in the state.  \nix. \nDirectorate of MSME will organize global conference with leading brands, suppliers, \ndistributors and complementary businesses to provide networking and business \nopportunities for these MSMEs.  \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 16,
+      "char_count": 2352,
+      "text": "Page 16 of 27 \nDraft of MSME Policy, Government of Bihar \nx. \nThe Directorate will conduct regular Buyer Seller Meets to encourage the opportunity for \nB2B and B2C marketing of the MSME Products.  \nxi. \nMSME Studio will be established in Patliputra Industrial Area for providing a dedicated \nplatform to MSMEs for product showcasing, branding, digital marketing, content \ncreation, e-commerce on boarding, product photography, videography, packaging design \nsupport, and promotion of Bihar-made products in domestic and international markets. \nxii. \nThe Directorate of MSME shall issue orders allowing state entities to float tenders for \nexclusive procurement from MSMEs. A list of 358 items for exclusive purchase from \nMSMEs has been notified by GoI and the same has been made available to SPSUs.  \nxiii. \nThe state would implement Bihar Purchase Preference Policy and issue orders to all \ndepartments and SPSUs in the state. The Bihar Purchase Preference Policy 2024 \nprioritizes procurement from local industrial units, micro, small, and startup enterprises to \nboost local employment and manufacturing. \nxiv. \nThe Government shall mandate a minimum of 4% procurement from MSEs owned by \ndisadvantage group (BC/SC/ST) and 3% from women owned MSEs within the total \nmandate of public procurement from MSMEs.  \nxv. \nThe Directorate will develop state-led vendor development program in the state \nxvi. \nThe State will established Retail Market for MSME in PPP model based on the Integrated \nProduction Promotion Marketing Hub Model for MSMEs. It will be designed as a one-\nstop ecosystem for micro and small enterprises. The Bihar State Marketing Authority will \nregulate the Retail Market and make a separate guideline and revenue model for the \nMSME. \n7.7 Cluster Infrastructure Development \ni. \nGovernment of Bihar recognizes the economic potential of Industrial clusters and aims to \npropel and support infrastructure development through adoption of cluster based approach \nin PPP mode. BIADA shall remain to be the nodal agency for infrastructure development \nof MSMEs and shall work closely with the Industry association to gauge evolving demand \nfor industrial space. \nii. \nThe State shall also formulate state specific scheme for Cluster Infrastructure \nDevelopment known as Chief Minister Integrated Cluster Development Scheme (CM-\nICDS).  \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 17,
+      "char_count": 2049,
+      "text": "Page 17 of 27 \nDraft of MSME Policy, Government of Bihar \niii. \nGovernment will provide support in establishment of Nano and Mega MSME Parks in \nwith plug and play infrastructure and shared facility. The Nano MSME Park will be set up \nin 10 to 20 acres of land which could be developed on either Government land or Private \nland. The Mega MSME Park will be established on more than 20 acres of land. The parks \nwill be provided with backward and forward linkages and aggregator models will be \nfacilitated wherever possible. The MSME Parks will be developed in phased manner in \nevery districts of Bihar.  \niv. \nTo revive and facilitate the Heritage Cluster of the State, the Government will provide \nsupport in infrastructure development and create raw material banks within the identified \ntraditional and heritage clusters. \nv. \nR&D Lab and Testing Infrastructure will be established in PPP mode to undertake quality \nimprovements including standardization, accreditation, quality certification and testing \nservices.  \nvi. \nGovernment will set up dedicated anchor buyer led ancillary parks for natural linkages \nbetween cluster linked and ancillary MSMEs through co-location and co-development.  \nvii. \nThe cluster would be mapped on PM Gati Shakti Portal for effective Infrastructure \nPlanning.  \nviii. \nAll MSMEs and the clusters of the state will be mapped through GIS. This will help \nstrengthening cluster development initiatives, and support balanced industrial \ndevelopment across the State.. \n7.8 Eligibility Criteria for Financial Incentives \ni. \nTo avail the benefits of the policy, the entity should meet the definition of Micro, Small \nand Medium Enterprises Development Act, 2006 and classified as micro, small, or \nmedium enterprises on the basis of criteria defined by GoI and as amended by GOI from \ntime to time.  \nii. \nAn entity will be considered as start up as per rule of Bihar Start Up Policy 2026.  \n \n7.9 Financial Incentives \nFollowing Financial Subsidy/ Incentives are extended to Micro, Small and Medium Enterprises  \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 18,
+      "char_count": 2896,
+      "text": "Page 18 of 27 \nDraft of MSME Policy, Government of Bihar \nS.No \nType of \nSubsidy/Ince\nntives \nMicro Enterprises \nSmall Enterprises \nMedium Enterprises \n1. \nCapital \nSubsidy  \n \n30% of Fixed Capital \nInvestment (Cap 25 \nLakhs) in A Category \nDistrict as defined in \nBIPP Policy \n30% of Fixed Capital \nInvestment (Cap 1.5 \nCrore) in A Category \nDistrict as defined in \nBIPP Policy \n30% of Fixed Capital \nInvestment (Cap 5 \ncroe) in A Category \nDistrict as defined in \nBIPP Policy \n25 % of Fixed Capital \nInvestment (Cap 25 \nLakhs) in B Category \nDistrict as defined in \nBIIPP Policy \n25 % of Fixed Capital \nInvestment (Cap 1.5 \nCrore) in B Category \nDistrict as defined in \nBIIPP Policy \n25% of Fixed Capital \nInvestment (Cap 5 \ncroe) in B Category \nDistrict as defined in \nBIIPP Policy \n2. \nAdditional \nSubsidy for \ndisadvantage\nd  group   \nAdditional 10% for \nwomen/ \nSC/ST/BC/PwD/Transg\nender with maximum \ncap of 7 Crore \n \nAdditional 10% for \nwomen/ \nSC/ST/BC/PwD/Transg\nender with maximum \ncap of 7Crore \n \n \nAdditional 10% for \nwomen/ \nSC/ST/BC/PwD/Transg\nender  with maximum \ncap of 7 Crore \n \n \n \n3. \nAdditional \nSubsidy for \nScaling up  \n5% additional capital \nsubsidy \n ( Maximum Cap 25 \nLakhs) \n5% additional capital \nsubsidy ( Maximum \nCap 25 Lakhs) \n5% additional capital \nsubsidy  \n( Maximum Cap 25 \nLakhs) \n4. \nPayroll \nsubsidy  \nReimbursement of \nemployer’s contribution \nto the EPF for the first \nthree years from the \ndate of commencement \nof the production, if the \nunit has employed more \nthan 10 persons subject \nto a maximum of Rs, \n24,000/- per employee \nper annum \nReimbursement of \nemployer’s contribution \nto the EPF for the first \nthree years from the \ndate of commencement \nof the production, if the \nunit has employed more \nthan 20 persons subject \nto a maximum of Rs, \n24,000/- per employee \nper annum \nReimbursement of \nemployer’s contribution \nto the EPF for the first \nthree years from the \ndate of commencement \nof the production, if the \nunit has employed more \nthan 50 persons subject \nto a maximum of Rs, \n24,000/- per employee \nper annum \n5. \nLow Tension \nPower Tariff \nSubsidy  \n20% of the power \ncharges paid by the \nenterprises for the first \n3 years from the date of \ncommencement of \nproduction or from the \ndate of power \nconnection whichever \nis later \n20% of the power \ncharges paid by the \nenterprises for the first \n3 years from the date of \ncommencement of \nproduction or from the \ndate of power \nconnection whichever \nis later \n20% of the power \ncharges paid by the \nenterprises for the first \n3 years from the date of \ncommencement of \nproduction or from the \ndate of power \nconnection whichever \nis later \n6. \nRoof Top \nSolar Subsidy \n25% of the cost of Roof \nTop Solar set up to the \ncapacity of 300 Kw \n25% of the cost of Roof \nTop Solar set up to the \ncapacity of 300 Kw \n25% of the cost of Roof \nTop Solar set up to the \ncapacity of 300 Kw \n",
+      "repair_applied": null,
+      "tables": [
+        {
+          "page": 18,
+          "bbox": [
+            58.413331773546005,
+            42.719998359680176,
+            558.2666558159722,
+            709.2400105794271
+          ],
+          "rows": [
+            [
+              "S.No",
+              "Type of\nSubsidy/Ince\nntives",
+              "Micro Enterprises",
+              "Small Enterprises",
+              "Medium Enterprises"
+            ],
+            [
+              "1.",
+              "Capital\nSubsidy",
+              "30% of Fixed Capital\nInvestment (Cap 25\nLakhs) in A Category\nDistrict as defined in\nBIPP Policy",
+              "30% of Fixed Capital\nInvestment (Cap 1.5\nCrore) in A Category\nDistrict as defined in\nBIPP Policy",
+              "30% of Fixed Capital\nInvestment (Cap 5\ncroe) in A Category\nDistrict as defined in\nBIPP Policy"
+            ],
+            [
+              "",
+              "",
+              "25 % of Fixed Capital\nInvestment (Cap 25\nLakhs) in B Category\nDistrict as defined in\nBIIPP Policy",
+              "25 % of Fixed Capital\nInvestment (Cap 1.5\nCrore) in B Category\nDistrict as defined in\nBIIPP Policy",
+              "25% of Fixed Capital\nInvestment (Cap 5\ncroe) in B Category\nDistrict as defined in\nBIIPP Policy"
+            ],
+            [
+              "2.",
+              "Additional\nSubsidy for\ndisadvantage\nd group",
+              "Additional 10% for\nwomen/\nSC/ST/BC/PwD/Transg\nender with maximum\ncap of 7 Crore",
+              "Additional 10% for\nwomen/\nSC/ST/BC/PwD/Transg\nender with maximum\ncap of 7Crore",
+              "Additional 10% for\nwomen/\nSC/ST/BC/PwD/Transg\nender with maximum\ncap of 7 Crore"
+            ],
+            [
+              "3.",
+              "Additional\nSubsidy for\nScaling up",
+              "5% additional capital\nsubsidy\n( Maximum Cap 25\nLakhs)",
+              "5% additional capital\nsubsidy ( Maximum\nCap 25 Lakhs)",
+              "5% additional capital\nsubsidy\n( Maximum Cap 25\nLakhs)"
+            ],
+            [
+              "4.",
+              "Payroll\nsubsidy",
+              "Reimbursement of\nemployer’s contribution\nto the EPF for the first\nthree years from the\ndate of commencement\nof the production, if the\nunit has employed more\nthan 10 persons subject\nto a maximum of Rs,\n24,000/- per employee\nper annum",
+              "Reimbursement of\nemployer’s contribution\nto the EPF for the first\nthree years from the\ndate of commencement\nof the production, if the\nunit has employed more\nthan 20 persons subject\nto a maximum of Rs,\n24,000/- per employee\nper annum",
+              "Reimbursement of\nemployer’s contribution\nto the EPF for the first\nthree years from the\ndate of commencement\nof the production, if the\nunit has employed more\nthan 50 persons subject\nto a maximum of Rs,\n24,000/- per employee\nper annum"
+            ],
+            [
+              "5.",
+              "Low Tension\nPower Tariff\nSubsidy",
+              "20% of the power\ncharges paid by the\nenterprises for the first\n3 years from the date of\ncommencement of\nproduction or from the\ndate of power\nconnection whichever\nis later",
+              "20% of the power\ncharges paid by the\nenterprises for the first\n3 years from the date of\ncommencement of\nproduction or from the\ndate of power\nconnection whichever\nis later",
+              "20% of the power\ncharges paid by the\nenterprises for the first\n3 years from the date of\ncommencement of\nproduction or from the\ndate of power\nconnection whichever\nis later"
+            ],
+            [
+              "6.",
+              "Roof Top\nSolar Subsidy",
+              "25% of the cost of Roof\nTop Solar set up to the\ncapacity of 300 Kw",
+              "25% of the cost of Roof\nTop Solar set up to the\ncapacity of 300 Kw",
+              "25% of the cost of Roof\nTop Solar set up to the\ncapacity of 300 Kw"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 19,
+      "char_count": 3094,
+      "text": "Page 19 of 27 \nDraft of MSME Policy, Government of Bihar \nS.No \nType of \nSubsidy/Ince\nntives \nMicro Enterprises \nSmall Enterprises \nMedium Enterprises \nsubject to a maximum \nlimit of 5.0 Lakhs \nsubject to a maximum \nlimit of 5.0 Lakhs \nsubject to a maximum \nlimit of 5.0 Lakhs \n7. \nEnergy Audit \nIncentive  \n75% of the cost of the \naudit subject to a \nmaximum of 1 lakhs \nper energy audit \n75% of the cost of the \naudit subject to a \nmaximum of 1 lakhs \nper energy audit \n75% of the cost of the \naudit subject to a \nmaximum of 1 lakhs \nper energy audit \n8. \nWater Audit \nIncentive \n75% of the cost of the \naudit subject to a \nmaximum of 1 lakhs \nper water audit \n75% of the cost of the \naudit subject to a \nmaximum of 1 lakhs \nper water audit \n75% of the cost of the \naudit subject to a \nmaximum of 1 lakhs \nper water audit \n9. \nStamp Duty  \n \n100% stamp duty \nreimbursement on land \npurchase to new \nmanufacturing \nenterprises \n \n \n100% stamp duty \nreimbursement on land \npurchase to new \nmanufacturing \nenterprises \n \n100% stamp duty \nreimbursement on land \npurchase to new \nmanufacturing \nenterprises \n10. \nQuality \nCertification  \n100% reimbursement \nof certification and \nconsulting charges \nsubject to maximum of \n2 lakhs for National \nCertification and 10 \nLakhs for International \nCertification \n100% reimbursement \nof certification and \nconsulting charges \nsubject to maximum of \n2 lakhs for National \nCertification and 10 \nLakhs for International \nCertification \n100% reimbursement \nof certification and \nconsulting charges \nsubject to maximum of \n2 lakhs for National \nCertification and 10 \nLakhs for International \nCertification \n11. \nSubsidy for \nAsset \ncreation for \nIntellectual \nProperty  \n75% subsidy on the \ncost of filing of the \napplication for patent \nregistration including \nthe cost of first time \nmaintenance fee of the \ngranted application \nsubject to a maximum \nof Rs. 3 Lakhs per \npatent registration \n75% subsidy on the \ncost of filing of the \napplication for patent \nregistration including \nthe cost of first time \nmaintenance fee of the \ngranted application \nsubject to a maximum \nof Rs. 3 Lakhs per \npatent registration \n75% subsidy on the \ncost of filing of the \napplication for patent \nregistration including \nthe cost of first time \nmaintenance fee of the \ngranted application \nsubject to a maximum \nof Rs. 3 Lakhs per \npatent registration \n12. \nTrade Mark \nRegistration \nfor GI \nregistration \n50% subsidy on the \ncost of filing of the \napplication for Trade \nMark registration \nincluding the cost of \nfirst time maintenance \nfee of the granted \napplication subject to a \nmaximum of Rs.  25, \n000 per Trade Mark if \n50% subsidy on the \ncost of filing of the \napplication for Trade \nMark registration \nincluding the cost of \nfirst time maintenance \nfee of the granted \napplication subject to a \nmaximum of Rs.  25, \n000 per Trade Mark if \n50% subsidy on the \ncost of filing of the \napplication for Trade \nMark registration \nincluding the cost of \nfirst time maintenance \nfee of the granted \napplication subject to a \nmaximum of Rs.  25, \n000 per Trade Mark if \n",
+      "repair_applied": null,
+      "tables": [
+        {
+          "page": 19,
+          "bbox": [
+            58.413331773546005,
+            42.719998359680176,
+            558.2666558159722,
+            709.2400105794271
+          ],
+          "rows": [
+            [
+              "S.No",
+              "Type of\nSubsidy/Ince\nntives",
+              "Micro Enterprises",
+              "Small Enterprises",
+              "Medium Enterprises"
+            ],
+            [
+              "",
+              "",
+              "subject to a maximum\nlimit of 5.0 Lakhs",
+              "subject to a maximum\nlimit of 5.0 Lakhs",
+              "subject to a maximum\nlimit of 5.0 Lakhs"
+            ],
+            [
+              "7.",
+              "Energy Audit\nIncentive",
+              "75% of the cost of the\naudit subject to a\nmaximum of 1 lakhs\nper energy audit",
+              "75% of the cost of the\naudit subject to a\nmaximum of 1 lakhs\nper energy audit",
+              "75% of the cost of the\naudit subject to a\nmaximum of 1 lakhs\nper energy audit"
+            ],
+            [
+              "8.",
+              "Water Audit\nIncentive",
+              "75% of the cost of the\naudit subject to a\nmaximum of 1 lakhs\nper water audit",
+              "75% of the cost of the\naudit subject to a\nmaximum of 1 lakhs\nper water audit",
+              "75% of the cost of the\naudit subject to a\nmaximum of 1 lakhs\nper water audit"
+            ],
+            [
+              "9.",
+              "Stamp Duty",
+              "100% stamp duty\nreimbursement on land\npurchase to new\nmanufacturing\nenterprises",
+              "100% stamp duty\nreimbursement on land\npurchase to new\nmanufacturing\nenterprises",
+              "100% stamp duty\nreimbursement on land\npurchase to new\nmanufacturing\nenterprises"
+            ],
+            [
+              "10.",
+              "Quality\nCertification",
+              "100% reimbursement\nof certification and\nconsulting charges\nsubject to maximum of\n2 lakhs for National\nCertification and 10\nLakhs for International\nCertification",
+              "100% reimbursement\nof certification and\nconsulting charges\nsubject to maximum of\n2 lakhs for National\nCertification and 10\nLakhs for International\nCertification",
+              "100% reimbursement\nof certification and\nconsulting charges\nsubject to maximum of\n2 lakhs for National\nCertification and 10\nLakhs for International\nCertification"
+            ],
+            [
+              "11.",
+              "Subsidy for\nAsset\ncreation for\nIntellectual\nProperty",
+              "75% subsidy on the\ncost of filing of the\napplication for patent\nregistration including\nthe cost of first time\nmaintenance fee of the\ngranted application\nsubject to a maximum\nof Rs. 3 Lakhs per\npatent registration",
+              "75% subsidy on the\ncost of filing of the\napplication for patent\nregistration including\nthe cost of first time\nmaintenance fee of the\ngranted application\nsubject to a maximum\nof Rs. 3 Lakhs per\npatent registration",
+              "75% subsidy on the\ncost of filing of the\napplication for patent\nregistration including\nthe cost of first time\nmaintenance fee of the\ngranted application\nsubject to a maximum\nof Rs. 3 Lakhs per\npatent registration"
+            ],
+            [
+              "12.",
+              "Trade Mark\nRegistration\nfor GI\nregistration",
+              "50% subsidy on the\ncost of filing of the\napplication for Trade\nMark registration\nincluding the cost of\nfirst time maintenance\nfee of the granted\napplication subject to a\nmaximum of Rs. 25,\n000 per Trade Mark if",
+              "50% subsidy on the\ncost of filing of the\napplication for Trade\nMark registration\nincluding the cost of\nfirst time maintenance\nfee of the granted\napplication subject to a\nmaximum of Rs. 25,\n000 per Trade Mark if",
+              "50% subsidy on the\ncost of filing of the\napplication for Trade\nMark registration\nincluding the cost of\nfirst time maintenance\nfee of the granted\napplication subject to a\nmaximum of Rs. 25,\n000 per Trade Mark if"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 20,
+      "char_count": 2739,
+      "text": "Page 20 of 27 \nDraft of MSME Policy, Government of Bihar \nS.No \nType of \nSubsidy/Ince\nntives \nMicro Enterprises \nSmall Enterprises \nMedium Enterprises \nGI registration \nGI registration \nGI registration \n13. \nIncentive for \nSME \nexchange  \n- \nOne time assistance of \n20% of the expenditure \nincurred for listing \nsubject to a maximum \nof 5 Lakhs for \nsuccessful listing on \nSME exchange \nOne time assistance of \n20% of the expenditure \nincurred for listing \nsubject to a maximum \nof 5 Lakhs for \nsuccessful listing on \nSME exchange \n14. \nNet SGST \nReimburseme\nnt \n50% for 6 years with \nannual cap of 5% of \nAnnual turnover \n50% for 6 years with \nannual cap of 5% of \nAnnual turnover \n50% for 6 years with \nannual cap of 5% of \nAnnual turnover \n15. \nE-Commerce \nAdoption \n75% reimbursement of \ne-commerce platform \nsubscription charges, \nsubject to a maximum \nassistance of ₹1.00 lakh \nper unit for one time \n75% reimbursement of \ne-commerce platform \nsubscription charges, \nsubject to a maximum \nassistance of ₹1.00 lakh \nper unit \n75% reimbursement of \ne-commerce platform \nsubscription charges, \nsubject to a maximum \nassistance of ₹1.00 lakh \nper unit per unit one \ntime \n16. \nExport \nLinked \nPerformance \nSubsidy \nExport performance \nincentive at 1% of \nincremental export \ngrowth, subject to a \nmaximum assistance of \n₹20.00 lakh per unit per \nfinancial year. \nExport performance \nincentive at 1% of \nincremental export \ngrowth, subject to a \nmaximum assistance of \n₹20.00 lakh per unit per \nfinancial year. \nExport performance \nincentive at 1% of \nincremental export \ngrowth, subject to a \nmaximum assistance of \n₹20.00 lakh per unit per \nfinancial year. \n17. \nRevival \npackage for \nunits \nRevival package for \nunitsclosed for more \nthan one yearwith \ninvestment up to INR 1 \nCrore \nRevival package for \nunits closed  than 1 \nyears with investment \nup to INR 5 Crore \nRevival package for \nunits closed  than 1 \nyears with investment \nup to INR 12 Crore \n \n8. Residual Incentives and Support Provisions \nSl. \nNo. \nIncentive / Support \nProvision \nFinancial Assistance / Subsidy \n8.1 \nR&D and Testing Centre \nCapital Incentives \nState Government shall provide capital subsidy equivalent to \n5% of eligible Plant & Machinery investment, subject to a \nmaximum of ₹25 lakh. \n8.2 \nSpecial Package for \nEmerging Industries \n25% Capital Subsidy on eligible Plant & Machinery \ninvestment, subject to a maximum of ₹10 Crore. \n8.3 \nPrivate MSME Park \nDevelopment Subsidies \nThe State will provide ₹2 Crore assistance for Nano Clusters \nand ₹5 Crore assistance for Mega Clusters. \n8.4 \nHeritage Cluster \nInfrastructure Grants \n90% Grant-in-Aid of project cost up to ₹3 Crore for Mega \nClusters and 90% Grant-in-Aid of project cost up to ₹1 Crore \n",
+      "repair_applied": null,
+      "tables": [
+        {
+          "page": 20,
+          "bbox": [
+            58.4057126726423,
+            42.719998359680176,
+            558.2742745535714,
+            501.76001739501953
+          ],
+          "rows": [
+            [
+              "S.No",
+              "Type of\nSubsidy/Ince\nntives",
+              "Micro Enterprises",
+              "Small Enterprises",
+              "Medium Enterprises"
+            ],
+            [
+              "",
+              "",
+              "GI registration",
+              "GI registration",
+              "GI registration"
+            ],
+            [
+              "13.",
+              "Incentive for\nSME\nexchange",
+              "-",
+              "One time assistance of\n20% of the expenditure\nincurred for listing\nsubject to a maximum\nof 5 Lakhs for\nsuccessful listing on\nSME exchange",
+              "One time assistance of\n20% of the expenditure\nincurred for listing\nsubject to a maximum\nof 5 Lakhs for\nsuccessful listing on\nSME exchange"
+            ],
+            [
+              "14.",
+              "Net SGST\nReimburseme\nnt",
+              "50% for 6 years with\nannual cap of 5% of\nAnnual turnover",
+              "50% for 6 years with\nannual cap of 5% of\nAnnual turnover",
+              "50% for 6 years with\nannual cap of 5% of\nAnnual turnover"
+            ],
+            [
+              "15.",
+              "E-Commerce\nAdoption",
+              "75% reimbursement of\ne-commerce platform\nsubscription charges,\nsubject to a maximum\nassistance of ₹1.00 lakh\nper unit for one time",
+              "75% reimbursement of\ne-commerce platform\nsubscription charges,\nsubject to a maximum\nassistance of ₹1.00 lakh\nper unit",
+              "75% reimbursement of\ne-commerce platform\nsubscription charges,\nsubject to a maximum\nassistance of ₹1.00 lakh\nper unit per unit one\ntime"
+            ],
+            [
+              "16.",
+              "Export\nLinked\nPerformance\nSubsidy",
+              "Export performance\nincentive at 1% of\nincremental export\ngrowth, subject to a\nmaximum assistance of\n₹20.00 lakh per unit per\nfinancial year.",
+              "Export performance\nincentive at 1% of\nincremental export\ngrowth, subject to a\nmaximum assistance of\n₹20.00 lakh per unit per\nfinancial year.",
+              "Export performance\nincentive at 1% of\nincremental export\ngrowth, subject to a\nmaximum assistance of\n₹20.00 lakh per unit per\nfinancial year."
+            ],
+            [
+              "17.",
+              "Revival\npackage for\nunits",
+              "Revival package for\nunitsclosed for more\nthan one yearwith\ninvestment up to INR 1\nCrore",
+              "Revival package for\nunits closed than 1\nyears with investment\nup to INR 5 Crore",
+              "Revival package for\nunits closed than 1\nyears with investment\nup to INR 12 Crore"
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "bbox": [
+            58.4057126726423,
+            556.3199615478516,
+            558.2742745535714,
+            710.8200073242188
+          ],
+          "rows": [
+            [
+              "Sl.\nNo.",
+              "Incentive / Support\nProvision",
+              "Financial Assistance / Subsidy"
+            ],
+            [
+              "8.1",
+              "R&D and Testing Centre\nCapital Incentives",
+              "State Government shall provide capital subsidy equivalent to\n5% of eligible Plant & Machinery investment, subject to a\nmaximum of ₹25 lakh."
+            ],
+            [
+              "8.2",
+              "Special Package for\nEmerging Industries",
+              "25% Capital Subsidy on eligible Plant & Machinery\ninvestment, subject to a maximum of ₹10 Crore."
+            ],
+            [
+              "8.3",
+              "Private MSME Park\nDevelopment Subsidies",
+              "The State will provide ₹2 Crore assistance for Nano Clusters\nand ₹5 Crore assistance for Mega Clusters."
+            ],
+            [
+              "8.4",
+              "Heritage Cluster\nInfrastructure Grants",
+              "90% Grant-in-Aid of project cost up to ₹3 Crore for Mega\nClusters and 90% Grant-in-Aid of project cost up to ₹1 Crore"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 21,
+      "char_count": 2098,
+      "text": "Page 21 of 27 \nDraft of MSME Policy, Government of Bihar \nSl. \nNo. \nIncentive / Support \nProvision \nFinancial Assistance / Subsidy \nfor Mini Clusters. \n8.5 \nExport and Supply Chain \nIntervention Subsidies \nSupport to be provided as per approved project proposals and \nscheme guidelines. \n8.6 \nMSME Retail Outlet \nDevelopment Subsidies \nRental assistance, setup grants, and space allotment support as \nper approved norms and scheme guidelines. \n \n9. Guiding Principle for availing the incentive benefits \n9.1 General Conditions for Capital Investment Incentives \na. The incentive shall be admissible only on investment made in plant and machinery, \nequipment, and related building infrastructure. The cost of land shall not be eligible for any \nincentive under this category. \nb. The eligible incentive shall be disbursed in two equal instalments. The first instalment shall \nbe released upon achievement of the prescribed project implementation milestones, while the \nsecond instalment shall be released after the unit achieves at least 50% of its commercial \nproduction capacity. \nc. The cost of land shall not be considered while calculating benefits under Capital Subsidy, \nCapital Interest Subsidy, or any other investment-linked incentive. \nd. The aggregate financial assistance availed by any enterprise under this policy shall not exceed \n50% of the eligible project cost or ₹10 Crore, whichever is lower. \ne. An MSME that has availed assistance under the Capital Subsidy scheme shall not be eligible \nfor assistance under the Special Capital Subsidy scheme for the same investment. \n9.2 Interest Subsidy \na. Interest Subsidy shall be provided on an annual basis. \nb. Eligible units shall be entitled to claim the subsidy only after payment of the full interest due \nto the lending institution. \n9.3 Additional Incentive for Scaling Up \na. Incentives sanctioned under the Scaling Up category shall be over and above the eligible \nCapital Subsidy or Special Capital Subsidy available for expansion, diversification, or \nmodernization resulting in graduation to a higher enterprise category. \n",
+      "repair_applied": null,
+      "tables": [
+        {
+          "page": 21,
+          "bbox": [
+            58.391998291015625,
+            42.719998359680176,
+            558.28798828125,
+            141.42000198364258
+          ],
+          "rows": [
+            [
+              "Sl.\nNo.",
+              "Incentive / Support\nProvision",
+              "Financial Assistance / Subsidy"
+            ],
+            [
+              "",
+              "",
+              "for Mini Clusters."
+            ],
+            [
+              "8.5",
+              "Export and Supply Chain\nIntervention Subsidies",
+              "Support to be provided as per approved project proposals and\nscheme guidelines."
+            ],
+            [
+              "8.6",
+              "MSME Retail Outlet\nDevelopment Subsidies",
+              "Rental assistance, setup grants, and space allotment support as\nper approved norms and scheme guidelines."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 22,
+      "char_count": 1778,
+      "text": "Page 22 of 27 \nDraft of MSME Policy, Government of Bihar \nb. Enterprises that have already availed Scaling Up incentives and subsequently move to a lower \ncategory due to annual updation of Udyam Registration arising from reduction in turnover or \nwritten down value of plant and machinery shall not be eligible to claim Scaling Up \nincentives again upon re-graduation to a higher category. \nc. A Micro or Small Enterprise shall be eligible to avail the Scaling Up incentive only once for a \nparticular enterprise category. \n9.4 Payroll Subsidy \na. Eligible MSMEs shall submit claims for Payroll Subsidy within three months from the close \nof the relevant financial year. \nb. Only regular employees shall be considered for determining eligibility under Payroll Subsidy. \nc. As proof of employment, the enterprise shall furnish copies of valid returns filed under the \nEmployees’ Provident Funds and Miscellaneous Provisions Act, 1952. \nd. In case the employee strength falls below the prescribed threshold during any month, the \nsubsidy shall be restricted proportionately to the months in which the eligibility conditions are \nfulfilled. \n9.5  Low Tension Power Tariff Subsidy \na. Claims under the Low Tension Power Tariff Subsidy shall be submitted online once every six \nmonths. \nb.  Enterprises sharing a common electricity connection or occupying a part of another \nenterprise’s premises and jointly consuming electricity shall not be eligible for this subsidy. \n9.6 Roof Top Solar Subsidy \na. Roof Top Solar Subsidy shall be available only for new equipment purchased from the \noriginal manufacturer or an authorized dealer. \n9.7 Energy Audit Subsidy \nb. MSMEs undertaking a subsequent Energy Audit after a minimum interval of three years shall \nbe eligible for subsidy. \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 23,
+      "char_count": 2082,
+      "text": "Page 23 of 27 \nDraft of MSME Policy, Government of Bihar \nc. Eligible units shall submit their claim after completion of one year from the date of the \nEnergy Audit. \n9.8 Quality Certification Reimbursement \na. Expenditure incurred for obtaining quality certifications relating to products, processes, or \nsocial standards shall be eligible for reimbursement, provided such certifications are \nrecognized by the Quality Council of India or internationally recognized accreditation bodies. \nb. Expenditure incurred towards renewal of quality certifications shall not be eligible for \nreimbursement. \n9.9 Stamp Duty Reimbursement \nc. Eligible enterprises shall submit applications for Stamp Duty Reimbursement within six \nmonths from the date of commencement of commercial production. \n9.10 Incentive for Listing on SME Exchange \na. Eligible MSMEs shall submit applications for reimbursement within six months from the date \nof listing on a recognized SME Exchange. \nb. Eligible expenditure for reimbursement shall include Merchant Banker Fees, Due Diligence \nFees, Registrar and Transfer Agent Fees, Peer Review Auditor Fees, Exchange Fees, and \nListing Charges. \n10. Administration of the Policy \nThe Directorate of MSME, Government of Bihar, shall be the nodal agency responsible for the \nimplementation, administration, coordination, monitoring, and overall supervision of this Policy. The \nDirectorate shall facilitate effective execution of the policy provisions and ensure timely delivery of \nincentives, support services, and other benefits envisaged under the Policy. The Directorate shall \nwork in close coordination with various State Government Departments, State Public Sector \nUndertakings, Financial Institutions, Industry Associations, District Administration, and relevant \nagencies of the Government of India to promote the growth and development of the MSME sector in \nthe State. The Directorate shall be responsible for formulating operational guidelines, establishing \nimplementation mechanisms, reviewing the progress of the Policy, maintaining a comprehensive \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 24,
+      "char_count": 1749,
+      "text": "Page 24 of 27 \nDraft of MSME Policy, Government of Bihar \ndatabase of MSMEs, monitoring outcomes, and addressing implementation-related issues. It may \nalso engage technical institutions, professional agencies, and other stakeholders for capacity building, \nawareness generation, market development, technology adoption, cluster development, and \nfacilitation of investment in the MSME sector. Further, the Directorate shall periodically assess the \nimpact of the Policy and recommend necessary modifications, wherever required, to ensure that the \nobjectives \nof \nindustrial \ngrowth, \nentrepreneurship \npromotion, \nemployment \ngeneration, \ncompetitiveness enhancement, and sustainable development of MSMEs in Bihar are effectively \nachieved. \n11. Bihar MSME Development Corporation \nBihar MSME Development Corporation would be the agency for implementing the scheme under \nthis policy in the states.  \n12. State Level empowered committee \nA state level empowered committee under chairmanship of Secretary , Department of Industries of \nGovernment of Bihar will be constituted to monitor the progress of the implementation of the all the \nprovisions of the policy regularly. The committee will recommend mid-course corrections, if any, for \nsmooth implementation of the policy. The committee will be assisted by the different Divisions/Cells \nheaded by Director, Directorate of MSMEs.  \n13. State Level Review and Monitoring Committee \nA state level Review and Monitoring committee would be set up under the chairmanship of \nSecretary, Department of Industries and line Department Officers to address any ambiguity that \narises in the policy and to strengthen the State’s MSME ecosystem through a collaborative and an \ninclusive approach.  \n \n \n \n \n",
+      "repair_applied": null,
+      "tables": []
+    },
+    {
+      "page_number": 25,
+      "char_count": 1568,
+      "text": "Page 25 of 27 \nDraft of MSME Policy, Government of Bihar \n14. Annexure \nAnnexure I: District Categorization as per Bihar Industrial Investment Promotion Package \n(BIIPP).2025 \nS. No \nRegion \nDistricts \n1 \nRegion A \nAurangabad, Arwal, Banka, Bhagalpur, Bhojpur, Darbhanga, East Champaran, \nGopalganj, Jamui, Jehanabad, Kaimur, Katihar, Khagaria, Kishanganj, Lakhisarai, \nMadhepura, Madhubani, Munger, Nawada, Nalanda, Purnea, Rohtas, Saharsa, \nSamastipur, Saran, Supaul, Sitamarhi, Sheikhpura, Sheohar, Siwan, West Champaran \n2 \nRegion B \nBegusarai, Buxar, Gaya, Muzaffarpur, Patna, Vaishali \n \nAnnexure II: High Priority Sector  \nS. No. \nHigh Priority Sector \n1 \nFood Processing \n2 \nTextiles and Leather \n3 \nCreation for Media and Entertainment Houses \n4 \nLogistics \n5 \nInformation Technology Enabled Services (ITeS), Electronics System Design and \nManufacturing (ESDM), and Global Capability Centres (GCC) \n6 \nElectric Vehicle (EV) \n7 \nPharmaceuticals and Medical Devices \n8 \nToys Manufacturing \n9 \nRenewable and Green Energy (including CBG, Fuel-based Ethanol, and Methanol) \n \nAnnexure III: High Priority Sector  \nS. No. \nPriority Sector \n1 \nAutomobiles \n2 \nSmall Machine Manufacturing \n3 \nMechanical Appliances \n4 \nFMCG Products (Soap, Detergents, Washing Preparations, Organics, etc.) \n5 \nPlastic and Rubber \n6 \nHealthcare \n7 \nWood-Based Industries \n8 \nGeneral Manufacturing \n9 \nPaints and Chemical Products \n10 \nHealth and Wellness Centres \n11 \nWaste Recycling \n12 \nFertilizers \n13 \nClocks and Watches \n14 \nBeverages, Spirits and Vinegars \n15 \nCeramic Products \n",
+      "repair_applied": null,
+      "tables": [
+        {
+          "page": 25,
+          "bbox": [
+            58.41749846935272,
+            108.95999526977539,
+            573.5400161743164,
+            219.30000686645508
+          ],
+          "rows": [
+            [
+              "S. No",
+              "Region",
+              "Districts"
+            ],
+            [
+              "1",
+              "Region A",
+              "Aurangabad, Arwal, Banka, Bhagalpur, Bhojpur, Darbhanga, East Champaran,\nGopalganj, Jamui, Jehanabad, Kaimur, Katihar, Khagaria, Kishanganj, Lakhisarai,\nMadhepura, Madhubani, Munger, Nawada, Nalanda, Purnea, Rohtas, Saharsa,\nSamastipur, Saran, Supaul, Sitamarhi, Sheikhpura, Sheohar, Siwan, West Champaran"
+            ],
+            [
+              "2",
+              "Region B",
+              "Begusarai, Buxar, Gaya, Muzaffarpur, Patna, Vaishali"
+            ]
+          ]
+        },
+        {
+          "page": 25,
+          "bbox": [
+            58.41749846935272,
+            273.00000762939453,
+            581.2971431187221,
+            430.0399983723958
+          ],
+          "rows": [
+            [
+              "S. No.",
+              "High Priority Sector"
+            ],
+            [
+              "1",
+              "Food Processing"
+            ],
+            [
+              "2",
+              "Textiles and Leather"
+            ],
+            [
+              "3",
+              "Creation for Media and Entertainment Houses"
+            ],
+            [
+              "4",
+              "Logistics"
+            ],
+            [
+              "5",
+              "Information Technology Enabled Services (ITeS), Electronics System Design and\nManufacturing (ESDM), and Global Capability Centres (GCC)"
+            ],
+            [
+              "6",
+              "Electric Vehicle (EV)"
+            ],
+            [
+              "7",
+              "Pharmaceuticals and Medical Devices"
+            ],
+            [
+              "8",
+              "Toys Manufacturing"
+            ],
+            [
+              "9",
+              "Renewable and Green Energy (including CBG, Fuel-based Ethanol, and Methanol)"
+            ]
+          ]
+        },
+        {
+          "page": 25,
+          "bbox": [
+            58.41749846935272,
+            483.71998596191406,
+            581.2971431187221,
+            712.6400349934896
+          ],
+          "rows": [
+            [
+              "S. No.",
+              "Priority Sector"
+            ],
+            [
+              "1",
+              "Automobiles"
+            ],
+            [
+              "2",
+              "Small Machine Manufacturing"
+            ],
+            [
+              "3",
+              "Mechanical Appliances"
+            ],
+            [
+              "4",
+              "FMCG Products (Soap, Detergents, Washing Preparations, Organics, etc.)"
+            ],
+            [
+              "5",
+              "Plastic and Rubber"
+            ],
+            [
+              "6",
+              "Healthcare"
+            ],
+            [
+              "7",
+              "Wood-Based Industries"
+            ],
+            [
+              "8",
+              "General Manufacturing"
+            ],
+            [
+              "9",
+              "Paints and Chemical Products"
+            ],
+            [
+              "10",
+              "Health and Wellness Centres"
+            ],
+            [
+              "11",
+              "Waste Recycling"
+            ],
+            [
+              "12",
+              "Fertilizers"
+            ],
+            [
+              "13",
+              "Clocks and Watches"
+            ],
+            [
+              "14",
+              "Beverages, Spirits and Vinegars"
+            ],
+            [
+              "15",
+              "Ceramic Products"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 26,
+      "char_count": 1653,
+      "text": "Page 26 of 27 \nDraft of MSME Policy, Government of Bihar \n16 \nArms and Ammunition \n17 \nGlass and Glassware \n18 \nBullion, Gems and Jewellery Manufacturing \n19 \nSports Goods Manufacturing \n20 \nFurniture Manufacturing (Plastic, Glass, Leather, Modular, MDF, Aluminium, Metal, or a \ncombination of these materials) \n \nAnnexure IV: Eligible Units for Special Package for Emerging Industries \nS. No. \nEmerging Industry Sector \n1 \nElectronics System Design & Manufacturing (ESDM) \n2 \nElectric Vehicles (EV) and EV Components \n3 \nBattery and Energy Storage Systems \n4 \nRenewable & Green Energy \n5 \nGreen Hydrogen \n6 \nAerospace & Defence Manufacturing \n7 \nMedical Devices & Pharmaceuticals \n8 \nSemiconductor & Electronics Components \n9 \nArtificial Intelligence (AI), Internet of Things (IoT), Robotics & Automation \n10 \nDrones and Unmanned Systems \n11 \nBiotechnology \n12 \nAdvanced Textiles (Technical Textiles) \n13 \nPrecision Engineering \n14 \nData Centres & Cloud Infrastructure \n15 \nCircular Economy & Waste Recycling Technologies \n \nAnnexure V: Units not eligible for any kind of incentives  \nThe following units which are outlined in the negative list will not be eligible for any support \nunder this package: \ni. \nUnits manufacturing narcotic drugs  \nii. \nii. Units manufacturing alcoholic beverages \niii. \n iii. Units manufacturing asbestos iv. Any industry which impacts the environment \nnegatively \nAnnexure IV: Heritage & Traditional Clusters eligible for special incentive under the Policy \nS. No. \nHeritage & Traditional Cluster \n1 \nBhagalpuri Silk (Tussar & Mulberry) \n2 \nMadhubani Painting \n3 \nSikki Grass Craft \n4 \nSujani Embroidery \n5 \nTikuli Art \n",
+      "repair_applied": null,
+      "tables": [
+        {
+          "page": 26,
+          "bbox": [
+            58.415998458862305,
+            42.719998359680176,
+            581.3200022379557,
+            128.23999532063803
+          ],
+          "rows": [
+            [
+              "16",
+              "Arms and Ammunition"
+            ],
+            [
+              "17",
+              "Glass and Glassware"
+            ],
+            [
+              "18",
+              "Bullion, Gems and Jewellery Manufacturing"
+            ],
+            [
+              "19",
+              "Sports Goods Manufacturing"
+            ],
+            [
+              "20",
+              "Furniture Manufacturing (Plastic, Glass, Leather, Modular, MDF, Aluminium, Metal, or a\ncombination of these materials)"
+            ]
+          ]
+        },
+        {
+          "page": 26,
+          "bbox": [
+            58.415998458862305,
+            181.80000686645508,
+            578.0541238223805,
+            410.8399963378906
+          ],
+          "rows": [
+            [
+              "S. No.",
+              "Emerging Industry Sector"
+            ],
+            [
+              "1",
+              "Electronics System Design & Manufacturing (ESDM)"
+            ],
+            [
+              "2",
+              "Electric Vehicles (EV) and EV Components"
+            ],
+            [
+              "3",
+              "Battery and Energy Storage Systems"
+            ],
+            [
+              "4",
+              "Renewable & Green Energy"
+            ],
+            [
+              "5",
+              "Green Hydrogen"
+            ],
+            [
+              "6",
+              "Aerospace & Defence Manufacturing"
+            ],
+            [
+              "7",
+              "Medical Devices & Pharmaceuticals"
+            ],
+            [
+              "8",
+              "Semiconductor & Electronics Components"
+            ],
+            [
+              "9",
+              "Artificial Intelligence (AI), Internet of Things (IoT), Robotics & Automation"
+            ],
+            [
+              "10",
+              "Drones and Unmanned Systems"
+            ],
+            [
+              "11",
+              "Biotechnology"
+            ],
+            [
+              "12",
+              "Advanced Textiles (Technical Textiles)"
+            ],
+            [
+              "13",
+              "Precision Engineering"
+            ],
+            [
+              "14",
+              "Data Centres & Cloud Infrastructure"
+            ],
+            [
+              "15",
+              "Circular Economy & Waste Recycling Technologies"
+            ]
+          ]
+        },
+        {
+          "page": 26,
+          "bbox": [
+            58.415998458862305,
+            627.47998046875,
+            558.2742745535714,
+            713.4800211588541
+          ],
+          "rows": [
+            [
+              "S. No.",
+              "Heritage & Traditional Cluster"
+            ],
+            [
+              "1",
+              "Bhagalpuri Silk (Tussar & Mulberry)"
+            ],
+            [
+              "2",
+              "Madhubani Painting"
+            ],
+            [
+              "3",
+              "Sikki Grass Craft"
+            ],
+            [
+              "4",
+              "Sujani Embroidery"
+            ],
+            [
+              "5",
+              "Tikuli Art"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 27,
+      "char_count": 540,
+      "text": "Page 27 of 27 \nDraft of MSME Policy, Government of Bihar \n6 \nManjusha Art \n7 \nStone Carving & Stone Craft \n8 \nTerracotta & Pottery \n9 \nBamboo & Cane Craft \n10 \nBanana Fibre Products \n11 \nWater Hyacinth Products \n12 \nMakhana Processing & Value Addition \n15 \nHandloom & Cotton Weaving \n16 \nJute & Natural Fibre Products \n17 \nWood Craft & Wooden Furniture \n18 \nMetal Craft (Brass, Iron & Bell Metal) \n19 \nLac & Lac Products \n21 \nMithila Textile & Apparel \n25 \nOther Heritage & Traditional Clusters as notified by the State Government \n \n \n \n \n",
+      "repair_applied": null,
+      "tables": [
+        {
+          "page": 27,
+          "bbox": [
+            58.423998514811196,
+            42.719998359680176,
+            558.2559895833333,
+            243.0800018310547
+          ],
+          "rows": [
+            [
+              "6",
+              "Manjusha Art"
+            ],
+            [
+              "7",
+              "Stone Carving & Stone Craft"
+            ],
+            [
+              "8",
+              "Terracotta & Pottery"
+            ],
+            [
+              "9",
+              "Bamboo & Cane Craft"
+            ],
+            [
+              "10",
+              "Banana Fibre Products"
+            ],
+            [
+              "11",
+              "Water Hyacinth Products"
+            ],
+            [
+              "12",
+              "Makhana Processing & Value Addition"
+            ],
+            [
+              "15",
+              "Handloom & Cotton Weaving"
+            ],
+            [
+              "16",
+              "Jute & Natural Fibre Products"
+            ],
+            [
+              "17",
+              "Wood Craft & Wooden Furniture"
+            ],
+            [
+              "18",
+              "Metal Craft (Brass, Iron & Bell Metal)"
+            ],
+            [
+              "19",
+              "Lac & Lac Products"
+            ],
+            [
+              "21",
+              "Mithila Textile & Apparel"
+            ],
+            [
+              "25",
+              "Other Heritage & Traditional Clusters as notified by the State Government"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

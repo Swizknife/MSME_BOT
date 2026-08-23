@@ -1,0 +1,15 @@
+fastapi==0.123.5
+uvicorn[standard]==0.38.0
+pydantic==2.11.7
+pymupdf==1.28.2
+torch==2.8.0
+FlagEmbedding==1.4.0
+# Pinned deliberately -- transformers>=6 breaks FlagEmbedding's tokenizer
+# path, and transformers<5 works but drags in an unrelated TF/Keras3 crash
+# on this machine. See docs/RAG_LEARNING_GUIDE.md Part 6, challenge #2.
+transformers==5.15.1
+qdrant-client==1.19.0
+openai==1.95.1
+indic_transliteration==2.3.62
+PyYAML==6.0.2
+pytest==9.0.3
