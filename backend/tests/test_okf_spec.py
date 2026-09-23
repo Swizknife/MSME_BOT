@@ -180,36 +180,42 @@ def _notes():
     return vault.iter_notes()
 
 
-def test_every_vault_note_round_trips_exactly():
-    """domain -> OKF -> domain must be the identity, for every authored note.
 
-    This is the migration's central safety property. `chunk_from_okf` reads
-    the domain payload, never the frontmatter, so identity here means every
-    RAG chunk is unchanged by the migration by construction.
+def test_every_vault_note_round_trips_exactly():
+    """OKF -> domain -> OKF must be the identity, for every authored note.
+
+    `chunk_from_okf` reads the domain payload, never the frontmatter, so
+    identity here means the on-disk shape can keep evolving without any
+    emitted RAG chunk changing -- which is why the 85-chunk parity check
+    against the pre-OKF index still passes after the migration.
     """
     failures = []
     for note in _notes():
-        entity_type = note.entity_type
-        payload = {k: v for k, v in note.frontmatter.items() if k != "entity_type"}
-        okf = F.to_okf_frontmatter(entity_type, payload, generated_by="process:test")
-        back_type, back = F.to_domain_payload(okf)
-        if back_type != entity_type:
-            failures.append(f"{note.path.name}: type {entity_type} -> {back_type}")
-            continue
-        if back != payload:
+        original = note.frontmatter
+        entity_type, payload = F.to_domain_payload(original)
+        generated = original.get("generated") or {}
+        rebuilt = F.to_okf_frontmatter(
+            entity_type,
+            payload,
+            generated_by=generated.get("by"),
+            generated_at=generated.get("at"),
+            tags=original.get("tags"),
+        )
+        if rebuilt != original:
             differing = sorted(
-                k for k in set(payload) | set(back) if payload.get(k) != back.get(k)
+                k for k in set(original) | set(rebuilt)
+                if original.get(k) != rebuilt.get(k)
             )
-            failures.append(f"{note.path.name}: fields differ after round-trip: {differing}")
-    assert not failures, "\n".join(failures[:20])
+            failures.append(f"{note.path.name}: differs after round-trip: {differing}")
+    assert not failures, "; ".join(failures[:20])
 
 
 def test_every_vault_note_is_conformant_okf():
+    """Conformance, per the spec: parseable frontmatter with a non-empty type."""
     for note in _notes():
-        payload = {k: v for k, v in note.frontmatter.items() if k != "entity_type"}
-        okf = F.to_okf_frontmatter(note.entity_type, payload)
-        doc = OKFDocument.model_validate(okf)
+        doc = OKFDocument.model_validate(note.frontmatter)
         assert doc.type, f"{note.path.name}: empty type"
+        assert doc.type in F.OKF_TYPE_TO_ENTITY, f"{note.path.name}: unknown type {doc.type}"
         for entry in doc.sources:
             assert entry.resource, f"{note.path.name}: sources[] entry without a resource"
 
@@ -220,18 +226,37 @@ def test_no_domain_field_silently_collides_with_a_spec_key():
     `description` on AmbiguityFlag was exactly this, and it was caught only
     because the round-trip test failed on 22 notes. Any new collision must be
     added to COLLISION_RENAMES or PROMOTED_TO_OKF deliberately.
+
+    Checked on the DOMAIN payload, not the frontmatter: after migration the
+    frontmatter is supposed to carry spec keys, so looking there would find
+    every note guilty.
     """
+    from app.okf.okf_spec import OKF_OWNED_KEYS
+
     handled = set()
     for mapping in (*F.COLLISION_RENAMES.values(), *F.PROMOTED_TO_OKF.values()):
         handled.update(mapping)
 
-    unhandled = {}
+    unhandled: dict[str, set[str]] = {}
     for note in _notes():
-        for key in note.frontmatter:
-            if key == "entity_type" or key in handled:
+        entity_type, payload = F.to_domain_payload(note.frontmatter)
+        for key in payload:
+            if key in handled or key not in OKF_OWNED_KEYS:
                 continue
-            from app.okf.okf_spec import OKF_OWNED_KEYS
-
-            if key in OKF_OWNED_KEYS:
-                unhandled.setdefault(key, set()).add(note.entity_type)
+            unhandled.setdefault(key, set()).add(entity_type)
     assert not unhandled, f"unhandled spec-key collisions: {unhandled}"
+
+
+def test_the_bundle_root_index_declares_the_okf_version():
+    """`okf_version` belongs in the bundle-root index.md, and only there."""
+    import yaml
+
+    root_index = vault.VAULT_DIR / "index.md"
+    assert root_index.exists(), "bundle root index.md missing"
+    front = root_index.read_text(encoding="utf-8").split("---", 2)[1]
+    assert yaml.safe_load(front)["okf_version"] == OKF_VERSION
+
+
+def test_no_legacy_entity_type_key_survives_in_the_bundle():
+    stragglers = [n.path.name for n in _notes() if "entity_type" in n.frontmatter]
+    assert not stragglers, f"notes still using entity_type: {stragglers}"

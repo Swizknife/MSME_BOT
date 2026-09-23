@@ -41,7 +41,10 @@ from typing import Any
 
 from pydantic import ValidationError
 
+from app.okf import links as links_mod
 from app.okf import vault
+from app.okf.frontmatter import to_domain_payload
+from app.okf.okf_spec import OKFDocument
 from app.okf.schemas import ENTITY_MODELS
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
@@ -255,18 +258,34 @@ def compile_vault(vault_dir: Path = vault.VAULT_DIR) -> CompileResult:
 
     known_ids: set[str] = set()
     validated: list[tuple[str, dict, vault.VaultNote]] = []
+    link_index = links_mod.build_index(notes=notes)
 
     for note in notes:
-        etype = note.entity_type
-        if etype not in ENTITY_MODELS:
+        # Two independent validations, deliberately kept separate so their
+        # failures cannot mask one another:
+        #
+        #   1. Is this a conformant Google OKF v0.2 document? (the spec)
+        #   2. Is it a coherent Incentive/Scheme/...?          (this project)
+        #
+        # A note can be perfectly valid OKF and still be nonsense as policy
+        # data, and the two deserve different error messages.
+        try:
+            OKFDocument.model_validate(note.frontmatter)
+        except ValidationError as exc:
             result.errors.append(
-                f"{note.path.name}: unknown entity_type {etype!r} "
-                f"(expected one of {sorted(ENTITY_MODELS)})"
+                f"{note.path.name}: not a conformant OKF v0.2 document -- {exc}"
             )
             continue
+
+        try:
+            etype, payload = to_domain_payload(note.frontmatter)
+        except ValueError as exc:
+            result.errors.append(f"{note.path.name}: {exc}")
+            continue
+
         model = ENTITY_MODELS[etype]
         try:
-            obj = model.model_validate(note.frontmatter)
+            obj = model.model_validate(payload)
         except ValidationError as exc:
             result.errors.append(f"{note.path.name}: schema validation failed -- {exc}")
             continue
@@ -286,9 +305,34 @@ def compile_vault(vault_dir: Path = vault.VAULT_DIR) -> CompileResult:
                     result.errors.append(
                         f"{own_id}: {fname} references unknown entity {ref!r}"
                     )
-        for link in note.wikilinks():
-            if link not in known_ids:
-                result.errors.append(f"{own_id}: wikilink [[{link}]] does not resolve")
+        # Prose markdown links are a different class from the typed reference
+        # fields above, and the OKF spec treats them differently on purpose:
+        # a broken one means "knowledge nobody has written yet", and
+        # consumers MUST tolerate it. So it is a warning plus an advisory
+        # finding, never a hard error -- tolerated, but never invisible.
+        #
+        # The typed fields stay hard failures because chunk_from_okf
+        # dereferences them into chunk TEXT, so an unresolved one renders a
+        # citation that goes nowhere. The spec constrains prose links, not
+        # the semantics of a producer's extension keys.
+        for text, target in link_index.parse_body_links(note.body):
+            if link_index.resolve(target, base=note.path) is None:
+                if target.startswith(("http://", "https://", "mailto:")):
+                    continue
+                result.warnings.append(
+                    f"{own_id}: link [{text}]({target}) has no document in the bundle"
+                )
+                result.findings.append({
+                    "id": f"AUTO-BROKEN-LINK-{own_id}-{target}",
+                    "scope": "single_source",
+                    "issue_type": "scope_gap",
+                    "severity": "advisory",
+                    "description": (
+                        f"{own_id} links to {target}, which has no document in "
+                        f"the bundle yet."
+                    ),
+                    "missing_members": [target],
+                })
 
     for etype, record, _ in validated:
         _check_figures(result, etype, record)
