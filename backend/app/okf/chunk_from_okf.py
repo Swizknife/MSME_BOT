@@ -560,5 +560,9 @@ def build_and_write(result) -> int:
         "chunk_count": len(chunks),
         "chunks": [asdict(c) for c in chunks],
     }
-    OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    OUT_JSON.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+        newline="\n",
+    )
     return len(chunks)

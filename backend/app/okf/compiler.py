@@ -354,11 +354,15 @@ def write_records(result: CompileResult, out_dir: Path = vault.COMPILED_DIR) -> 
             rid = str(rec[ID_FIELD[etype]])
             safe = rid.replace("/", "_")
             (target / f"{safe}.json").write_text(
-                json.dumps(rec, ensure_ascii=False, indent=2), encoding="utf-8"
+                json.dumps(rec, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+                newline="\n",
             )
             written += 1
     (out_dir / "findings.json").write_text(
-        json.dumps(result.findings, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(result.findings, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+        newline="\n",
     )
     return written
 
