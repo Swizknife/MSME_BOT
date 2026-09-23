@@ -271,6 +271,7 @@ def build_eligibility_rules() -> list[tuple[str, str, dict, str]]:
             "clause_ref": gc.section,
             "section_title": gc.section_title,
             "letter": gc.letter,
+            "ambiguity_flags": amb,
             "source": _provenance(gc.page, gc.page, f"section {gc.section}({gc.letter})"),
             "cross_references": [f"[[{a}]]" for a in amb],
         }

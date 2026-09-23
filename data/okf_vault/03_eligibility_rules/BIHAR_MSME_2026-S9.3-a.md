@@ -9,6 +9,7 @@ parameters: {}
 clause_ref: '9.3'
 section_title: Additional Incentive for Scaling Up
 letter: a
+ambiguity_flags: []
 source:
   source_id: BIHAR_MSME_POLICY_2026
   source_url: https://state.bihar.gov.in/industries/

@@ -9,6 +9,7 @@ parameters: {}
 clause_ref: '9.5'
 section_title: Low Tension Power Tariff Subsidy
 letter: b
+ambiguity_flags: []
 source:
   source_id: BIHAR_MSME_POLICY_2026
   source_url: https://state.bihar.gov.in/industries/
