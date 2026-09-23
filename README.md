@@ -1,19 +1,26 @@
 # Bihar MSME Chatbot — OKF + RAG
 
+> 👋 **New here, or not from a technical background?**
+> Read **[`ONBOARDING.md`](ONBOARDING.md)** first. It explains the entire
+> project from zero — what we're building, what RAG and OKF actually are, why
+> we use both, and what every file does. This README assumes you already know
+> all that and just want to run the thing.
+
 A citation-grounded chatbot answering questions across Bihar's MSME policy and scheme landscape, built on two cooperating layers:
 
-- **OKF (Open Knowledge Framework)** — a deterministic, human-curated store of structured facts (incentive rates, eligibility rules, district classifications, glossary terms), authored as a Markdown vault (`data/okf_vault/`) and compiled into machine-readable records. Answers to exact questions ("what's the CGTMSE guarantee fee for a small enterprise?") come straight from here — no LLM involved, no hallucination possible.
-- **RAG** — retrieval-augmented generation over the full text of ~24 Bihar/central MSME sources, for narrative and "why"/"what conditions" questions the structured layer can't answer on its own.
+- **OKF** — [Google's **Open Knowledge Format**](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) **v0.2**, an open specification for representing knowledge as Markdown files with YAML frontmatter. Our vault (`data/okf_vault/`) is a conformant OKF bundle: 249 concept documents holding every structured fact (incentive rates, eligibility rules, district classifications, known defects), each carrying its own provenance and trust tier, compiled into machine-readable records plus a 311-edge concept graph. Answers to exact questions come straight from here — no LLM involved, no hallucination possible.
+- **RAG** — retrieval-augmented generation over the full source text, for narrative and "why"/"what conditions" questions the structured layer can't answer on its own.
 
-A router decides per-query which layer (or both) answers a question. Retrieval, embedding, and reranking run entirely on a CPU-only local machine and never leave the machine; the LLM generation step is swappable between a local Ollama model and a hosted API.
+A router decides per-query which layer (or both) answers, and the concept graph is walked to assemble multi-hop answers no single chunk contains. Retrieval, embedding, and reranking run entirely on a CPU-only local machine and never leave it; the LLM generation step is swappable between a local Ollama model and a hosted API.
 
+- **Explained from scratch, for newcomers:** [`ONBOARDING.md`](ONBOARDING.md)
 - **Architecture and design rationale:** [`docs/OKF_RAG_IMPLEMENTATION.md`](docs/OKF_RAG_IMPLEMENTATION.md)
 - **Current project status, decisions made, and open questions:** [`HANDOFF.md`](HANDOFF.md)
 - **Original single-document RAG build (historical record, still accurate for the retrieval/generation internals this rebuild generalizes):** [`docs/RAG_IMPLEMENTATION.md`](docs/RAG_IMPLEMENTATION.md) and [`docs/RAG_LEARNING_GUIDE.md`](docs/RAG_LEARNING_GUIDE.md)
 
 This README is only about **running it locally**. Commands below are Git Bash (the shell this project was actually built and tested in on Windows); a PowerShell note is added wherever a command genuinely differs.
 
-> **Where this project stands right now:** the OKF+RAG query-time architecture is live and running (Phases 0, 1, 4 and 5 of the rebuild) — the app you run below actually routes queries through the OKF deterministic tier and the OKF/RAG hybrid path described in the intro, not just RAG. Only one source is migrated so far (the Bihar MSME Policy 2026), so "OKF+RAG" here means the architecture works end to end, not that many sources are indexed yet. The dataset acquisition pipeline (Phase 2, more sources) is not built. See `HANDOFF.md` for the live phase checklist and known limitations (the OKF router is English-keyword-only today; a Hindi query still gets a correct answer, just always via full RAG rather than the fast OKF tier).
+> **Where this project stands right now:** the vault is a conformant Google OKF v0.2 bundle (249 concepts, 311 graph edges), concept-graph traversal is live, and `/api/chat` serves three genuinely different architectures selectable from a toggle in the UI — `rag` (no structured fact reaches the answer), `okf` (zero vector searches), and `okf_rag` (both, with the graph seeded by retrieval). Four sources are indexed (Bihar MSME Policy 2026, CGTMSE, TReDS, MSME Samadhaan) across 91 chunks. **Not yet built:** the automated dataset acquisition pipeline — `backend/app/acquisition/` is a docstring only, and 20 of the 24 sources registered in `config/sources.yaml` have never been fetched. See `HANDOFF.md` for the live phase checklist and known limitations (the OKF router is English-keyword-only today; a Hindi query still gets a correct answer, just always via full RAG rather than the fast OKF tier).
 
 ---
 
