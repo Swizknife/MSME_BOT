@@ -21,7 +21,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from qdrant_client.models import SparseVector
+from qdrant_client.models import FieldCondition, Filter, MatchAny, SparseVector
 
 from app.retrieval.qdrant_local import (
     COLLECTION_NAME,
@@ -152,3 +152,42 @@ def merge_candidate_lists(
         rescored.append((c, score))
     rescored.sort(key=lambda t: t[1], reverse=True)
     return [c for c, _score in rescored[:fused_limit]]
+
+
+def fetch_by_chunk_ids(chunk_ids: list[str]) -> dict[str, RetrievedChunk]:
+    """Fetch specific chunks by id, with no embedding and no scoring.
+
+    Used to pull the RAG chunks a graph traversal names -- a payload lookup,
+    not a search -- so a chunk the graph knows about but the vector search
+    did not surface this round can still be shown and cited. Returns a dict
+    keyed by chunk_id so callers can distinguish "already had this from
+    vector search" from "only the graph found it" without a second pass.
+
+    Chunks the vector index does not contain (a stale graph.json, a chunk_id
+    typo) are silently absent from the result rather than raising -- callers
+    already have to handle "the graph named more evidence than the index
+    actually has," the same way store.py degrades on a missing record.
+    """
+    if not chunk_ids:
+        return {}
+    client = get_client()
+    points, _next_offset = client.scroll(
+        collection_name=COLLECTION_NAME,
+        scroll_filter=Filter(
+            must=[FieldCondition(key="chunk_id", match=MatchAny(any=chunk_ids))]
+        ),
+        limit=len(chunk_ids),
+        with_payload=True,
+        with_vectors=False,
+    )
+    out: dict[str, RetrievedChunk] = {}
+    for point in points:
+        payload = point.payload or {}
+        chunk_id = payload.get("chunk_id")
+        if not chunk_id:
+            continue
+        out[chunk_id] = RetrievedChunk(
+            chunk_id=chunk_id, payload=payload, dense_rank=None, sparse_rank=None,
+            rrf_score=0.0,
+        )
+    return out

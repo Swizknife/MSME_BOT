@@ -3745,7 +3745,7 @@
       "from": "districts/ARWAL-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/AURANGABAD-BIIPP-REGION-A",
@@ -3763,7 +3763,7 @@
       "from": "districts/AURANGABAD-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/BANKA-BIIPP-REGION-A",
@@ -3781,7 +3781,7 @@
       "from": "districts/BANKA-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/BEGUSARAI-BIIPP-REGION-B",
@@ -3799,7 +3799,7 @@
       "from": "districts/BEGUSARAI-BIIPP-REGION-B",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/BHAGALPUR-BIIPP-REGION-A",
@@ -3817,7 +3817,7 @@
       "from": "districts/BHAGALPUR-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/BHOJPUR-BIIPP-REGION-A",
@@ -3835,7 +3835,7 @@
       "from": "districts/BHOJPUR-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/BUXAR-BIIPP-REGION-B",
@@ -3853,7 +3853,7 @@
       "from": "districts/BUXAR-BIIPP-REGION-B",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/DARBHANGA-BIIPP-REGION-A",
@@ -3871,7 +3871,7 @@
       "from": "districts/DARBHANGA-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/EAST-CHAMPARAN-BIIPP-REGION-A",
@@ -3889,7 +3889,7 @@
       "from": "districts/EAST-CHAMPARAN-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/GAYA-BIIPP-REGION-B",
@@ -3907,7 +3907,7 @@
       "from": "districts/GAYA-BIIPP-REGION-B",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/GOPALGANJ-BIIPP-REGION-A",
@@ -3925,7 +3925,7 @@
       "from": "districts/GOPALGANJ-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/JAMUI-BIIPP-REGION-A",
@@ -3943,7 +3943,7 @@
       "from": "districts/JAMUI-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/JEHANABAD-BIIPP-REGION-A",
@@ -3961,7 +3961,7 @@
       "from": "districts/JEHANABAD-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/KAIMUR-BIIPP-REGION-A",
@@ -3979,7 +3979,7 @@
       "from": "districts/KAIMUR-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/KATIHAR-BIIPP-REGION-A",
@@ -3997,7 +3997,7 @@
       "from": "districts/KATIHAR-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/KHAGARIA-BIIPP-REGION-A",
@@ -4015,7 +4015,7 @@
       "from": "districts/KHAGARIA-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/KISHANGANJ-BIIPP-REGION-A",
@@ -4033,7 +4033,7 @@
       "from": "districts/KISHANGANJ-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/LAKHISARAI-BIIPP-REGION-A",
@@ -4051,7 +4051,7 @@
       "from": "districts/LAKHISARAI-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/MADHEPURA-BIIPP-REGION-A",
@@ -4069,7 +4069,7 @@
       "from": "districts/MADHEPURA-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/MADHUBANI-BIIPP-REGION-A",
@@ -4087,7 +4087,7 @@
       "from": "districts/MADHUBANI-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/MUNGER-BIIPP-REGION-A",
@@ -4105,7 +4105,7 @@
       "from": "districts/MUNGER-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/MUZAFFARPUR-BIIPP-REGION-B",
@@ -4123,7 +4123,7 @@
       "from": "districts/MUZAFFARPUR-BIIPP-REGION-B",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/NALANDA-BIIPP-REGION-A",
@@ -4141,7 +4141,7 @@
       "from": "districts/NALANDA-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/NAWADA-BIIPP-REGION-A",
@@ -4159,7 +4159,7 @@
       "from": "districts/NAWADA-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/PATNA-BIIPP-REGION-B",
@@ -4177,7 +4177,7 @@
       "from": "districts/PATNA-BIIPP-REGION-B",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/PURNEA-BIIPP-REGION-A",
@@ -4195,7 +4195,7 @@
       "from": "districts/PURNEA-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/ROHTAS-BIIPP-REGION-A",
@@ -4213,7 +4213,7 @@
       "from": "districts/ROHTAS-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/SAHARSA-BIIPP-REGION-A",
@@ -4231,7 +4231,7 @@
       "from": "districts/SAHARSA-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/SAMASTIPUR-BIIPP-REGION-A",
@@ -4249,7 +4249,7 @@
       "from": "districts/SAMASTIPUR-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/SARAN-BIIPP-REGION-A",
@@ -4267,7 +4267,7 @@
       "from": "districts/SARAN-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/SHEIKHPURA-BIIPP-REGION-A",
@@ -4285,7 +4285,7 @@
       "from": "districts/SHEIKHPURA-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/SHEOHAR-BIIPP-REGION-A",
@@ -4303,7 +4303,7 @@
       "from": "districts/SHEOHAR-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/SITAMARHI-BIIPP-REGION-A",
@@ -4321,7 +4321,7 @@
       "from": "districts/SITAMARHI-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/SIWAN-BIIPP-REGION-A",
@@ -4339,7 +4339,7 @@
       "from": "districts/SIWAN-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/SUPAUL-BIIPP-REGION-A",
@@ -4357,7 +4357,7 @@
       "from": "districts/SUPAUL-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/VAISHALI-BIIPP-REGION-B",
@@ -4375,7 +4375,7 @@
       "from": "districts/VAISHALI-BIIPP-REGION-B",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "districts/WEST-CHAMPARAN-BIIPP-REGION-A",
@@ -4393,7 +4393,7 @@
       "from": "districts/WEST-CHAMPARAN-BIIPP-REGION-A",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-a",
@@ -4411,7 +4411,7 @@
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-a",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-07",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-b",
@@ -4441,7 +4441,7 @@
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-d",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-06",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-e",
@@ -4459,7 +4459,7 @@
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-e",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-04",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.10-a",
@@ -4489,7 +4489,7 @@
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.2-a",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-03",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.2-b",
@@ -4507,7 +4507,7 @@
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.2-b",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-03",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.3-a",
@@ -4537,7 +4537,7 @@
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.3-c",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-08",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.4-a",
@@ -4597,7 +4597,7 @@
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.7-b",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-16",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.7-c",
@@ -4615,7 +4615,7 @@
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.7-c",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-16",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.8-a",
@@ -4645,7 +4645,7 @@
       "from": "eligibility-rules/BIHAR_MSME_2026-S9.9-c",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-16",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "eligibility-rules/MSME_SAMADHAAN-DELAYED-PAYMENT-INTEREST",
@@ -4669,7 +4669,7 @@
       "from": "eligibility-rules/TREDS-OPERATOR-CAPITAL",
       "to": "schemes/TREDS",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-INTEREST-SUBSIDY",
@@ -4699,7 +4699,7 @@
       "from": "incentives/BIHAR_MSME_2026-INTEREST-SUBSIDY",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-03",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
@@ -4765,25 +4765,25 @@
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-02",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-07",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-20",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM10",
@@ -4843,7 +4843,7 @@
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM13",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-13",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM14",
@@ -4861,7 +4861,7 @@
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM14",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-14",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM15",
@@ -4891,7 +4891,7 @@
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM17",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-09",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM2",
@@ -4939,7 +4939,7 @@
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM2",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-05",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM3",
@@ -4975,7 +4975,7 @@
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM3",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-08",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM4",
@@ -5095,7 +5095,7 @@
       "from": "incentives/BIHAR_MSME_2026-S8.2",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-04",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-S8.3",
@@ -5119,7 +5119,7 @@
       "from": "incentives/BIHAR_MSME_2026-S8.4",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-11",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "incentives/BIHAR_MSME_2026-S8.5",
@@ -5149,19 +5149,19 @@
       "from": "incentives/CGTMSE-GUARANTEE-FEE",
       "to": "ambiguities/CGTMSE-AMB-01",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "schemes/BIHAR_MSME_2026",
       "to": "ambiguities/BIHAR_MSME_2026-AMB-17",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "schemes/CGTMSE",
       "to": "incentives/CGTMSE-GUARANTEE-FEE",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "schemes/MSME_SAMADHAAN",
@@ -5173,13 +5173,13 @@
       "from": "schemes/MSME_SAMADHAAN",
       "to": "eligibility-rules/MSME_SAMADHAAN-DELAYED-PAYMENT-INTEREST",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "schemes/MSME_SAMADHAAN",
       "to": "eligibility-rules/MSME_SAMADHAAN-MSEFC-90-DAY",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "schemes/TREDS",
@@ -5191,7 +5191,7 @@
       "from": "schemes/TREDS",
       "to": "eligibility-rules/TREDS-OPERATOR-CAPITAL",
       "kind": "prose_link",
-      "w": 0.7
+      "w": 0.3
     },
     {
       "from": "sectors/ADVANCED-TEXTILES-TECHNICAL-TEXTILES-EMERGING",

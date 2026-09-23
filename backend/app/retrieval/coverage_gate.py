@@ -88,6 +88,35 @@ def decide(reranked: list[tuple[object, float]]) -> GateDecision:
     return GateDecision(action=action, top_score=top_score, tau_hard=tau_hard, tau_soft=tau_soft)
 
 
+def okf_coverage(evidence) -> GateDecision:
+    """The Coverage Gate's OKF-mode counterpart: no reranker score exists,
+    because okf mode issues no vector search at all. Confidence here is
+    binary -- either the graph assembled real, trustworthy evidence about
+    what the query named, or it did not -- not a threshold on a continuous
+    score, so `top_score` is a coarse three-level stand-in (0 / 0.5 / 1.0)
+    kept only so GateDecision stays the one type every caller downstream
+    (the ladder, the UI's low_confidence flag) already knows how to read.
+
+    Levels, in the order they're checked:
+      no entry points matched the query -> abstain (nothing to traverse from)
+      entry points matched but the walk reached nothing -> abstain
+      nodes reached, but none above 'unverified' trust -> answer_low_confidence
+      at least one node is machine-confirmed or human-reviewed -> answer
+    """
+    tau_hard, tau_soft = _load_thresholds()
+    if not evidence or not evidence.entry_points:
+        return GateDecision(action="abstain", top_score=0.0, tau_hard=tau_hard, tau_soft=tau_soft)
+    if not evidence.nodes:
+        return GateDecision(action="abstain", top_score=0.0, tau_hard=tau_hard, tau_soft=tau_soft)
+
+    trusted = [n for n in evidence.nodes if n.trust != "unverified"]
+    if not trusted:
+        return GateDecision(
+            action="answer_low_confidence", top_score=0.5, tau_hard=tau_hard, tau_soft=tau_soft
+        )
+    return GateDecision(action="answer", top_score=1.0, tau_hard=tau_hard, tau_soft=tau_soft)
+
+
 ABSTAIN_TEMPLATE_EN = (
     "This does not appear to be covered in the Bihar MSME Policy 2026 as currently drafted. "
     "This assistant answers only from that document, and it is still a draft. "
