@@ -560,7 +560,14 @@ def run_ladder(req, understanding: QueryUnderstanding, evidence, cache_key: str,
         # not the chunk the answer was actually extracted from).
         resp = dict(answer=answer, language=lang, sources=_make_sources([(top_chunk, top_score)]),
                     low_confidence=low_confidence, ambiguity_ids=top_chunk.payload.get("ambiguity_flags", []),
-                    mode=evidence.mode, retrieval_mode=understanding.retrieval_mode)
+                    mode=evidence.mode, retrieval_mode=understanding.retrieval_mode,
+                    # The graph may have found real connections even though a
+                    # single dominant chunk answered the question directly --
+                    # found missing this on a live HTTP test where an okf_rag
+                    # extractive answer silently dropped a non-empty graph
+                    # walk. Every tier that can carry this now does.
+                    graph_path=_graph_path(evidence),
+                    graph_missing=list(evidence.graph.missing) if evidence.graph else [])
         query_cache[cache_key] = resp
         return ChatResponse(**resp, tier="extractive")
 
