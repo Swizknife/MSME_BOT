@@ -72,7 +72,17 @@ REF_EDGES: dict[str, dict[str, tuple[str, float]]] = {
 # scheme_id on these entity types is an implicit edge to the scheme.
 SCHEME_EDGE_TYPES = ("incentive", "sector", "district_classification")
 
-PROSE_EDGE = ("prose_link", 0.70)
+# Weighted well below every typed domain edge, including a discounted
+# REVERSE in_scheme edge (0.40 * reverse_edge_factor 0.6 = 0.24). Found by
+# running an actual query: at 0.70 a scheme's own boilerplate cross-
+# reference to its draft-status disclaimer (AMB-17) outscored the real
+# incentives reached by walking BACKWARD through that same scheme, so a
+# tangential "this policy is unnotified" note ranked ahead of the capital-
+# subsidy rate the query was actually asking about. A prose "see also" is
+# real evidence of relatedness, but it is the weakest kind this graph has --
+# weaker than an explicit typed reference, even one only reachable in
+# reverse.
+PROSE_EDGE = ("prose_link", 0.30)
 
 # Entity types whose notes are terminal once traversal has left its starting
 # point. A Scheme links to everything it contains, so allowing traversal
