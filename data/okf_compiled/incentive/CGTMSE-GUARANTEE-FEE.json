@@ -37,8 +37,8 @@
     "checksum": null
   },
   "cross_references": [
-    "[[CGTMSE]]",
-    "[[CGTMSE-AMB-01]]"
+    "schemes/CGTMSE",
+    "ambiguities/CGTMSE-AMB-01"
   ],
-  "_body": "## Credit Guarantee Fee under CGTMSE\n\nThe minimum annual guarantee fee CGTMSE charges is 0.37% per annum,\nagainst a guarantee coverage ceiling of ₹10 crore. `enterprise_category`\nis set to `other` rather than micro/small/medium because the homepage\ndoes not state a fee that varies by enterprise category — see\n[[CGTMSE-AMB-01]] for what is and isn't confirmed here."
+  "_body": "## Credit Guarantee Fee under CGTMSE\n\nThe minimum annual guarantee fee CGTMSE charges is 0.37% per annum,\nagainst a guarantee coverage ceiling of ₹10 crore. `enterprise_category`\nis set to `other` rather than micro/small/medium because the homepage\ndoes not state a fee that varies by enterprise category — see\n[CGTMSE-AMB-01](/ambiguities/CGTMSE-AMB-01.md) for what is and isn't confirmed here."
 }

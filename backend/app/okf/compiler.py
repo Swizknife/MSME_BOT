@@ -378,8 +378,11 @@ def main() -> None:
 
     from app.okf import chunk_from_okf   # imported late: chunking depends on compiled records
 
+    from app.okf import graph_build
+
     written = write_records(result)
     chunks = chunk_from_okf.build_and_write(result)
+    graph = graph_build.write_graph(result, chunk_from_okf.build_chunks(result))
 
     print(f"Compiled {written} OKF records -> {vault.COMPILED_DIR}")
     for etype, records in sorted(result.records.items()):
@@ -388,6 +391,11 @@ def main() -> None:
     if result.figures_unchecked_sources:
         print(f"  NOT cross-checked (no staged text): {sorted(result.figures_unchecked_sources)}")
     print(f"Emitted {chunks} RAG chunks -> {chunk_from_okf.OUT_JSON}")
+    print(
+        f"Emitted concept graph -> {graph_build.GRAPH_JSON.name}: "
+        f"{len(graph['nodes'])} nodes, {len(graph['edges'])} edges, "
+        f"{len(graph['broken_links'])} unresolved link(s)"
+    )
     print(f"\nAuto-detected findings: {len(result.findings)}")
     for f in result.findings:
         print(f"  [{f['severity']}] {f['issue_type']}: {f['id']}")

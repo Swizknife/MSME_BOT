@@ -20,7 +20,7 @@
   "resolved_at": null,
   "supersedes_version": null,
   "cross_references": [
-    "[[CGTMSE-GUARANTEE-FEE]]"
+    "incentives/CGTMSE-GUARANTEE-FEE"
   ],
   "_body": "## Incomplete CGTMSE fee structure\n\nAdvisory, not blocking: a real figure (0.37% minimum) is on record and\ncitable, it is just known to be incomplete rather than the full picture."
 }

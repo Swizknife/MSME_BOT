@@ -13,6 +13,7 @@
   "clause_ref": "MSMED Act 2006 (delayed payment provision, as described by MSME Samadhaan -- see MSMED_ACT_2006.md for why the primary section number is unconfirmed)",
   "section_title": null,
   "letter": null,
+  "ambiguity_flags": [],
   "source": {
     "source_id": "MSME_SAMADHAAN",
     "source_url": "https://samadhaan.msme.gov.in/",
@@ -29,8 +30,8 @@
     "checksum": null
   },
   "cross_references": [
-    "[[MSME_SAMADHAAN]]",
-    "[[MSMED_ACT_2006]]"
+    "schemes/MSME_SAMADHAAN",
+    "acts/MSMED_ACT_2006"
   ],
   "_body": "## Delayed payment interest — the real, on-record figure\n\nThis is a **statutory penalty a late-paying buyer owes**, not a subsidy or\nincentive to the MSME. If a query is about \"interest subsidy\" (an\nincentive, see `BIHAR_MSME_2026-AMB-03` — undefined rate, clarification\nrequired) rather than \"what happens if my buyer pays late\" (this rule — a\nconcrete, on-record 3x-bank-rate penalty), the router must resolve to the\nright one and never blend them into a single answer."
 }

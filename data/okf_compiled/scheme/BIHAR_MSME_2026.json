@@ -27,7 +27,7 @@
     "checksum": null
   },
   "cross_references": [
-    "[[BIHAR_MSME_2026-AMB-17]]"
+    "ambiguities/BIHAR_MSME_2026-AMB-17"
   ],
-  "_body": "## Bihar MSME Policy 2026 (Draft)\n\nThe policy this assistant was originally built for, and still its primary source. Every incentive, eligibility rule and annexure list compiled from it carries `source_status: DRAFT_NOT_NOTIFIED`, because the document has not been formally notified by the Government of Bihar and no incentive in it is in legal effect. See [[BIHAR_MSME_2026-AMB-17]]."
+  "_body": "## Bihar MSME Policy 2026 (Draft)\n\nThe policy this assistant was originally built for, and still its primary source. Every incentive, eligibility rule and annexure list compiled from it carries `source_status: DRAFT_NOT_NOTIFIED`, because the document has not been formally notified by the Government of Bihar and no incentive in it is in legal effect. See [BIHAR_MSME_2026-AMB-17](/ambiguities/BIHAR_MSME_2026-AMB-17.md)."
 }

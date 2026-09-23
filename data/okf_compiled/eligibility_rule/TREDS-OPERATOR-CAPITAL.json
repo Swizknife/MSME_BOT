@@ -13,6 +13,7 @@
   "clause_ref": "RBI TReDS Guidelines",
   "section_title": null,
   "letter": null,
+  "ambiguity_flags": [],
   "source": {
     "source_id": "TREDS_RBI_FRAMEWORK",
     "source_url": "https://www.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=3504",
@@ -29,7 +30,7 @@
     "checksum": null
   },
   "cross_references": [
-    "[[TREDS]]"
+    "schemes/TREDS"
   ],
-  "_body": "## Who can operate a TReDS platform\n\nThis condition is about the companies licensed to run a TReDS platform\n(e.g. RXIL, M1xchange, Invoicemart) — **not** about which MSMEs can use\none. An MSME asking \"can I use TReDS?\" should never be answered with this\nfigure; it answers a different question (\"can my company start a TReDS\nplatform?\"). See [[TREDS]] for the MSME-facing eligibility (none stated)."
+  "_body": "## Who can operate a TReDS platform\n\nThis condition is about the companies licensed to run a TReDS platform\n(e.g. RXIL, M1xchange, Invoicemart) — **not** about which MSMEs can use\none. An MSME asking \"can I use TReDS?\" should never be answered with this\nfigure; it answers a different question (\"can my company start a TReDS\nplatform?\"). See [TREDS](/schemes/TREDS.md) for the MSME-facing eligibility (none stated)."
 }

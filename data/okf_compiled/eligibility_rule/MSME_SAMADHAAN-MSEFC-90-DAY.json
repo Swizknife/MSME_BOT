@@ -11,6 +11,7 @@
   "clause_ref": "MSMED Act 2006 (MSEFC resolution timeline, as described by MSME Samadhaan)",
   "section_title": null,
   "letter": null,
+  "ambiguity_flags": [],
   "source": {
     "source_id": "MSME_SAMADHAAN",
     "source_url": "https://samadhaan.msme.gov.in/",
@@ -27,7 +28,7 @@
     "checksum": null
   },
   "cross_references": [
-    "[[MSME_SAMADHAAN]]"
+    "schemes/MSME_SAMADHAAN"
   ],
   "_body": "## MSEFC resolution timeline\n\nState Governments establish an MSEFC \"for settlement of disputes on\ngetting references/filing on Delayed payments.\" Once a reference is\nfiled, the Council must decide it within 90 days."
 }

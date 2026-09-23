@@ -9,6 +9,9 @@
   "clause_ref": "9.1",
   "section_title": "General Conditions for Capital Investment Incentives",
   "letter": "e",
+  "ambiguity_flags": [
+    "BIHAR_MSME_2026-AMB-04"
+  ],
   "source": {
     "source_id": "BIHAR_MSME_POLICY_2026",
     "source_url": "https://state.bihar.gov.in/industries/",
@@ -25,7 +28,7 @@
     "checksum": null
   },
   "cross_references": [
-    "[[BIHAR_MSME_2026-AMB-04]]"
+    "ambiguities/BIHAR_MSME_2026-AMB-04"
   ],
-  "_body": "## Section 9.1(e) — General Conditions for Capital Investment Incentives\n\nAn MSME that has availed assistance under the Capital Subsidy scheme shall not be eligible for assistance under the Special Capital Subsidy scheme for the same investment.\n\nOpen questions: [[BIHAR_MSME_2026-AMB-04]]."
+  "_body": "## Section 9.1(e) — General Conditions for Capital Investment Incentives\n\nAn MSME that has availed assistance under the Capital Subsidy scheme shall not be eligible for assistance under the Special Capital Subsidy scheme for the same investment.\n\nOpen questions: [BIHAR_MSME_2026-AMB-04](/ambiguities/BIHAR_MSME_2026-AMB-04.md)."
 }
