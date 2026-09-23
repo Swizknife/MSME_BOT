@@ -54,7 +54,7 @@
     "checksum": null
   },
   "cross_references": [
-    "[[BIHAR_MSME_2026-AMB-13]]"
+    "ambiguities/BIHAR_MSME_2026-AMB-13"
   ],
-  "_body": "## Incentive for SME exchange\n\nItem 13 of the section 7.9 financial incentive table (page 20).\n\nThis incentive's terms differ by enterprise category; see the per-category rates above.\n\nGoverning conditions: section(s) 9.10.\n\nOpen questions on this incentive: [[BIHAR_MSME_2026-AMB-13]]."
+  "_body": "## Incentive for SME exchange\n\nItem 13 of the section 7.9 financial incentive table (page 20).\n\nThis incentive's terms differ by enterprise category; see the per-category rates above.\n\nGoverning conditions: section(s) 9.10.\n\nOpen questions on this incentive: [BIHAR_MSME_2026-AMB-13](/ambiguities/BIHAR_MSME_2026-AMB-13.md)."
 }

@@ -51,7 +51,7 @@
     "checksum": null
   },
   "cross_references": [
-    "[[BIHAR_MSME_2026-AMB-09]]"
+    "ambiguities/BIHAR_MSME_2026-AMB-09"
   ],
-  "_body": "## Revival package for units\n\nItem 17 of the section 7.9 financial incentive table (page 20).\n\nThis incentive's terms differ by enterprise category; see the per-category rates above.\n\nOpen questions on this incentive: [[BIHAR_MSME_2026-AMB-09]]."
+  "_body": "## Revival package for units\n\nItem 17 of the section 7.9 financial incentive table (page 20).\n\nThis incentive's terms differ by enterprise category; see the per-category rates above.\n\nOpen questions on this incentive: [BIHAR_MSME_2026-AMB-09](/ambiguities/BIHAR_MSME_2026-AMB-09.md)."
 }

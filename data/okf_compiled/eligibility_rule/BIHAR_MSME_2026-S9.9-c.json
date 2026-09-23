@@ -9,6 +9,9 @@
   "clause_ref": "9.9",
   "section_title": "Stamp Duty Reimbursement",
   "letter": "c",
+  "ambiguity_flags": [
+    "BIHAR_MSME_2026-AMB-16"
+  ],
   "source": {
     "source_id": "BIHAR_MSME_POLICY_2026",
     "source_url": "https://state.bihar.gov.in/industries/",
@@ -25,7 +28,7 @@
     "checksum": null
   },
   "cross_references": [
-    "[[BIHAR_MSME_2026-AMB-16]]"
+    "ambiguities/BIHAR_MSME_2026-AMB-16"
   ],
-  "_body": "## Section 9.9(c) — Stamp Duty Reimbursement\n\nEligible enterprises shall submit applications for Stamp Duty Reimbursement within six months from the date of commencement of commercial production.\n\nOpen questions: [[BIHAR_MSME_2026-AMB-16]]."
+  "_body": "## Section 9.9(c) — Stamp Duty Reimbursement\n\nEligible enterprises shall submit applications for Stamp Duty Reimbursement within six months from the date of commencement of commercial production.\n\nOpen questions: [BIHAR_MSME_2026-AMB-16](/ambiguities/BIHAR_MSME_2026-AMB-16.md)."
 }

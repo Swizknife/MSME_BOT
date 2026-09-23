@@ -51,7 +51,7 @@
     "checksum": null
   },
   "cross_references": [
-    "[[BIHAR_MSME_2026-AMB-14]]"
+    "ambiguities/BIHAR_MSME_2026-AMB-14"
   ],
-  "_body": "## Net SGST Reimbursement\n\nItem 14 of the section 7.9 financial incentive table (page 20).\n\nThe source states identical terms for micro, small and medium enterprises.\n\nOpen questions on this incentive: [[BIHAR_MSME_2026-AMB-14]]."
+  "_body": "## Net SGST Reimbursement\n\nItem 14 of the section 7.9 financial incentive table (page 20).\n\nThe source states identical terms for micro, small and medium enterprises.\n\nOpen questions on this incentive: [BIHAR_MSME_2026-AMB-14](/ambiguities/BIHAR_MSME_2026-AMB-14.md)."
 }

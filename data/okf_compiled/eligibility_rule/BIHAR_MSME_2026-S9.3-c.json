@@ -9,6 +9,9 @@
   "clause_ref": "9.3",
   "section_title": "Additional Incentive for Scaling Up",
   "letter": "c",
+  "ambiguity_flags": [
+    "BIHAR_MSME_2026-AMB-08"
+  ],
   "source": {
     "source_id": "BIHAR_MSME_POLICY_2026",
     "source_url": "https://state.bihar.gov.in/industries/",
@@ -25,7 +28,7 @@
     "checksum": null
   },
   "cross_references": [
-    "[[BIHAR_MSME_2026-AMB-08]]"
+    "ambiguities/BIHAR_MSME_2026-AMB-08"
   ],
-  "_body": "## Section 9.3(c) — Additional Incentive for Scaling Up\n\nA Micro or Small Enterprise shall be eligible to avail the Scaling Up incentive only once for a particular enterprise category.\n\nOpen questions: [[BIHAR_MSME_2026-AMB-08]]."
+  "_body": "## Section 9.3(c) — Additional Incentive for Scaling Up\n\nA Micro or Small Enterprise shall be eligible to avail the Scaling Up incentive only once for a particular enterprise category.\n\nOpen questions: [BIHAR_MSME_2026-AMB-08](/ambiguities/BIHAR_MSME_2026-AMB-08.md)."
 }

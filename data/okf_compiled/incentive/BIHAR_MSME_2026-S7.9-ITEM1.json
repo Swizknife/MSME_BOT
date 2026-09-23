@@ -60,10 +60,10 @@
     "checksum": null
   },
   "cross_references": [
-    "[[BIHAR_MSME_2026-AMB-01]]",
-    "[[BIHAR_MSME_2026-AMB-02]]",
-    "[[BIHAR_MSME_2026-AMB-07]]",
-    "[[BIHAR_MSME_2026-AMB-20]]"
+    "ambiguities/BIHAR_MSME_2026-AMB-01",
+    "ambiguities/BIHAR_MSME_2026-AMB-02",
+    "ambiguities/BIHAR_MSME_2026-AMB-07",
+    "ambiguities/BIHAR_MSME_2026-AMB-20"
   ],
-  "_body": "## Capital Subsidy\n\nItem 1 of the section 7.9 financial incentive table (page 18).\n\nThis incentive's terms differ by enterprise category; see the per-category rates above.\n\nGoverning conditions: section(s) 9.1.\n\nOpen questions on this incentive: [[BIHAR_MSME_2026-AMB-01]], [[BIHAR_MSME_2026-AMB-02]], [[BIHAR_MSME_2026-AMB-07]], [[BIHAR_MSME_2026-AMB-20]]."
+  "_body": "## Capital Subsidy\n\nItem 1 of the section 7.9 financial incentive table (page 18).\n\nThis incentive's terms differ by enterprise category; see the per-category rates above.\n\nGoverning conditions: section(s) 9.1.\n\nOpen questions on this incentive: [BIHAR_MSME_2026-AMB-01](/ambiguities/BIHAR_MSME_2026-AMB-01.md), [BIHAR_MSME_2026-AMB-02](/ambiguities/BIHAR_MSME_2026-AMB-02.md), [BIHAR_MSME_2026-AMB-07](/ambiguities/BIHAR_MSME_2026-AMB-07.md), [BIHAR_MSME_2026-AMB-20](/ambiguities/BIHAR_MSME_2026-AMB-20.md)."
 }

@@ -6,7 +6,7 @@
     {
       "section_no": "10(2) read with 18",
       "title": "Authorisation of payment systems",
-      "text_summary": "Empowers RBI to issue guidelines authorising payment systems. The RBI's TReDS Guidelines are issued under this authority. See [[TREDS]].\n",
+      "text_summary": "Empowers RBI to issue guidelines authorising payment systems. The RBI's TReDS Guidelines are issued under this authority. See [TREDS](/schemes/TREDS.md).\n",
       "source": {
         "source_id": "TREDS_RBI_FRAMEWORK",
         "source_url": "https://www.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=3504",
@@ -25,7 +25,7 @@
     }
   ],
   "cross_references": [
-    "[[TREDS]]"
+    "schemes/TREDS"
   ],
   "_body": "## Payment and Settlement Systems Act, 2007\n\nMinimal stub, authored only to the extent needed to ground TReDS's stated\nlegal basis (\"[TReDS guidelines are] issued by Reserve Bank of India under\nSection 10(2) read with Section 18 of Payment & Settlement Systems Act,\n2007\"). Not independently fetched or verified beyond that one citing\nsentence on the RBI TReDS page — do not treat this as a general-purpose\nsummary of the Act."
 }
