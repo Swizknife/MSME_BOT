@@ -1,0 +1,4 @@
+{
+  "broken_links": 0,
+  "_comment": "Google OKF v0.2 tolerates broken links (they mean knowledge nobody has written yet), so verify_okf fails only when the count GROWS past this number. Raise it deliberately, with a reason."
+}

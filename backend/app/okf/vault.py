@@ -37,17 +37,22 @@ COMPILED_DIR = REPO_ROOT / "data" / "okf_compiled"
 # Folders holding authored entity notes, in the order the compiler walks
 # them. `_templates` and `_reference` are deliberately excluded: templates
 # are blank skeletons and reference sets are validation inputs, not facts.
+# Numbered prefixes were dropped when the vault became a Google OKF v0.2
+# bundle: the spec derives a concept's identity from its bundle-relative
+# path, so "02_incentives/X" would bake a human sort-order prefix into a
+# public identifier and into every link pointing at it. Reading order lives
+# in the generated root index.md instead, where the spec puts it.
 ENTITY_FOLDERS = {
-    "scheme": "01_schemes",
-    "incentive": "02_incentives",
-    "eligibility_rule": "03_eligibility_rules",
-    "authority": "04_authorities",
-    "district": "05_districts",
-    "district_classification": "05_districts",
-    "sector": "06_sectors",
-    "glossary_term": "07_glossary",
-    "ambiguity_flag": "08_ambiguities",
-    "act": "09_acts",
+    "scheme": "schemes",
+    "incentive": "incentives",
+    "eligibility_rule": "eligibility-rules",
+    "authority": "authorities",
+    "district": "districts",
+    "district_classification": "districts",
+    "sector": "sectors",
+    "glossary_term": "glossary",
+    "ambiguity_flag": "ambiguities",
+    "act": "acts",
 }
 
 # The frontmatter field holding each entity type's own identifier.
@@ -117,13 +122,27 @@ def parse_note(path: Path) -> VaultNote:
 
 
 def iter_notes(vault_dir: Path = VAULT_DIR) -> list[VaultNote]:
-    """Every authored note in the vault, skipping templates and reference sets."""
+    """Every concept document in the bundle.
+
+    Skips:
+      - `_reference/`  -- closed universes the completeness pass validates
+        against (districts, etc.), which are validation inputs, not facts.
+      - `_templates/`  -- retained for backward compatibility; templates now
+        live outside the bundle at data/okf_templates/, precisely so they do
+        not have to be excluded.
+      - `index.md` and `log.md` at any depth. These are the only two
+        filenames Google OKF v0.2 reserves: a directory listing and a change
+        history respectively. They are not concepts and must never become
+        link targets.
+      - `README.md` -- superseded by the reserved `index.md`, skipped so a
+        stale one left behind cannot fail the compile.
+    """
     notes: list[VaultNote] = []
     for md in sorted(vault_dir.rglob("*.md")):
         rel_parts = md.relative_to(vault_dir).parts
         if rel_parts[0] in ("_templates", "_reference"):
             continue
-        if md.name == "README.md":
+        if md.name in ("index.md", "log.md", "README.md"):
             continue
         notes.append(parse_note(md))
     return notes

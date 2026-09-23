@@ -24,7 +24,35 @@ from pathlib import Path
 from typing import Any
 
 from app.ingestion import policy_data as pd
-from app.okf import vault
+from app.okf import frontmatter as frontmatter_mod
+from app.okf import links, migrate_to_okf_v02, vault
+
+
+def _link_index(records: list[tuple[str, str, dict, str]]) -> links.LinkIndex:
+    """Resolve links against the notes about to be written, plus the bundle.
+
+    Built from the records first so this generator works against an empty
+    vault (a fresh clone, or after a full --clean), and merged with whatever
+    is already on disk so links into hand-authored notes still resolve.
+    """
+    refs = []
+    for entity_type, entity_id, fm, _body in records:
+        folder = vault.ENTITY_FOLDERS[entity_type]
+        refs.append(
+            links.ConceptRef(
+                concept_id=f"{folder}/{entity_id}",
+                path=vault.VAULT_DIR / folder / f"{entity_id}.md",
+                okf_type=frontmatter_mod.ENTITY_TO_OKF_TYPE[entity_type],
+                entity_type=entity_type,
+                domain_id=entity_id,
+                title=str(fm.get("name") or fm.get("term") or entity_id),
+            )
+        )
+    try:
+        on_disk = list(links.build_index().by_concept_id.values())
+    except (OSError, ValueError):
+        on_disk = []
+    return links.LinkIndex([*on_disk, *refs])
 
 SCHEME_ID = "BIHAR_MSME_2026"
 SOURCE_ID = "BIHAR_MSME_POLICY_2026"
@@ -506,6 +534,8 @@ def main() -> None:
     if args.clean:
         _clean(records)
 
+    index = _link_index(records)
+
     counts: dict[str, int] = {}
     seen: set[tuple[str, str]] = set()
     for entity_type, entity_id, frontmatter, body in records:
@@ -515,7 +545,22 @@ def main() -> None:
         seen.add(key)
         folder = vault.ENTITY_FOLDERS[entity_type]
         path = vault.VAULT_DIR / folder / f"{entity_id}.md"
-        vault.write_note(path, frontmatter, body)
+
+        payload = migrate_to_okf_v02.rewrite_frontmatter(
+            {k: v for k, v in frontmatter.items() if k != "entity_type"}, index
+        )
+        # No `generated.at`. This generator is deterministic -- the same
+        # policy_data.py always yields the same notes -- and
+        # app.okf.verify_migration proves that by regenerating every note and
+        # asserting byte-identity with the one on disk. A wall-clock stamp
+        # would make each run differ from the last for no informational gain;
+        # when a note was last regenerated is what git history is for.
+        okf = frontmatter_mod.to_okf_frontmatter(
+            entity_type, payload, generated_by=GENERATOR_ACTOR
+        )
+        vault.write_note(
+            path, okf, migrate_to_okf_v02.rewrite_body_links(body, index)
+        )
         counts[entity_type] = counts.get(entity_type, 0) + 1
 
     total = sum(counts.values())
