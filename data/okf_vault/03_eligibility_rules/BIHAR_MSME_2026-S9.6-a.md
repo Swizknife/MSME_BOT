@@ -9,6 +9,7 @@ parameters: {}
 clause_ref: '9.6'
 section_title: Roof Top Solar Subsidy
 letter: a
+ambiguity_flags: []
 source:
   source_id: BIHAR_MSME_POLICY_2026
   source_url: https://state.bihar.gov.in/industries/

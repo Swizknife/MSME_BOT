@@ -9,6 +9,8 @@ parameters: {}
 clause_ref: '9.1'
 section_title: General Conditions for Capital Investment Incentives
 letter: a
+ambiguity_flags:
+- BIHAR_MSME_2026-AMB-07
 source:
   source_id: BIHAR_MSME_POLICY_2026
   source_url: https://state.bihar.gov.in/industries/

@@ -243,6 +243,16 @@ class EligibilityRule(BaseModel):
     # sub-clause letter must be stored, not re-derived.
     section_title: Optional[str] = None
     letter: Optional[str] = None
+    # Ambiguity flags raised against this clause. Every other entity that can
+    # carry them already has this field; EligibilityRule did not, so the
+    # migration smuggled them through `cross_references` as wikilinks and
+    # chunk_from_okf parsed them back out. That only worked because the Bihar
+    # migration happened to put nothing else in `cross_references` -- the
+    # first hand-authored rule to use that field for its real, general
+    # purpose (linking to a scheme and an act) leaked those identifiers into
+    # a live answer's ambiguity_ids. Storing them in their own typed field
+    # removes the guess.
+    ambiguity_flags: list[str] = Field(default_factory=list)
     source: Provenance
     cross_references: list[str] = Field(default_factory=list)
 

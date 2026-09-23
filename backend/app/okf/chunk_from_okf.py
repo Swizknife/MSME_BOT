@@ -369,8 +369,16 @@ def build_chunks(result) -> list[Chunk]:
         siblings = by_section[section]
         label = doc_label(scheme_id)
         letter_part = f"({letter})" if letter else ""
-        amb_local = [_local_amb(scheme_id, wid) for wid in _wikilink_ids(rule.get("cross_references", []))
-                     if wid in known_amb_ids]
+        # Read the typed field rather than re-deriving it from cross_references.
+        # The old form assumed every cross_reference was an ambiguity flag,
+        # which held only by the Bihar migration's convention and leaked a
+        # scheme id and an act id into a live answer the first time a rule
+        # used that field for its actual purpose.
+        amb_local = [
+            _local_amb(scheme_id, a)
+            for a in rule.get("ambiguity_flags", [])
+            if a in known_amb_ids
+        ]
 
         if scheme_id == "BIHAR_MSME_2026":
             parent_text = (
@@ -538,17 +546,6 @@ def build_chunks(result) -> list[Chunk]:
         ))
 
     return chunks
-
-
-def _wikilink_ids(values: list[str]) -> list[str]:
-    out = []
-    for v in values or []:
-        v = v.strip()
-        if v.startswith("[[") and v.endswith("]]"):
-            out.append(v[2:-2])
-        else:
-            out.append(v)
-    return out
 
 
 def build_and_write(result) -> int:

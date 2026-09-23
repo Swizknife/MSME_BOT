@@ -9,6 +9,8 @@ parameters: {}
 clause_ref: '9.2'
 section_title: Interest Subsidy
 letter: b
+ambiguity_flags:
+- BIHAR_MSME_2026-AMB-03
 source:
   source_id: BIHAR_MSME_POLICY_2026
   source_url: https://state.bihar.gov.in/industries/

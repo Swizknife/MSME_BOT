@@ -59,6 +59,41 @@ def main() -> None:
     if result.figures_checked == 0:
         failures.append("no figure tokens were cross-checked against source text")
 
+    # The answer ladder branches on `Incentive.status == "rate_unstated"` to
+    # produce the "conditions stated, rate never stated" disclosure. Google's
+    # OKF v0.2 also defines a `status` key (draft|stable|deprecated), so the
+    # migration renames this one on disk. If the two were ever collapsed the
+    # branch would stop firing and the bot would begin quoting
+    # "NO RATE/AMOUNT SPECIFIED IN SOURCE" as though it were a rate -- and
+    # NOTHING else here would catch it, because chunk text does not depend on
+    # this field. Hence an explicit assertion.
+    rate_unstated = [
+        i["incentive_id"] for i in result.records.get("incentive", [])
+        if i.get("status") == "rate_unstated"
+    ]
+    if len(rate_unstated) < 2:
+        failures.append(
+            f"expected at least 2 incentives with status 'rate_unstated' "
+            f"(Revival Package and Interest Subsidy), found {len(rate_unstated)}: "
+            f"{rate_unstated}. If Incentive.status was merged into OKF's "
+            f"draft|stable|deprecated, the Tier 1 rate-unstated disclosure is "
+            f"now silently dead."
+        )
+
+    # EligibilityRule.ambiguity_flags must be a real typed field, not
+    # re-derived from cross_references. The old derivation assumed every
+    # cross_reference was an ambiguity flag and leaked a scheme id and an act
+    # id into a live answer the first time that assumption broke.
+    rules_with_flags = [
+        r for r in result.records.get("eligibility_rule", []) if r.get("ambiguity_flags")
+    ]
+    if not rules_with_flags:
+        failures.append(
+            "no eligibility_rule carries ambiguity_flags; the typed field is "
+            "either unpopulated or was dropped, which silently disables "
+            "ambiguity disclosure on guiding-clause answers"
+        )
+
     completeness = [f for f in result.findings if f["issue_type"] == "scope_gap"]
     araria = [f for f in completeness if "Araria" in (f.get("missing_members") or [])]
     if not araria:
