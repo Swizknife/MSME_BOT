@@ -62,18 +62,10 @@ EXTRACTED_TEXT_BY_SOURCE = {
 }
 
 # Which entity id field identifies each entity type.
-ID_FIELD = {
-    "scheme": "scheme_id",
-    "incentive": "incentive_id",
-    "eligibility_rule": "rule_id",
-    "authority": "authority_id",
-    "district": "district_id",
-    "district_classification": "classification_id",
-    "sector": "sector_id",
-    "glossary_term": "term_id",
-    "ambiguity_flag": "id",
-    "act": "act_id",
-}
+# Moved to vault.py so links.py can use it without making that module and
+# this one circular. Re-exported here because callers already import it from
+# the compiler.
+ID_FIELD = vault.ID_FIELD
 
 # Fields holding references to other entities, checked for resolvability.
 REF_FIELDS = {

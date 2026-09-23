@@ -50,6 +50,25 @@ ENTITY_FOLDERS = {
     "act": "09_acts",
 }
 
+# The frontmatter field holding each entity type's own identifier.
+#
+# Lives here rather than in compiler.py because links.py needs it too, and
+# the compiler imports links -- so keeping it in the compiler would make the
+# two modules circular. vault.py is the dumb, dependency-free base both sit
+# on top of.
+ID_FIELD = {
+    "scheme": "scheme_id",
+    "incentive": "incentive_id",
+    "eligibility_rule": "rule_id",
+    "authority": "authority_id",
+    "district": "district_id",
+    "district_classification": "classification_id",
+    "sector": "sector_id",
+    "glossary_term": "term_id",
+    "ambiguity_flag": "id",
+    "act": "act_id",
+}
+
 
 @dataclass
 class VaultNote:
