@@ -1,0 +1,15 @@
+[
+  {
+    "id": "AUTO-COMPLETENESS-DISTRICTS-BIHAR_MSME_2026",
+    "scope": "single_source",
+    "issue_type": "scope_gap",
+    "severity": "advisory",
+    "description": "BIHAR_MSME_2026 classifies 37 of 38 districts in reference set BIHAR_DISTRICTS. Missing: ['Araria']. An enterprise in a missing district has no determinable district-linked rate.",
+    "source_ids": [
+      "BIHAR_MSME_2026"
+    ],
+    "missing_members": [
+      "Araria"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+---
+entity_type: eligibility_rule
+rule_id: MSME_SAMADHAAN-MSEFC-90-DAY
+applies_to: ["MSME_SAMADHAAN"]
+condition_text: >
+  Every reference made to the Micro and Small Enterprise Facilitation
+  Council (MSEFC) shall be decided within a period of ninety days from
+  the date of making such a reference.
+condition_type: time_window
+parameters: {resolution_window_days: 90}
+clause_ref: "MSMED Act 2006 (MSEFC resolution timeline, as described by MSME Samadhaan)"
+source:
+  source_id: MSME_SAMADHAAN
+  source_url: "https://samadhaan.msme.gov.in/"
+  source_document_version: "MSME Samadhaan homepage, fetched 2026-09-23"
+  fetch_date: "2026-09-23"
+  fetch_method: manual
+  extraction_method: hand_transcribed
+  page_or_section_ref: "MSME Samadhaan homepage"
+  verification_status: verified
+  verified_by: "Claude (WebFetch retrieval, quoted verbatim from the live MSME Samadhaan homepage)"
+  verified_at: "2026-09-23T00:00:00"
+  checksum: null
+cross_references: ["[[MSME_SAMADHAAN]]"]
+last_compiled: null
+---
+
+## MSEFC resolution timeline
+
+State Governments establish an MSEFC "for settlement of disputes on
+getting references/filing on Delayed payments." Once a reference is
+filed, the Council must decide it within 90 days.

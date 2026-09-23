@@ -43,20 +43,39 @@ class GateDecision:
     tau_soft: float
 
 
-def _load_thresholds() -> tuple[float, float]:
+def _load_thresholds(source_type: str | None = None) -> tuple[float, float]:
+    """Multi-source amendment (docs/OKF_RAG_IMPLEMENTATION.md section 5):
+    reranker score distributions differ by source register -- a scraped
+    HTML FAQ page and a structured policy PDF don't rerank on the same
+    scale -- so thresholds can be keyed by source_type. Falls back to
+    `default` (or the hardcoded constants) when no by_source_type entry
+    exists for the given type, or when no source_type is known at all,
+    which is always true today since exactly one source is indexed."""
     if not THRESHOLDS_PATH.exists():
         return DEFAULT_TAU_HARD, DEFAULT_TAU_SOFT
     try:
         import yaml
 
         data = yaml.safe_load(THRESHOLDS_PATH.read_text(encoding="utf-8")) or {}
-        return float(data.get("tau_hard", DEFAULT_TAU_HARD)), float(data.get("tau_soft", DEFAULT_TAU_SOFT))
+        by_type = data.get("by_source_type") or {}
+        if source_type and source_type in by_type:
+            entry = by_type[source_type]
+            return float(entry.get("tau_hard", DEFAULT_TAU_HARD)), float(entry.get("tau_soft", DEFAULT_TAU_SOFT))
+        default = data.get("default") or data  # tolerate the flat pre-multi-source shape too
+        return float(default.get("tau_hard", DEFAULT_TAU_HARD)), float(default.get("tau_soft", DEFAULT_TAU_SOFT))
     except Exception:
         return DEFAULT_TAU_HARD, DEFAULT_TAU_SOFT
 
 
 def decide(reranked: list[tuple[object, float]]) -> GateDecision:
-    tau_hard, tau_soft = _load_thresholds()
+    # Threshold by the top-ranked chunk's own source_type when the payload
+    # carries one; a mixed shortlist is thresholded by whichever source
+    # produced the candidate actually being judged, not a single global
+    # figure that a scraped-HTML source's noisier scores would miscalibrate.
+    source_type = None
+    if reranked:
+        source_type = reranked[0][0].payload.get("source_type")
+    tau_hard, tau_soft = _load_thresholds(source_type)
     top_score = reranked[0][1] if reranked else 0.0
 
     if top_score < tau_hard:

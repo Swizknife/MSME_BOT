@@ -1,0 +1,33 @@
+{
+  "scheme_id": "CGTMSE",
+  "name": "Credit Guarantee Fund Trust for Micro and Small Enterprises",
+  "short_name": "CGTMSE",
+  "issuing_authority_id": null,
+  "level": "central",
+  "status": "active",
+  "effective_from": null,
+  "effective_to": null,
+  "tier": "P0",
+  "legal_basis": [],
+  "supersedes": null,
+  "summary": "Jointly established by the Ministry of MSME and SIDBI to catalyse institutional credit to Micro & Small Enterprises by providing collateral- and/or third-party-guarantee-free credit guarantee cover through eligible Member Lending Institutions (MLIs).\n",
+  "source": {
+    "source_id": "CGTMSE_SCHEME_GUIDELINES",
+    "source_url": "https://www.cgtmse.in/",
+    "source_document_version": "CGTMSE homepage, fetched 2026-09-23",
+    "fetch_date": "2026-09-23",
+    "fetch_method": "manual",
+    "extraction_method": "hand_transcribed",
+    "page_or_section_ref": "CGTMSE homepage",
+    "page_start": null,
+    "page_end": null,
+    "verification_status": "verified",
+    "verified_by": "Claude (WebFetch retrieval, quoted verbatim from the live CGTMSE homepage)",
+    "verified_at": "2026-09-23T00:00:00",
+    "checksum": null
+  },
+  "cross_references": [
+    "[[CGTMSE-GUARANTEE-FEE]]"
+  ],
+  "_body": "## CGTMSE\n\n\"Guarantee cover to collateral and/or third party guarantee free credit\nfacilities extended by eligible Member Lending Institution [MLIs] to MSEs.\"\nThe maximum guarantee coverage ceiling is stated as ₹10 crore (recently\nincreased). See [[CGTMSE-GUARANTEE-FEE]] for the fee.\n\n> **What this vault note does NOT claim.** The prior research catalog for\n> this project (and general public knowledge about CGTMSE) describes a\n> tiered 75–85% guarantee coverage percentage and a fuller fee slab\n> structure by loan size and borrower category. The CGTMSE **homepage**\n> fetched here does not state a coverage percentage at all, and states\n> only a single minimum fee figure, not a slab table. Rather than carry\n> forward the unverified tiered figures from the research catalog, this\n> note records only what was actually confirmed from the live page.\n> Fetching the CGTMSE scheme-guidelines PDF (linked from this homepage,\n> not yet fetched) is the next step to fill this gap — see the ambiguity\n> flag on the fee record."
+}

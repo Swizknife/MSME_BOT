@@ -1,0 +1,35 @@
+{
+  "rule_id": "TREDS-OPERATOR-CAPITAL",
+  "applies_to": [
+    "TREDS"
+  ],
+  "condition_text": "An entity wishing to operate a TReDS platform must have minimum paid-up equity capital of Rs. 25 crore, since a TReDS operator cannot assume credit risk. Foreign shareholding follows the extant foreign investment policy, with outside shareholders capped at 10% of equity capital, and promoters must demonstrate sound credentials and integrity with a minimum 5-year business track record.\n",
+  "condition_type": "investment_ceiling",
+  "parameters": {
+    "min_paid_up_capital_inr": 250000000,
+    "max_outside_shareholding_pct": 10,
+    "min_promoter_track_record_years": 5
+  },
+  "clause_ref": "RBI TReDS Guidelines",
+  "section_title": null,
+  "letter": null,
+  "source": {
+    "source_id": "TREDS_RBI_FRAMEWORK",
+    "source_url": "https://www.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=3504",
+    "source_document_version": "RBI TReDS Guidelines, updated 2018-07-02",
+    "fetch_date": "2026-09-23",
+    "fetch_method": "manual",
+    "extraction_method": "hand_transcribed",
+    "page_or_section_ref": "RBI TReDS Guidelines (full page)",
+    "page_start": null,
+    "page_end": null,
+    "verification_status": "verified",
+    "verified_by": "Claude (WebFetch retrieval, quoted verbatim from the live RBI page)",
+    "verified_at": "2026-09-23T00:00:00",
+    "checksum": null
+  },
+  "cross_references": [
+    "[[TREDS]]"
+  ],
+  "_body": "## Who can operate a TReDS platform\n\nThis condition is about the companies licensed to run a TReDS platform\n(e.g. RXIL, M1xchange, Invoicemart) — **not** about which MSMEs can use\none. An MSME asking \"can I use TReDS?\" should never be answered with this\nfigure; it answers a different question (\"can my company start a TReDS\nplatform?\"). See [[TREDS]] for the MSME-facing eligibility (none stated)."
+}
