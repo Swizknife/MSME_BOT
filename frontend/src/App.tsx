@@ -1,8 +1,10 @@
 import { useRef, useState } from "react";
 import "./App.css";
+import type { ArchMode } from "./api/chat";
 import { ChatApiError, sendMessage } from "./api/chat";
 import { ChatInput } from "./components/ChatInput";
 import { ChatMessage } from "./components/ChatMessage";
+import { ModeToggle } from "./components/ModeToggle";
 import { StarterQuestions } from "./components/StarterQuestions";
 import type { ChatTurn } from "./types/chat";
 
@@ -13,6 +15,11 @@ function App() {
   const [turns, setTurns] = useState<ChatTurn[]>([]);
   const [loading, setLoading] = useState(false);
   const [language, setLanguage] = useState<"en" | "hi">("en");
+  // Deliberately NOT reset when mode changes, and the conversation is not
+  // cleared either -- the comparison this exists for lands hardest when the
+  // user asks the same question twice with the toggle flipped and both
+  // answers sit adjacent in one transcript, not in two separate sessions.
+  const [mode, setMode] = useState<ArchMode>("okf_rag");
   const conversationId = useRef(crypto.randomUUID());
 
   const handleSend = async (text: string) => {
@@ -21,7 +28,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await sendMessage(text, conversationId.current);
+      const res = await sendMessage(text, conversationId.current, mode);
       setTurns((prev) => [
         ...prev,
         {
@@ -29,10 +36,14 @@ function App() {
           role: "assistant",
           text: res.answer,
           tier: res.tier,
+          mode: res.mode,
           language: res.language,
           sources: res.sources,
           lowConfidence: res.low_confidence,
           ambiguityIds: res.ambiguity_ids,
+          graphPath: res.graph_path,
+          graphMissing: res.graph_missing,
+          timingMs: res.timing_ms,
         },
       ]);
       if (res.language === "hi" || res.language === "en") {
@@ -63,21 +74,24 @@ function App() {
               : "Ask questions about the Bihar MSME Policy 2026"}
           </p>
         </div>
-        <div className="lang-toggle" role="group" aria-label="Language">
-          <button
-            type="button"
-            className={"lang-toggle__btn" + (language === "en" ? " lang-toggle__btn--active" : "")}
-            onClick={() => setLanguage("en")}
-          >
-            EN
-          </button>
-          <button
-            type="button"
-            className={"lang-toggle__btn" + (language === "hi" ? " lang-toggle__btn--active" : "")}
-            onClick={() => setLanguage("hi")}
-          >
-            हिं
-          </button>
+        <div className="app-header__controls">
+          <ModeToggle mode={mode} onChange={setMode} language={language} />
+          <div className="lang-toggle" role="group" aria-label="Language">
+            <button
+              type="button"
+              className={"lang-toggle__btn" + (language === "en" ? " lang-toggle__btn--active" : "")}
+              onClick={() => setLanguage("en")}
+            >
+              EN
+            </button>
+            <button
+              type="button"
+              className={"lang-toggle__btn" + (language === "hi" ? " lang-toggle__btn--active" : "")}
+              onClick={() => setLanguage("hi")}
+            >
+              हिं
+            </button>
+          </div>
         </div>
       </header>
 
