@@ -1,0 +1,80 @@
+# Canonical list of Bihar's districts -- a CLOSED UNIVERSE used by the
+# completeness pass, not a fact extracted from any policy.
+#
+# The Bihar MSME Policy 2026's Annexure I classifies only 37 of these into
+# Region A / Region B. Araria is absent from both, which is the blocking
+# defect recorded as AMB-20. Checking compiled DistrictClassification
+# records against this list is what makes that class of gap detectable
+# automatically instead of by chance.
+
+reference_set_id: BIHAR_DISTRICTS
+universe: "Districts of the State of Bihar"
+member_count: 38
+
+provenance:
+  # This list is the OKF-layer home of a canonical list the repo ALREADY
+  # held: BIHAR_ALL_38_DISTRICTS in backend/app/ingestion/policy_data.py,
+  # whose own comment cites "Government of Bihar district list" and states
+  # it is deliberately NOT part of the policy PDF -- it exists to validate
+  # the policy's Annexure I against reality, which is how AMB-20 was found.
+  # Verified identical to that list, member for member, on 2026-09-23.
+  #
+  # ACTION REQUIRED (Phase 2): neither copy carries a URL, retrieval date
+  # or official document reference, so the citation is informal. Attach a
+  # real Government of Bihar source and set verification_status to
+  # verified. Until then this set reproduces a list the project already
+  # trusted; it does not independently prove the universe is current.
+  source_id: null
+  source_url: null
+  derived_from: "BIHAR_ALL_38_DISTRICTS in backend/app/ingestion/policy_data.py (verified set-identical)"
+  verification_status: unverified
+  compiled_on: "2026-09-23"
+
+members:
+  - Araria            # absent from Annexure I -- the AMB-20 gap
+  - Arwal
+  - Aurangabad
+  - Banka
+  - Begusarai
+  - Bhagalpur
+  - Bhojpur
+  - Buxar
+  - Darbhanga
+  - East Champaran
+  - Gaya
+  - Gopalganj
+  - Jamui
+  - Jehanabad
+  - Kaimur
+  - Katihar
+  - Khagaria
+  - Kishanganj
+  - Lakhisarai
+  - Madhepura
+  - Madhubani
+  - Munger
+  - Muzaffarpur
+  - Nalanda
+  - Nawada
+  - Patna
+  - Purnea
+  - Rohtas
+  - Saharsa
+  - Samastipur
+  - Saran
+  - Sheikhpura
+  - Sheohar
+  - Sitamarhi
+  - Siwan
+  - Supaul
+  - Vaishali
+  - West Champaran
+
+# Known naming variants to normalize before comparison. Government sources
+# spell several of these inconsistently; a naive string match would report
+# false gaps. Extend this map as real sources are staged in Phase 2.
+aliases:
+  Purnea: [Purnia]
+  East Champaran: [Purba Champaran, Motihari]
+  West Champaran: [Pashchim Champaran, Bettiah]
+  Kaimur: [Kaimur (Bhabua), Bhabua]

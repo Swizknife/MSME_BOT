@@ -1,0 +1,414 @@
+# OKF+RAG dataset source registry.
+#
+# One entry per source in the Phase-1 acquisition scope (P0 core + P1 major
+# schemes, ~24 sources total -- see docs/OKF_RAG_IMPLEMENTATION.md §6 and
+# HANDOFF.md for why P2/P3 from the original ~68-source research catalog are
+# out of scope for this rebuild).
+#
+# fetch_strategy: html_scrape | pdf_download | api | manual
+# blocked: true means the portal is known (from prior manual research) to
+#   block scripted fetching -- these start life as manual_pending, not as a
+#   failure. See manual_fallback_instructions.
+#
+# ---------------------------------------------------------------------------
+# COMPLIANCE GATE -- enforced, not advisory.
+#
+# `compliance_checked: false` on every entry below means nobody has yet
+# reviewed that source's robots.txt and terms of use. The Phase 2
+# acquisition runner MUST refuse to perform an automated fetch
+# (html_scrape / pdf_download / api) against any source where
+# `compliance_checked` is not true AND `robots_txt_status` is not
+# `allowed`. It should skip the source and report it, rather than fetch.
+#
+# This is deliberately a hard gate rather than a note: 9 of the 24 sources
+# below carry an automated fetch_strategy (8 html_scrape + 1 pdf_download),
+# so without it the first run of run_acquisition.py would scrape government
+# portals whose terms nobody has read. Clearing the gate is a per-source human review that sets both
+# fields; `license_notes` below is a generic placeholder until then and is
+# NOT a licensing determination.
+#
+# The `manual` strategy is exempt: a person downloading a public document
+# in a browser is not automated access, so those 15 sources can proceed
+# without the gate being cleared.
+# ---------------------------------------------------------------------------
+# last_fetched_at / last_fetch_status / checksum_of_last_fetch: null until
+#   the Phase 2 acquisition pipeline (backend/app/acquisition/) exists and
+#   runs. This file is a registry skeleton, not a record of completed work.
+
+defaults: &defaults
+  robots_txt_status: unknown        # allowed | disallowed | unknown
+  compliance_checked: false         # gate: automated fetch refused while false -- see COMPLIANCE GATE above
+  compliance_checked_by: null
+  compliance_checked_at: null
+  license_notes: "PLACEHOLDER -- not a licensing determination. Public government scheme/policy document or portal; must be reviewed per-source before any automated fetch."
+  last_fetched_at: null
+  last_fetch_status: null           # ok | failed | stale | manual_pending
+  checksum_of_last_fetch: null
+  manual_fallback_instructions: null
+
+sources:
+
+  # ---- P0: core (9) --------------------------------------------------------
+
+  - source_id: BIHAR_MSME_POLICY_2026
+    <<: *defaults
+    name: "Bihar MSME Policy 2026 (Draft)"
+    short_name: MSME-2026
+    scheme_id: BIHAR_MSME_2026
+    tier: P0
+    url: "https://state.bihar.gov.in/industries/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: on_notification
+    manual_fallback_instructions: >
+      Already acquired: data/raw/msme_policy_2026.pdf (from the original
+      single-document build). Re-verify against the live portal before
+      re-ingesting if the draft is notified or amended.
+
+  - source_id: MSMED_ACT_2006
+    <<: *defaults
+    name: "Micro, Small and Medium Enterprises Development Act, 2006"
+    short_name: MSMED-ACT
+    scheme_id: MSMED_ACT_2006
+    tier: P0
+    url: "https://dcmsme.gov.in/publications/msmed_actx.html"
+    fetch_strategy: pdf_download
+    blocked: false
+    refresh_cadence: on_notification
+    # Attempted 2026-09-23 via a single manual WebFetch (prototype-scale,
+    # NOT the automated acquisition pipeline -- that's still Phase 2 and
+    # still gated on compliance_checked, unchanged above). PARTIAL FAILURE,
+    # recorded honestly rather than silently dropped: the index page at
+    # `url` links to the Act's PDF (dcmsme.gov.in/MSMED2006.pdf), but that
+    # PDF is a scanned image with no text layer -- unreadable by the fetch
+    # tool used. A second attempt via indiacode.nic.in returned HTTP 403.
+    # data/okf_vault/09_acts/MSMED_ACT_2006.md records what WAS confirmed
+    # (via a secondary source describing this Act's delayed-payment rule)
+    # and marks section-level detail explicitly unconfirmed rather than
+    # guessed. Real primary-text extraction (OCR, or a text-layer source)
+    # is still open work.
+    last_fetched_at: "2026-09-23T00:00:00"
+    last_fetch_status: "partial_failure_scanned_pdf_no_text_layer"
+    checksum_of_last_fetch: null
+
+  - source_id: BIIPP_POLICY
+    <<: *defaults
+    name: "Bihar Industrial Investment Promotion Policy (BIIPP)"
+    short_name: BIIPP
+    scheme_id: BIIPP
+    tier: P0
+    url: "https://state.bihar.gov.in/industries/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: on_notification
+    manual_fallback_instructions: >
+      Portal blocks scripted fetches. Download the current BIIPP document
+      from the "Policies" section, save as
+      data/raw/BIIPP_POLICY/<fetch_date>.pdf, then run
+      `python -m app.acquisition.register_manual_fetch BIIPP_POLICY`
+      (Phase 2, not built yet).
+
+  - source_id: BIIPP_DISTRICT_CATEGORISATION
+    <<: *defaults
+    name: "BIIPP District Categorisation (Annexure I: Region A / Region B)"
+    short_name: BIIPP-DIST
+    scheme_id: BIIPP
+    tier: P0
+    url: "https://state.bihar.gov.in/industries/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: on_notification
+    manual_fallback_instructions: >
+      Same portal/document as BIIPP_POLICY; staged separately because it
+      feeds DistrictClassification records specifically. Reconcile against
+      Annexure I in the existing Draft_MSME Policy 2026.pdf on first
+      authoring pass -- the two sources are already known to disagree on
+      attribution (BIIPP 2025 vs 2026, "BIPP" vs "BIIPP" -- see AMB-01 in
+      the pre-OKF ambiguity register).
+
+  - source_id: BIHAR_STARTUP_POLICY
+    <<: *defaults
+    name: "Bihar Startup Policy"
+    short_name: STARTUP-BH
+    scheme_id: BIHAR_STARTUP_POLICY
+    tier: P0
+    url: "https://startup.bihar.gov.in/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: quarterly
+    manual_fallback_instructions: >
+      Portal blocks scripted fetches. Download manually, save as
+      data/raw/BIHAR_STARTUP_POLICY/<fetch_date>.pdf, then register.
+
+  - source_id: UDYAM_REGISTRATION_FRAMEWORK
+    <<: *defaults
+    name: "Udyam Registration Framework"
+    short_name: UDYAM
+    scheme_id: UDYAM_REGISTRATION
+    tier: P0
+    url: "https://udyamregistration.gov.in/Government-India/Ministry-MSME-registration.htm"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: quarterly
+    manual_fallback_instructions: >
+      Portal blocks scripted fetches. Download manually, save as
+      data/raw/UDYAM_REGISTRATION_FRAMEWORK/<fetch_date>.html, then register.
+
+  - source_id: CGTMSE_SCHEME_GUIDELINES
+    <<: *defaults
+    name: "CGTMSE Scheme Guidelines"
+    short_name: CGTMSE
+    scheme_id: CGTMSE
+    tier: P0
+    url: "https://www.cgtmse.in/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: quarterly
+    manual_fallback_instructions: >
+      Portal blocks scripted (raw HTTP) fetches per original research --
+      but a single manual-equivalent WebFetch call on 2026-09-23 DID
+      succeed against the homepage (not the full scheme-guidelines PDF
+      linked from it, which is still unfetched). This is consistent with
+      `blocked: true`/`fetch_strategy: manual`: it was one deliberate,
+      individual fetch for prototype content, not the automated recurring
+      pipeline this field set guards against. Download the full scheme
+      guidelines PDF manually, save as
+      data/raw/CGTMSE_SCHEME_GUIDELINES/<fetch_date>.pdf, then register --
+      needed to complete the fee-slab gap flagged in CGTMSE-AMB-01.
+    last_fetched_at: "2026-09-23T00:00:00"
+    last_fetch_status: "ok_manual_prototype_fetch_homepage_only"
+    checksum_of_last_fetch: null
+
+  - source_id: TREDS_RBI_FRAMEWORK
+    <<: *defaults
+    name: "TReDS -- RBI Framework/Directions"
+    short_name: TREDS
+    scheme_id: TREDS
+    tier: P0
+    url: "https://www.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=3504"
+    fetch_strategy: html_scrape
+    blocked: false
+    refresh_cadence: quarterly
+    # Fetched 2026-09-23 via a single manual WebFetch (prototype-scale, not
+    # the automated pipeline -- compliance_checked/robots_txt_status above
+    # are UNCHANGED and still gate any recurring automated scraping of this
+    # source). Full page content retrieved successfully; authored into
+    # data/okf_vault/01_schemes/TREDS.md and two related notes.
+    last_fetched_at: "2026-09-23T00:00:00"
+    last_fetch_status: "ok_manual_prototype_fetch"
+    checksum_of_last_fetch: null
+
+  - source_id: MSME_SAMADHAAN
+    <<: *defaults
+    name: "MSME Samadhaan / Delayed Payment Framework"
+    short_name: SAMADHAAN
+    scheme_id: MSME_SAMADHAAN
+    tier: P0
+    url: "https://samadhaan.msme.gov.in/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: monthly
+    manual_fallback_instructions: >
+      Portal blocks scripted (raw HTTP) fetches per original research --
+      but a single manual-equivalent WebFetch call on 2026-09-23 DID
+      succeed. As with CGTMSE, this was one deliberate individual fetch,
+      not the automated pipeline; `blocked`/`fetch_strategy: manual` stay
+      as-is for that pipeline's purposes.
+    last_fetched_at: "2026-09-23T00:00:00"
+    last_fetch_status: "ok_manual_prototype_fetch"
+    checksum_of_last_fetch: null
+
+  # ---- P1: major Bihar/central schemes (15) --------------------------------
+
+  - source_id: MMUY
+    <<: *defaults
+    name: "Mukhyamantri Udyami Yojana"
+    short_name: MMUY
+    scheme_id: MMUY
+    tier: P1
+    url: "https://udyami.bihar.gov.in/"
+    fetch_strategy: html_scrape
+    blocked: false
+    refresh_cadence: monthly
+
+  - source_id: BLUY
+    <<: *defaults
+    name: "Bihar Laghu Udyami Yojana"
+    short_name: BLUY
+    scheme_id: BLUY
+    tier: P1
+    url: "https://laghuudyami.bihar.gov.in/"
+    fetch_strategy: html_scrape
+    blocked: false
+    refresh_cadence: monthly
+
+  - source_id: EDP_IED_PATLIPUTRA
+    <<: *defaults
+    name: "EDP -- Entrepreneurship Development Programme / IED Patliputra"
+    short_name: EDP
+    scheme_id: EDP_IED_PATLIPUTRA
+    tier: P1
+    url: "https://www.training.kvic.gov.in/"
+    fetch_strategy: html_scrape
+    blocked: false
+    refresh_cadence: quarterly
+
+  - source_id: BIADA
+    <<: *defaults
+    name: "Bihar Industrial Area Development Authority"
+    short_name: BIADA
+    scheme_id: BIADA
+    tier: P1
+    url: "https://biada1.bihar.gov.in/"
+    fetch_strategy: html_scrape
+    blocked: false
+    refresh_cadence: monthly
+
+  - source_id: PURCHASE_PREFERENCE_POLICY_2024
+    <<: *defaults
+    name: "Bihar Purchase Preference Policy 2024"
+    short_name: PURCH-PREF
+    scheme_id: PURCHASE_PREFERENCE_POLICY_2024
+    tier: P1
+    url: "https://state.bihar.gov.in/finance/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: on_notification
+    manual_fallback_instructions: >
+      Portal blocks scripted fetches. Download manually, save as
+      data/raw/PURCHASE_PREFERENCE_POLICY_2024/<fetch_date>.pdf, then register.
+
+  - source_id: CM_ICDS
+    <<: *defaults
+    name: "CM Integrated Cluster Development Scheme"
+    short_name: CM-ICDS
+    scheme_id: CM_ICDS
+    tier: P1
+    url: "https://state.bihar.gov.in/industries/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: quarterly
+    manual_fallback_instructions: >
+      Portal blocks scripted fetches. Download manually, save as
+      data/raw/CM_ICDS/<fetch_date>.pdf, then register.
+
+  - source_id: SECTORAL_POLICIES_BIHAR
+    <<: *defaults
+    name: "Bihar sectoral policies (Textile & Leather, Bio-Fuels 2023, etc.)"
+    short_name: SECTORAL-BH
+    scheme_id: SECTORAL_POLICIES_BIHAR
+    tier: P1
+    url: "https://state.bihar.gov.in/industries/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: on_notification
+    manual_fallback_instructions: >
+      Multiple documents under one portal section. Download each relevant
+      sectoral policy manually as its own file under
+      data/raw/SECTORAL_POLICIES_BIHAR/<policy_slug>/<fetch_date>.pdf and
+      register individually; consider splitting into separate source_ids
+      once the actual set of sectoral policies to cover is finalized.
+
+  - source_id: PMEGP
+    <<: *defaults
+    name: "Prime Minister's Employment Generation Programme"
+    short_name: PMEGP
+    scheme_id: PMEGP
+    tier: P1
+    url: "https://pmegp.msme.gov.in/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: quarterly
+    manual_fallback_instructions: >
+      Portal blocks scripted fetches. Download manually, save as
+      data/raw/PMEGP/<fetch_date>.html, then register.
+
+  - source_id: PMFME
+    <<: *defaults
+    name: "PM Formalisation of Micro Food Processing Enterprises"
+    short_name: PMFME
+    scheme_id: PMFME
+    tier: P1
+    url: "https://pmfme.mofpi.gov.in/"
+    fetch_strategy: html_scrape
+    blocked: false
+    refresh_cadence: quarterly
+
+  - source_id: PM_VISHWAKARMA
+    <<: *defaults
+    name: "PM Vishwakarma"
+    short_name: PM-VK
+    scheme_id: PM_VISHWAKARMA
+    tier: P1
+    url: "https://pmvishwakarma.gov.in/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: quarterly
+    manual_fallback_instructions: >
+      Portal blocks scripted fetches. Download manually, save as
+      data/raw/PM_VISHWAKARMA/<fetch_date>.html, then register.
+
+  - source_id: ODOP
+    <<: *defaults
+    name: "One District One Product"
+    short_name: ODOP
+    scheme_id: ODOP
+    tier: P1
+    url: "https://www.investindia.gov.in/one-district-one-product"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: quarterly
+    manual_fallback_instructions: >
+      Portal blocks scripted fetches. Download manually, save as
+      data/raw/ODOP/<fetch_date>.html, then register.
+
+  - source_id: RAMP
+    <<: *defaults
+    name: "Raising and Accelerating MSME Performance"
+    short_name: RAMP
+    scheme_id: RAMP
+    tier: P1
+    url: "https://ramp.msme.gov.in/ramp/"
+    fetch_strategy: html_scrape
+    blocked: false
+    refresh_cadence: quarterly
+
+  - source_id: MSME_CHAMPIONS
+    <<: *defaults
+    name: "MSME Champions Portal"
+    short_name: CHAMPIONS
+    scheme_id: MSME_CHAMPIONS
+    tier: P1
+    url: "https://champions.gov.in/"
+    fetch_strategy: html_scrape
+    blocked: false
+    refresh_cadence: monthly
+
+  - source_id: GEM_358_RESERVATION
+    <<: *defaults
+    name: "GeM + 358 items reserved for exclusive MSE procurement"
+    short_name: GEM-358
+    scheme_id: GEM_358_RESERVATION
+    tier: P1
+    url: "https://gem.gov.in/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: quarterly
+    manual_fallback_instructions: >
+      Portal blocks scripted fetches. Download the current reserved-items
+      list manually, save as data/raw/GEM_358_RESERVATION/<fetch_date>.pdf,
+      then register.
+
+  - source_id: ZED_CERTIFICATION
+    <<: *defaults
+    name: "ZED (Zero Defect Zero Effect) Certification"
+    short_name: ZED
+    scheme_id: ZED_CERTIFICATION
+    tier: P1
+    url: "https://zed.msme.gov.in/"
+    fetch_strategy: manual
+    blocked: true
+    refresh_cadence: quarterly
+    manual_fallback_instructions: >
+      Portal blocks scripted fetches. Download manually, save as
+      data/raw/ZED_CERTIFICATION/<fetch_date>.html, then register.

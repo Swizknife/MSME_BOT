@@ -1,0 +1,31 @@
+---
+entity_type: ambiguity_flag
+id: BIHAR_MSME_2026-AMB-03
+local_id: AMB-03
+scope: single_source
+source_ids:
+- BIHAR_MSME_POLICY_2026
+clause_refs:
+- '9.2'
+- 9.1(c)
+page_refs:
+- 21
+issue_type: missing_rate
+severity: blocking
+description: Interest Subsidy and Capital Interest Subsidy carry claim conditions (annual basis; claimable only after full interest payment) but no rate, cap, or tenure is specified anywhere in the document.
+public_disclosure_en: The draft describes when Interest Subsidy can be claimed, but never states the rate, cap, or duration. Departmental clarification is required before any figure can be given.
+public_disclosure_hi: प्रारूप बताता है कि ब्याज सब्सिडी (Interest Subsidy) कब दावा की जा सकती है, लेकिन दर, सीमा या अवधि कहीं नहीं बताई गई है। कोई आंकड़ा देने से पहले विभागीय स्पष्टीकरण आवश्यक है।
+status: open
+resolution: null
+resolved_by: null
+resolved_at: null
+supersedes_version: null
+cross_references: []
+---
+
+## AMB-03 — missing_rate (blocking)
+
+Interest Subsidy and Capital Interest Subsidy carry claim conditions (annual basis; claimable only after full interest payment) but no rate, cap, or tenure is specified anywhere in the document.
+
+**Clauses:** 9.2, 9.1(c)  
+**Pages:** 21
