@@ -119,7 +119,17 @@ def write_note(path: Path, frontmatter: dict[str, Any], body: str) -> None:
         default_flow_style=False,
         width=100000,   # never wrap: a wrapped rate_text is a changed rate_text
     ).rstrip()
-    path.write_text(f"---\n{front}\n---\n\n{body.strip()}\n", encoding="utf-8")
+    # newline="\n" is load-bearing, not style. Path.write_text() defaults to
+    # newline=None, which translates "\n" to os.linesep -- so this function
+    # emitted CRLF on Windows and LF on Linux for identical input. That makes
+    # a note's bytes a function of the machine that wrote it, and
+    # app.okf.verify_migration proves the migration lost nothing by asserting
+    # a regenerated note is BYTE-IDENTICAL to the one on disk. Writing LF
+    # unconditionally keeps that check about content, and matches the
+    # `eol=lf` policy in .gitattributes.
+    path.write_text(
+        f"---\n{front}\n---\n\n{body.strip()}\n", encoding="utf-8", newline="\n"
+    )
 
 
 def load_reference_set(name: str) -> dict[str, Any]:
