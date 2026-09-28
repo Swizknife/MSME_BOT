@@ -1,0 +1,47 @@
+# OKF concept-graph traversal, tuned without a redeploy.
+#
+# Read by backend/app/okf/graph.py. Any key omitted falls back to the
+# DEFAULTS in that module, and a malformed file is ignored rather than
+# crashing the API -- the graph degrades to "unavailable" and the bot falls
+# back to plain RAG.
+
+# How many links to follow from an entry point. 2 is what the motivating
+# query needs: district/sector -> scheme -> incentive. 3 pulls in most of
+# the corpus without adding relevance.
+max_hops: 2
+
+# Neighbours considered at a normal node, highest edge weight first.
+fan_out: 8
+
+# Neighbours considered at a HUB (a Scheme). Deliberately smaller: 156 of
+# the graph's 311 edges point at a scheme, so a scheme expanding at full
+# fan-out drowns the evidence set. See HUB_EXPAND_TYPES in graph.py for
+# which neighbour types a hub will expand toward at all.
+hub_fan_out: 6
+
+# Hard ceiling on the assembled evidence set, whatever the traversal finds.
+max_nodes: 24
+
+# Score multiplier per hop. Lower means "prefer what the query actually
+# named over what that thing links to".
+decay: 0.6
+
+# Reverse edges are traversable but discounted: "X refers to me" is weaker
+# evidence than "I refer to X". Needed because a DistrictClassification
+# points AT its district, so answering a question about the district means
+# walking that edge backwards.
+reverse_edge_factor: 0.6
+
+# Aliases shorter than this never identify a concept, or every query matches
+# something.
+min_alias_length: 4
+
+# Whether graph evidence may answer when the vector Coverage Gate said
+# abstain. This is the single flag that makes the graph's contribution
+# measurable: turn it off and OKF+RAG degrades toward RAG-only behaviour on
+# exactly the multi-hop questions the architecture exists to handle.
+allow_graph_override_of_gate: true
+
+# How many nodes the traversal must assemble before it is allowed to answer
+# over an abstain. One node is a lookup, not a multi-hop assembly.
+min_nodes_for_graph_tier: 2

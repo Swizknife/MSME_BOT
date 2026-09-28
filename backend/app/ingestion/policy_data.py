@@ -18,11 +18,18 @@ Given the corpus is fixed at 27 pages, this data was transcribed by direct,
 verified reading of the source PDF (each figure was independently confirmed
 against the extracted text during the extraction re-validation pass -- see
 verify_extraction.py's REQUIRED_FIGURES list, which is checked against this
-exact set of numbers). Every entry below is additionally re-validated at
-parse time by policy_data_validate.py, which asserts every rate/cap string
-here is a substring of the whitespace-normalized extracted text for its
-source page. If the source PDF is ever revised, that validator will fail
-loudly rather than silently indexing stale figures.
+exact set of numbers). Every entry below is additionally re-validated by
+verify_policy_data.py, which asserts every figure token (percentage, rupee
+amount, count) appearing in a rate/cap string here is present in the
+whitespace-normalized extracted text for its source page or the page
+immediately after it. If the source PDF is ever revised, that validator
+will fail loudly rather than silently indexing stale figures.
+
+(Note: earlier revisions of this docstring named a "policy_data_validate.py"
+that has never existed in the repo. The validator is verify_policy_data.py.
+It checks figure TOKENS, not whole-string containment -- whole-sentence
+matching fails on correct data because the source wraps cells across page
+boundaries.)
 
 Known typos and inconsistencies are preserved EXACTLY as printed in the
 source (e.g. "croe" for "Crore", "7Crore" with no space) -- this module

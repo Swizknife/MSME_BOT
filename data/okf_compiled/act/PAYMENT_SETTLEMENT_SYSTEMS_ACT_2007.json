@@ -1,0 +1,31 @@
+{
+  "act_id": "PAYMENT_SETTLEMENT_SYSTEMS_ACT_2007",
+  "name": "Payment and Settlement Systems Act, 2007 (Act 51 of 2007)",
+  "jurisdiction": "central",
+  "sections": [
+    {
+      "section_no": "10(2) read with 18",
+      "title": "Authorisation of payment systems",
+      "text_summary": "Empowers RBI to issue guidelines authorising payment systems. The RBI's TReDS Guidelines are issued under this authority. See [TREDS](/schemes/TREDS.md).\n",
+      "source": {
+        "source_id": "TREDS_RBI_FRAMEWORK",
+        "source_url": "https://www.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=3504",
+        "source_document_version": null,
+        "fetch_date": "2026-09-23",
+        "fetch_method": "manual",
+        "extraction_method": null,
+        "page_or_section_ref": "RBI TReDS Guidelines, cited legal basis",
+        "page_start": null,
+        "page_end": null,
+        "verification_status": "verified",
+        "verified_by": null,
+        "verified_at": null,
+        "checksum": null
+      }
+    }
+  ],
+  "cross_references": [
+    "schemes/TREDS"
+  ],
+  "_body": "## Payment and Settlement Systems Act, 2007\n\nMinimal stub, authored only to the extent needed to ground TReDS's stated\nlegal basis (\"[TReDS guidelines are] issued by Reserve Bank of India under\nSection 10(2) read with Section 18 of Payment & Settlement Systems Act,\n2007\"). Not independently fetched or verified beyond that one citing\nsentence on the RBI TReDS page — do not treat this as a general-purpose\nsummary of the Act."
+}

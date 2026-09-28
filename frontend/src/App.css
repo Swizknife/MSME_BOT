@@ -28,12 +28,52 @@
   margin-top: 4px;
 }
 
+.app-header__controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 .lang-toggle {
   display: flex;
   border: 1px solid var(--border);
   border-radius: 8px;
   overflow: hidden;
   flex-shrink: 0;
+}
+
+/* --- Mode toggle -------------------------------------------------------- */
+/* Same shape as .lang-toggle, three segments instead of two: this is the
+   control the RAG-vs-OKF-vs-OKF+RAG comparison runs through. */
+
+.mode-toggle {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.mode-toggle__btn {
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.mode-toggle__btn:not(:last-child) {
+  border-right: 1px solid var(--border);
+}
+
+.mode-toggle__btn--active {
+  background: var(--accent);
+  color: #fff;
 }
 
 .lang-toggle__btn {
@@ -124,6 +164,10 @@
 
 .message__meta {
   margin-bottom: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
 }
 
 .message__text {
@@ -164,6 +208,43 @@
 .tier-badge__low-confidence {
   text-transform: none;
   font-weight: 500;
+}
+
+/* --- Mode badge ----------------------------------------------------------
+   Which architecture produced THIS specific answer, plus latency. Distinct
+   from the toggle (what will answer the NEXT question) -- a turn keeps its
+   own badge even after the toggle moves on, so a transcript with both
+   flipped stays legible as a comparison. */
+
+.mode-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+  color: var(--text-muted);
+}
+
+.mode-badge--rag {
+  border-color: color-mix(in srgb, var(--origin-vector) 45%, transparent);
+  color: var(--origin-vector);
+}
+
+.mode-badge--okf {
+  border-color: color-mix(in srgb, var(--origin-okf) 45%, transparent);
+  color: var(--origin-okf);
+}
+
+.mode-badge--okf_rag {
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+.mode-badge__timing {
+  font-weight: 500;
+  opacity: 0.8;
 }
 
 /* --- Source citations --------------------------------------------------- */
@@ -214,6 +295,115 @@
   line-height: 1.55;
   white-space: pre-wrap;
 }
+
+/* Origin colouring -- a mixed-origin okf_rag answer can carry vector, okf
+   AND graph citations at once, and this is what lets a user see which
+   part of the answer came from where without opening every chip. */
+
+.source-chip--vector { border-left: 3px solid var(--origin-vector); }
+.source-chip--okf { border-left: 3px solid var(--origin-okf); }
+.source-chip--graph { border-left: 3px solid var(--origin-graph); }
+
+.source-origin-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-right: 6px;
+  color: #fff;
+}
+
+.source-origin-tag--vector { background: var(--origin-vector); }
+.source-origin-tag--okf { background: var(--origin-okf); }
+.source-origin-tag--graph { background: var(--origin-graph); }
+
+/* --- Graph path ("how this answer was assembled") ----------------------
+   Collapsible by default. In rag mode this never renders at all (App
+   receives an empty graph_path from the backend) -- that absence, visible
+   by flipping the toggle, IS half of the comparison the toggle exists for. */
+
+.graph-path {
+  margin-top: 10px;
+}
+
+.graph-path__toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.graph-path__toggle:hover {
+  color: var(--accent);
+}
+
+.graph-path__body {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border: 1px dashed var(--border);
+  border-radius: 6px;
+  background: var(--bg-alt);
+}
+
+.graph-path__chain {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.graph-path__node {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.graph-path__type {
+  font-weight: 700;
+  color: var(--text-muted);
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.graph-path__title {
+  font-weight: 600;
+}
+
+.graph-path__via,
+.graph-path__hop {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.graph-path__missing {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--banner-text);
+}
+
+.trust-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.trust-dot--unverified { background: var(--trust-unverified); }
+.trust-dot--machine-confirmed { background: var(--trust-machine); }
+.trust-dot--human-reviewed { background: var(--trust-human); }
 
 /* --- Starter questions ------------------------------------------------- */
 

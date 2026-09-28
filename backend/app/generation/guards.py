@@ -117,6 +117,50 @@ def citation_validity_guard(answer_text: str, num_sources: int) -> tuple[bool, l
     return (len(invalid) == 0, invalid)
 
 
+def okf_consistency_guard(answer_text: str, ground_truth_rate_text: str) -> tuple[bool, list[str]]:
+    """
+    OKF-era addition (docs/OKF_RAG_IMPLEMENTATION.md section 5): checks a
+    synthesized answer's figures against the SPECIFIC OKF record the query
+    resolved to, not just "does this figure appear somewhere in the shown
+    context" (that's numeric_guard's job).
+
+    The two checks catch different failures. A table-atom's `parent_text`
+    legitimately contains all three enterprise categories' rates side by
+    side (small-to-big retrieval, see ingestion/chunk.py), so a paraphrase
+    that swaps the Small rate in for a Micro question passes numeric_guard
+    trivially -- both figures ARE in the shown context. This guard instead
+    requires every rate-shaped figure in the answer to match the ground
+    truth for the one category actually resolved, catching exactly that
+    misattribution.
+
+    Only meaningful when the router resolved the query to one specific OKF
+    incentive+category (retrieval_mode "okf_lookup" or "hybrid" with a
+    detected category) -- callers must not invoke this for an open
+    rag_narrative answer, where no single ground-truth slot exists to check
+    against.
+    """
+    answer_text = _CITATION_TAG_STRIP_RE.sub(" ", answer_text)
+    norm_answer = normalize_numeric_text(answer_text)
+    norm_truth = normalize_numeric_text(ground_truth_rate_text)
+
+    truth_figures = _extract_figures(norm_truth)
+    answer_figures = _extract_figures(norm_answer)
+
+    # A figure the answer states that is rate-shaped (has a % or a
+    # crore/lakh/rupee unit -- i.e. plausibly THE rate/cap being asked
+    # about) but does not appear in the resolved ground truth is a
+    # mismatch. Bare numbers with no unit (a headcount, a year count) are
+    # not checked here -- they are not what this guard exists to verify,
+    # and requiring them would false-positive on incidental figures the
+    # LLM's prose legitimately restates from elsewhere in context.
+    rate_shaped = re.compile(r"%|crore|lakh|rupee", re.IGNORECASE)
+    mismatched = [
+        fig for fig in answer_figures
+        if rate_shaped.search(fig) and fig not in truth_figures
+    ]
+    return (len(mismatched) == 0, mismatched)
+
+
 def ambiguity_disclosure_guard(answer_text: str, required_ambiguity_ids: list[str]) -> tuple[bool, list[str]]:
     """
     If any cited chunk carries an ambiguity_flags entry, the answer must

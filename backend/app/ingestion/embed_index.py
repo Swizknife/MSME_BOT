@@ -41,7 +41,14 @@ import time
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-CHUNKS_JSON = REPO_ROOT / "data" / "chunks" / "msme_policy_2026.chunks.json"
+# Phase 4 of the OKF+RAG rebuild (docs/OKF_RAG_IMPLEMENTATION.md section 9):
+# the index is now built from the OKF compiler's output, not the single-
+# document pipeline's chunk.py. app/okf/verify_compile.py proved these are
+# equivalent for the one currently-migrated source (85/85 chunks at full
+# field parity) before this switch was made -- see HANDOFF.md. The legacy
+# file is left on disk and untouched; nothing reads it anymore.
+CHUNKS_JSON = REPO_ROOT / "data" / "chunks" / "okf.chunks.json"
+LEGACY_CHUNKS_JSON = REPO_ROOT / "data" / "chunks" / "msme_policy_2026.chunks.json"
 QDRANT_LOCAL_PATH = REPO_ROOT / "data" / "qdrant_local"
 
 COLLECTION_NAME = "msme_policy"
@@ -139,7 +146,11 @@ def create_collection(client) -> None:
 
 def main() -> None:
     if not CHUNKS_JSON.exists():
-        print(f"FAIL: {CHUNKS_JSON} not found -- run `python -m app.ingestion.chunk` first.")
+        print(
+            f"FAIL: {CHUNKS_JSON} not found -- run:\n"
+            f"  python -m app.okf.migrate_policy_data\n"
+            f"  python -m app.okf.compile"
+        )
         sys.exit(1)
 
     data = json.loads(CHUNKS_JSON.read_text(encoding="utf-8"))

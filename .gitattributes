@@ -1,0 +1,35 @@
+# Line-ending policy.
+#
+# This repo is developed on Windows, where git's core.autocrlf=true converts
+# LF to CRLF on checkout. That is fine for most files and actively harmful for
+# two kinds of file here:
+#
+#   1. The OKF vault (data/okf_vault/**.md). `app/okf/vault.py:write_note()`
+#      always writes LF. `app.okf.verify_migration` proves the migration lost
+#      nothing by regenerating each note and asserting it is BYTE-IDENTICAL to
+#      the one on disk. On a fresh clone with autocrlf=true, the checked-out
+#      note would be CRLF and the regenerated one LF, so every note would fail
+#      that check for a reason that has nothing to do with migration
+#      correctness.
+#
+#   2. Worse, and quietly: a stray \r inside a YAML block scalar (the `summary:
+#      >` and `rate_text:` fields) becomes part of the parsed string. That
+#      string is a verbatim policy figure which `verify_policy_data.py`
+#      cross-checks against text extracted from the source PDF. A CRLF
+#      round-trip can therefore turn a verified figure into an unverifiable
+#      one without anyone editing it.
+#
+# So: text files are LF in the working tree as well as in the repo.
+
+* text=auto eol=lf
+
+# Binaries -- never touch these.
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary
+*.sqlite binary

@@ -1,6 +1,9 @@
 # Bihar MSME Policy 2026 — Citation-Grounded RAG Chatbot
 ## Implementation Specification
 
+> ⚠️ **Superseded as the live spec by [`OKF_RAG_IMPLEMENTATION.md`](./OKF_RAG_IMPLEMENTATION.md).**
+> This document remains accurate and useful for the retrieval/generation internals (encoder choice, hybrid retrieval, Coverage Gate, Numeric Guard, chunking rationale), which the OKF+RAG rebuild generalizes rather than replaces. Two figures here have since drifted from the code, which is authoritative: §2.3 says the draft has **19** material defects — the register in `backend/app/ingestion/policy_data.py` now holds **21** (AMB-01 … AMB-21); and §5.3(b) projects **51** table atoms where the built pipeline emits **25** (rows that do not vary by enterprise category are not exploded three ways). See `docs/RAG_LEARNING_GUIDE.md` for that second correction.
+
 | | |
 |---|---|
 | **Version** | 1.0 |
