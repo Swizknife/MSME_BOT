@@ -112,7 +112,7 @@ python -m app.okf.compile                        # validate + cross-check + emit
 python -m app.okf.verify_compile                 # compile health + parity with the existing index
 ```
 
-`compile` validates all 238 vault notes against the entity schemas, checks every reference and
+`compile` validates all 249 vault notes against the entity schemas, checks every reference and
 wikilink resolves, cross-checks each fact's figure tokens against the staged source text, runs the
 contradiction and completeness ambiguity passes, and writes `data/okf_compiled/` plus
 `data/chunks/okf.chunks.json`.
@@ -139,7 +139,7 @@ You should end up with:
 
 ```
 data/okf_compiled/                          <- structured OKF records (§3.2)
-data/chunks/okf.chunks.json                 <- RAG chunks, 85 today (§3.2)
+data/chunks/okf.chunks.json                 <- RAG chunks, 91 today (§3.2)
 data/qdrant_local/                          <- the live search index (§3.3)
 ```
 
@@ -285,7 +285,9 @@ backend/app/
   acquisition/   source registry, fetchers, manual-fallback staging          (Phase 2, skeleton only)
   okf/           vault.py (parse/write notes), schemas.py (entity models),
                  migrate_policy_data.py, compiler.py, chunk_from_okf.py,
-                 verify_compile.py, store.py (query-time read accessor)      (Phases 0-1, live)
+                 verify_compile.py, store.py (query-time read accessor),
+                 graph_build.py (compile-time 311-edge concept graph),
+                 graph.py (query-time traversal)                            (Phases 0-1 + B, live)
   ingestion/     PDF -> text -> structured facts (policy_data.py)           (feeds okf/migrate_policy_data.py;
                                                                                 embed_index.py now reads okf.chunks.json)
   retrieval/     query encoding, hybrid search, reranking, coverage gate     (runs per request; coverage_gate.py has
@@ -294,12 +296,16 @@ backend/app/
                                                                                 added Phase 5)
   policy/        intent + retrieval_mode routing, ambiguity register        (classify_retrieval_mode() is the
                                                                                 OKF/RAG/hybrid router, Phase 5)
-  api/           the FastAPI /api/chat endpoint -- tiered response ladder    (Tier 1 okf_lookup + hybrid injection
-                                                                                added Phase 5)
+  api/           the FastAPI /api/chat endpoint -- tiered response ladder    (Tier 1 okf_lookup + hybrid injection,
+                 plus mode routing (rag / okf / okf_rag as three genuinely      Phase 5; mode routing as three
+                 different paths)                                               genuinely separate paths, Phase C)
 frontend/src/
   api/chat.ts              typed client for /api/chat
-  components/              ChatMessage, SourceCitations, TierBadge, ChatInput, StarterQuestions
-  App.tsx                  ties it together: language toggle, draft banner, chat window
+  components/              ChatMessage, SourceCitations, TierBadge, ChatInput, StarterQuestions,
+                            ModeToggle (rag / okf / okf_rag architecture switch), GraphPath
+                            (collapsible concept-graph traversal panel, shown only outside rag mode)
+  App.tsx                  ties it together: language toggle, architecture mode toggle, draft banner,
+                            chat window
 docs/
   OKF_RAG_IMPLEMENTATION.md   the live architecture spec for the OKF+RAG rebuild
   RAG_IMPLEMENTATION.md       the original single-document spec (historical, still accurate for retrieval/generation internals)
@@ -311,11 +317,14 @@ config/
 data/
   raw/                     the source PDFs (today: one policy PDF; will become one folder per source)
   extracted/               PDF text extraction, feeds the OKF compiler's source cross-check
-  chunks/                  okf.chunks.json (live, 85 chunks, indexed) + msme_policy_2026.chunks.json
+  chunks/                  okf.chunks.json (live, 91 chunks, indexed) + msme_policy_2026.chunks.json
                             (legacy, kept only for the parity check, nothing reads it for serving)
-  qdrant_local/            the live vector index -- 85 points, OKF payload (rebuilt by embed_index.py)
-  okf_vault/               human-edited Markdown OKF facts -- 238 notes migrated from policy_data.py,
-                            plus _reference/ (closed-universe validation sets, e.g. bihar_districts.yaml)
-  okf_compiled/            compiler output: 238 structured OKF JSON records + findings.json
+  qdrant_local/            the live vector index -- 91 points, OKF payload (rebuilt by embed_index.py)
+  okf_vault/               human-edited Markdown OKF facts -- 249 concept notes (238 migrated from
+                            policy_data.py, plus hand-authored notes for TReDS/CGTMSE/MSME Samadhaan
+                            and other later additions), plus _reference/ (closed-universe validation
+                            sets, e.g. bihar_districts.yaml)
+  okf_compiled/            compiler output: 249 structured OKF JSON records + graph.json (311-edge
+                            concept graph) + findings.json
 HANDOFF.md                 current project status, decisions made, open questions, how to pick this project back up
 ```
