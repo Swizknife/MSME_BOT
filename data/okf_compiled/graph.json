@@ -1,0 +1,5603 @@
+{
+  "generated_by": "app.okf.graph_build",
+  "okf_version": "0.2",
+  "nodes": {
+    "acts/MSMED_ACT_2006": {
+      "domain_id": "MSMED_ACT_2006",
+      "type": "Act",
+      "entity_type": "act",
+      "title": "Micro, Small and Medium Enterprises Development Act, 2006",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [
+        "Micro, Small and Medium Enterprises Development Act, 2006"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "acts/PAYMENT_SETTLEMENT_SYSTEMS_ACT_2007": {
+      "domain_id": "PAYMENT_SETTLEMENT_SYSTEMS_ACT_2007",
+      "type": "Act",
+      "entity_type": "act",
+      "title": "Payment and Settlement Systems Act, 2007 (Act 51 of 2007)",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [
+        "Payment and Settlement Systems Act, 2007 (Act 51 of 2007)"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-01": {
+      "domain_id": "BIHAR_MSME_2026-AMB-01",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-01",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-01"
+      ],
+      "summary": "The incentive table names 'BIPP Policy' while section 7.4(ii) and Annexure I name 'BIIPP Policy'; Annexure I is dated 2025 while section 7.4(ii) references BIIPP 2026. It is unclear whether these are the same document.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-02": {
+      "domain_id": "BIHAR_MSME_2026-AMB-02",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-02",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-02"
+      ],
+      "summary": "Section 7.4(ii) promises an additional 5% Capital Subsidy to 'backward districts as defined in the BIIPP Policy 2026', but Annexure I defines only Region A / Region B, never 'backward districts'.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-03": {
+      "domain_id": "BIHAR_MSME_2026-AMB-03",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-03",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-03"
+      ],
+      "summary": "Interest Subsidy and Capital Interest Subsidy carry claim conditions (annual basis; claimable only after full interest payment) but no rate, cap, or tenure is specified anywhere in the document.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-04": {
+      "domain_id": "BIHAR_MSME_2026-AMB-04",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-04",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-04"
+      ],
+      "summary": "'Special Capital Subsidy scheme' is referenced twice but never defined. It may refer to section 8.2 (Special Package for Emerging Industries) but this is not stated.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-05": {
+      "domain_id": "BIHAR_MSME_2026-AMB-05",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-05",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-05"
+      ],
+      "summary": "The disadvantaged-group additional-subsidy cap is Rs.7 Crore even for Micro enterprises, whose base Capital Subsidy cap is only Rs.25 lakh -- roughly 28x larger. Likely a drafting error, but not stated as such.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-06": {
+      "domain_id": "BIHAR_MSME_2026-AMB-06",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-06",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-06"
+      ],
+      "summary": "The aggregate cap (50% of project cost or Rs.10 Cr, whichever is lower) is arithmetically incompatible with summed individual caps -- e.g. Medium capital subsidy (Rs.5 Cr) plus disadvantaged-group top-up (Rs.7 Cr) already exceeds Rs.10 Cr, and section 8.2 alone permits up to Rs.10 Cr. Netting order is unstated.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-07": {
+      "domain_id": "BIHAR_MSME_2026-AMB-07",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-07",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-07"
+      ],
+      "summary": "'Fixed Capital Investment' (the base for Capital Subsidy) is never defined. Section 9.1(a) separately narrows eligibility to plant, machinery, equipment and related building infrastructure; sections 8.1/8.2 use the narrower 'eligible Plant & Machinery'. Three different bases appear across the document.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-08": {
+      "domain_id": "BIHAR_MSME_2026-AMB-08",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-08",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-08"
+      ],
+      "summary": "Scaling-Up eligibility ('once per enterprise category') is stated only for Micro and Small enterprises. Medium enterprises appear in the section 7.9 Scaling-Up row but are not addressed by this condition.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-09": {
+      "domain_id": "BIHAR_MSME_2026-AMB-09",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-09",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-09"
+      ],
+      "summary": "The Revival Package states eligibility (unit closed for more than one year; investment ceilings of Rs.1/5/12 Crore by category) but no rate or amount of assistance is specified anywhere.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-10": {
+      "domain_id": "BIHAR_MSME_2026-AMB-10",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-10",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-10"
+      ],
+      "summary": "High Priority Sector (9 entries) and Priority Sector (20 entries) are enumerated in the Annexures, but no incentive elsewhere in the policy differentiates its rate or eligibility by these sector lists.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-11": {
+      "domain_id": "BIHAR_MSME_2026-AMB-11",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-11",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-11"
+      ],
+      "summary": "The heritage-cluster annexure is titled 'eligible for special incentive under the Policy', but section 8.4 grants go to clusters (infrastructure), not to individual units within a heritage cluster. No unit-level special incentive is quantified.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-12": {
+      "domain_id": "BIHAR_MSME_2026-AMB-12",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-12",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-12"
+      ],
+      "summary": "The negative list excludes 'any industry which impacts the environment negatively' with no defined criteria and no named determining authority.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-13": {
+      "domain_id": "BIHAR_MSME_2026-AMB-13",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-13",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-13"
+      ],
+      "summary": "The SME Exchange row shows '-' for Micro enterprises. It is not stated whether this means Micro enterprises are ineligible, or simply not applicable (e.g. because SME Exchange listing itself may not apply to Micro enterprises).",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-14": {
+      "domain_id": "BIHAR_MSME_2026-AMB-14",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-14",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-14"
+      ],
+      "summary": "'Net SGST' is undefined, and the 5%-of-annual-turnover cap does not specify which turnover year (the claim year or a base year).",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-15": {
+      "domain_id": "BIHAR_MSME_2026-AMB-15",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-15",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-15"
+      ],
+      "summary": "Annexure III is titled 'High Priority Sector', duplicating Annexure II's title (it should read 'Priority Sector'). 'Annexure IV' is used twice, once for Emerging Industries and once for Heritage Clusters. Heritage cluster numbering also skips several numbers.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-16": {
+      "domain_id": "BIHAR_MSME_2026-AMB-16",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-16",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-16"
+      ],
+      "summary": "Sub-clause lettering in sections 9.7 and 9.9 begins at '(b)'/'(c)' with no '(a)' present -- a clause appears to have been dropped during drafting.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-17": {
+      "domain_id": "BIHAR_MSME_2026-AMB-17",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-17",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-17"
+      ],
+      "summary": "Policy validity runs '5 years from the date of notification', but this document is a draft and no notification date exists yet.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-18": {
+      "domain_id": "BIHAR_MSME_2026-AMB-18",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-18",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-18"
+      ],
+      "summary": "Section 5.2 'Guiding principles of the policy' is an empty heading in the source PDF -- verified by rendering the page: zero drawings, zero images, and no text after the heading. This is a content gap in the draft itself, not an extraction failure.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-19": {
+      "domain_id": "BIHAR_MSME_2026-AMB-19",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-19",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-19"
+      ],
+      "summary": "Page 10's text layer originally rendered section 7.1 (I)-(V) across two overlapping columns whose boundary split words mid-token. Repaired deterministically (see extract.py); the page also carries a rasterised diagram of 8 pillar boxes whose labels are not in the text layer and are not part of the retrievable corpus (see AMB-21).",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-20": {
+      "domain_id": "BIHAR_MSME_2026-AMB-20",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-20",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-20"
+      ],
+      "summary": "Annexure I categorises only 37 of Bihar's 38 districts into Region A/B. Araria district is absent from both lists (verified by diffing Annexure I against the official 38-district list). An enterprise in Araria therefore has no defined capital-subsidy region and no determinable rate.",
+      "findings": []
+    },
+    "ambiguities/BIHAR_MSME_2026-AMB-21": {
+      "domain_id": "BIHAR_MSME_2026-AMB-21",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "BIHAR_MSME_2026-AMB-21",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.ambiguity.amb-21"
+      ],
+      "summary": "The page 10 diagram shows 8 policy pillars; 7 map to sections 7.1-7.7. The eighth, 'Special Assistance for Inclusion', has no corresponding numbered section anywhere in the policy text.",
+      "findings": []
+    },
+    "ambiguities/CGTMSE-AMB-01": {
+      "domain_id": "CGTMSE-AMB-01",
+      "type": "AmbiguityFlag",
+      "entity_type": "ambiguity_flag",
+      "title": "CGTMSE-AMB-01",
+      "scheme_id": null,
+      "trust": "unverified",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "cgtmse.cgtmse_homepage_fetched_2026-09-23.ambiguity.amb-01"
+      ],
+      "summary": "The CGTMSE homepage states a minimum guarantee fee (0.37% p.a.) and a maximum guarantee coverage ceiling (₹10 crore), but does not publish a full fee slab (fees typically vary by loan size, women/NER/Aspirational- district status, and MLI category) or a guarantee coverage percentage. This vault note records only what the fetched homepage actually states; the complete fee structure lives in a linke",
+      "findings": []
+    },
+    "districts/ARARIA": {
+      "domain_id": "ARARIA",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Araria",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Araria"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": [
+        "AUTO-COMPLETENESS-DISTRICTS-BIHAR_MSME_2026"
+      ]
+    },
+    "districts/ARWAL": {
+      "domain_id": "ARWAL",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Arwal",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Arwal"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/AURANGABAD": {
+      "domain_id": "AURANGABAD",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Aurangabad",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Aurangabad"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/BANKA": {
+      "domain_id": "BANKA",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Banka",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Banka"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/BEGUSARAI": {
+      "domain_id": "BEGUSARAI",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Begusarai",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Begusarai"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/BHAGALPUR": {
+      "domain_id": "BHAGALPUR",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Bhagalpur",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Bhagalpur"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/BHOJPUR": {
+      "domain_id": "BHOJPUR",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Bhojpur",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Bhojpur"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/BUXAR": {
+      "domain_id": "BUXAR",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Buxar",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Buxar"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/DARBHANGA": {
+      "domain_id": "DARBHANGA",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Darbhanga",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Darbhanga"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/EAST-CHAMPARAN": {
+      "domain_id": "EAST-CHAMPARAN",
+      "type": "District",
+      "entity_type": "district",
+      "title": "East Champaran",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "East Champaran"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/GAYA": {
+      "domain_id": "GAYA",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Gaya",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Gaya"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/GOPALGANJ": {
+      "domain_id": "GOPALGANJ",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Gopalganj",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Gopalganj"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/JAMUI": {
+      "domain_id": "JAMUI",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Jamui",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Jamui"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/JEHANABAD": {
+      "domain_id": "JEHANABAD",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Jehanabad",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Jehanabad"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/KAIMUR": {
+      "domain_id": "KAIMUR",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Kaimur",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Kaimur"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/KATIHAR": {
+      "domain_id": "KATIHAR",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Katihar",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Katihar"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/KHAGARIA": {
+      "domain_id": "KHAGARIA",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Khagaria",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Khagaria"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/KISHANGANJ": {
+      "domain_id": "KISHANGANJ",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Kishanganj",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Kishanganj"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/LAKHISARAI": {
+      "domain_id": "LAKHISARAI",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Lakhisarai",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Lakhisarai"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/MADHEPURA": {
+      "domain_id": "MADHEPURA",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Madhepura",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Madhepura"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/MADHUBANI": {
+      "domain_id": "MADHUBANI",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Madhubani",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Madhubani"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/MUNGER": {
+      "domain_id": "MUNGER",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Munger",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Munger"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/MUZAFFARPUR": {
+      "domain_id": "MUZAFFARPUR",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Muzaffarpur",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Muzaffarpur"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/NALANDA": {
+      "domain_id": "NALANDA",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Nalanda",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Nalanda"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/NAWADA": {
+      "domain_id": "NAWADA",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Nawada",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Nawada"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/PATNA": {
+      "domain_id": "PATNA",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Patna",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Patna"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/PURNEA": {
+      "domain_id": "PURNEA",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Purnea",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Purnea"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/ROHTAS": {
+      "domain_id": "ROHTAS",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Rohtas",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Rohtas"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/SAHARSA": {
+      "domain_id": "SAHARSA",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Saharsa",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Saharsa"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/SAMASTIPUR": {
+      "domain_id": "SAMASTIPUR",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Samastipur",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Samastipur"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/SARAN": {
+      "domain_id": "SARAN",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Saran",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Saran"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/SHEIKHPURA": {
+      "domain_id": "SHEIKHPURA",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Sheikhpura",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Sheikhpura"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/SHEOHAR": {
+      "domain_id": "SHEOHAR",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Sheohar",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Sheohar"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/SITAMARHI": {
+      "domain_id": "SITAMARHI",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Sitamarhi",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Sitamarhi"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/SIWAN": {
+      "domain_id": "SIWAN",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Siwan",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Siwan"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/SUPAUL": {
+      "domain_id": "SUPAUL",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Supaul",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Supaul"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/VAISHALI": {
+      "domain_id": "VAISHALI",
+      "type": "District",
+      "entity_type": "district",
+      "title": "Vaishali",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Vaishali"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/WEST-CHAMPARAN": {
+      "domain_id": "WEST-CHAMPARAN",
+      "type": "District",
+      "entity_type": "district",
+      "title": "West Champaran",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "West Champaran"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "districts/ARWAL-BIIPP-REGION-A": {
+      "domain_id": "ARWAL-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "ARWAL",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/AURANGABAD-BIIPP-REGION-A": {
+      "domain_id": "AURANGABAD-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "AURANGABAD",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/BANKA-BIIPP-REGION-A": {
+      "domain_id": "BANKA-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "BANKA",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/BEGUSARAI-BIIPP-REGION-B": {
+      "domain_id": "BEGUSARAI-BIIPP-REGION-B",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "BEGUSARAI",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/BHAGALPUR-BIIPP-REGION-A": {
+      "domain_id": "BHAGALPUR-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "BHAGALPUR",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/BHOJPUR-BIIPP-REGION-A": {
+      "domain_id": "BHOJPUR-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "BHOJPUR",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/BUXAR-BIIPP-REGION-B": {
+      "domain_id": "BUXAR-BIIPP-REGION-B",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "BUXAR",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/DARBHANGA-BIIPP-REGION-A": {
+      "domain_id": "DARBHANGA-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "DARBHANGA",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/EAST-CHAMPARAN-BIIPP-REGION-A": {
+      "domain_id": "EAST-CHAMPARAN-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "EAST-CHAMPARAN",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/GAYA-BIIPP-REGION-B": {
+      "domain_id": "GAYA-BIIPP-REGION-B",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "GAYA",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/GOPALGANJ-BIIPP-REGION-A": {
+      "domain_id": "GOPALGANJ-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "GOPALGANJ",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/JAMUI-BIIPP-REGION-A": {
+      "domain_id": "JAMUI-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "JAMUI",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/JEHANABAD-BIIPP-REGION-A": {
+      "domain_id": "JEHANABAD-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "JEHANABAD",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/KAIMUR-BIIPP-REGION-A": {
+      "domain_id": "KAIMUR-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "KAIMUR",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/KATIHAR-BIIPP-REGION-A": {
+      "domain_id": "KATIHAR-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "KATIHAR",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/KHAGARIA-BIIPP-REGION-A": {
+      "domain_id": "KHAGARIA-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "KHAGARIA",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/KISHANGANJ-BIIPP-REGION-A": {
+      "domain_id": "KISHANGANJ-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "KISHANGANJ",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/LAKHISARAI-BIIPP-REGION-A": {
+      "domain_id": "LAKHISARAI-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "LAKHISARAI",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/MADHEPURA-BIIPP-REGION-A": {
+      "domain_id": "MADHEPURA-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "MADHEPURA",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/MADHUBANI-BIIPP-REGION-A": {
+      "domain_id": "MADHUBANI-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "MADHUBANI",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/MUNGER-BIIPP-REGION-A": {
+      "domain_id": "MUNGER-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "MUNGER",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/MUZAFFARPUR-BIIPP-REGION-B": {
+      "domain_id": "MUZAFFARPUR-BIIPP-REGION-B",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "MUZAFFARPUR",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/NALANDA-BIIPP-REGION-A": {
+      "domain_id": "NALANDA-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "NALANDA",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/NAWADA-BIIPP-REGION-A": {
+      "domain_id": "NAWADA-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "NAWADA",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/PATNA-BIIPP-REGION-B": {
+      "domain_id": "PATNA-BIIPP-REGION-B",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "PATNA",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/PURNEA-BIIPP-REGION-A": {
+      "domain_id": "PURNEA-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "PURNEA",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/ROHTAS-BIIPP-REGION-A": {
+      "domain_id": "ROHTAS-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "ROHTAS",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/SAHARSA-BIIPP-REGION-A": {
+      "domain_id": "SAHARSA-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "SAHARSA",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/SAMASTIPUR-BIIPP-REGION-A": {
+      "domain_id": "SAMASTIPUR-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "SAMASTIPUR",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/SARAN-BIIPP-REGION-A": {
+      "domain_id": "SARAN-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "SARAN",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/SHEIKHPURA-BIIPP-REGION-A": {
+      "domain_id": "SHEIKHPURA-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "SHEIKHPURA",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/SHEOHAR-BIIPP-REGION-A": {
+      "domain_id": "SHEOHAR-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "SHEOHAR",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/SITAMARHI-BIIPP-REGION-A": {
+      "domain_id": "SITAMARHI-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "SITAMARHI",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/SIWAN-BIIPP-REGION-A": {
+      "domain_id": "SIWAN-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "SIWAN",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/SUPAUL-BIIPP-REGION-A": {
+      "domain_id": "SUPAUL-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "SUPAUL",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/VAISHALI-BIIPP-REGION-B": {
+      "domain_id": "VAISHALI-BIIPP-REGION-B",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "VAISHALI",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "districts/WEST-CHAMPARAN-BIIPP-REGION-A": {
+      "domain_id": "WEST-CHAMPARAN-BIIPP-REGION-A",
+      "type": "DistrictClassification",
+      "entity_type": "district_classification",
+      "title": "WEST-CHAMPARAN",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [],
+      "summary": "Annexure I district categorisation, attributed to BIIPP",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.1-a": {
+      "domain_id": "BIHAR_MSME_2026-S9.1-a",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.1-a",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.1.a"
+      ],
+      "summary": "The incentive shall be admissible only on investment made in plant and machinery, equipment, and related building infrastructure. The cost of land shall not be eligible for any incentive under this category.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.1-b": {
+      "domain_id": "BIHAR_MSME_2026-S9.1-b",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.1-b",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.1.b"
+      ],
+      "summary": "The eligible incentive shall be disbursed in two equal instalments. The first instalment shall be released upon achievement of the prescribed project implementation milestones, while the second instalment shall be released after the unit achieves at least 50% of its commercial production capacity.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.1-c": {
+      "domain_id": "BIHAR_MSME_2026-S9.1-c",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.1-c",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.1.c"
+      ],
+      "summary": "The cost of land shall not be considered while calculating benefits under Capital Subsidy, Capital Interest Subsidy, or any other investment-linked incentive.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.1-d": {
+      "domain_id": "BIHAR_MSME_2026-S9.1-d",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.1-d",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.1.d"
+      ],
+      "summary": "The aggregate financial assistance availed by any enterprise under this policy shall not exceed 50% of the eligible project cost or ₹10 Crore, whichever is lower.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.1-e": {
+      "domain_id": "BIHAR_MSME_2026-S9.1-e",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.1-e",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.1.e"
+      ],
+      "summary": "An MSME that has availed assistance under the Capital Subsidy scheme shall not be eligible for assistance under the Special Capital Subsidy scheme for the same investment.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.10-a": {
+      "domain_id": "BIHAR_MSME_2026-S9.10-a",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.10-a",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.10.a"
+      ],
+      "summary": "Eligible MSMEs shall submit applications for reimbursement within six months from the date of listing on a recognized SME Exchange.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.10-b": {
+      "domain_id": "BIHAR_MSME_2026-S9.10-b",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.10-b",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.10.b"
+      ],
+      "summary": "Eligible expenditure for reimbursement shall include Merchant Banker Fees, Due Diligence Fees, Registrar and Transfer Agent Fees, Peer Review Auditor Fees, Exchange Fees, and Listing Charges.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.2-a": {
+      "domain_id": "BIHAR_MSME_2026-S9.2-a",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.2-a",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.2.a"
+      ],
+      "summary": "Interest Subsidy shall be provided on an annual basis.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.2-b": {
+      "domain_id": "BIHAR_MSME_2026-S9.2-b",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.2-b",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.2.b"
+      ],
+      "summary": "Eligible units shall be entitled to claim the subsidy only after payment of the full interest due to the lending institution.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.3-a": {
+      "domain_id": "BIHAR_MSME_2026-S9.3-a",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.3-a",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.3.a"
+      ],
+      "summary": "Incentives sanctioned under the Scaling Up category shall be over and above the eligible Capital Subsidy or Special Capital Subsidy available for expansion, diversification, or modernization resulting in graduation to a higher enterprise category.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.3-b": {
+      "domain_id": "BIHAR_MSME_2026-S9.3-b",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.3-b",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.3.b"
+      ],
+      "summary": "Enterprises that have already availed Scaling Up incentives and subsequently move to a lower category due to annual updation of Udyam Registration arising from reduction in turnover or written down value of plant and machinery shall not be eligible to claim Scaling Up incentives again upon re-graduation to a higher category.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.3-c": {
+      "domain_id": "BIHAR_MSME_2026-S9.3-c",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.3-c",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.3.c"
+      ],
+      "summary": "A Micro or Small Enterprise shall be eligible to avail the Scaling Up incentive only once for a particular enterprise category.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.4-a": {
+      "domain_id": "BIHAR_MSME_2026-S9.4-a",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.4-a",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.4.a"
+      ],
+      "summary": "Eligible MSMEs shall submit claims for Payroll Subsidy within three months from the close of the relevant financial year.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.4-b": {
+      "domain_id": "BIHAR_MSME_2026-S9.4-b",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.4-b",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.4.b"
+      ],
+      "summary": "Only regular employees shall be considered for determining eligibility under Payroll Subsidy.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.4-c": {
+      "domain_id": "BIHAR_MSME_2026-S9.4-c",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.4-c",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.4.c"
+      ],
+      "summary": "As proof of employment, the enterprise shall furnish copies of valid returns filed under the Employees' Provident Funds and Miscellaneous Provisions Act, 1952.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.4-d": {
+      "domain_id": "BIHAR_MSME_2026-S9.4-d",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.4-d",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.4.d"
+      ],
+      "summary": "In case the employee strength falls below the prescribed threshold during any month, the subsidy shall be restricted proportionately to the months in which the eligibility conditions are fulfilled.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.5-a": {
+      "domain_id": "BIHAR_MSME_2026-S9.5-a",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.5-a",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.5.a"
+      ],
+      "summary": "Claims under the Low Tension Power Tariff Subsidy shall be submitted online once every six months.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.5-b": {
+      "domain_id": "BIHAR_MSME_2026-S9.5-b",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.5-b",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.5.b"
+      ],
+      "summary": "Enterprises sharing a common electricity connection or occupying a part of another enterprise's premises and jointly consuming electricity shall not be eligible for this subsidy.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.6-a": {
+      "domain_id": "BIHAR_MSME_2026-S9.6-a",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.6-a",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.6.a"
+      ],
+      "summary": "Roof Top Solar Subsidy shall be available only for new equipment purchased from the original manufacturer or an authorized dealer.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.7-b": {
+      "domain_id": "BIHAR_MSME_2026-S9.7-b",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.7-b",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.7.b"
+      ],
+      "summary": "MSMEs undertaking a subsequent Energy Audit after a minimum interval of three years shall be eligible for subsidy.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.7-c": {
+      "domain_id": "BIHAR_MSME_2026-S9.7-c",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.7-c",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.7.c"
+      ],
+      "summary": "Eligible units shall submit their claim after completion of one year from the date of the Energy Audit.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.8-a": {
+      "domain_id": "BIHAR_MSME_2026-S9.8-a",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.8-a",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.8.a"
+      ],
+      "summary": "Expenditure incurred for obtaining quality certifications relating to products, processes, or social standards shall be eligible for reimbursement, provided such certifications are recognized by the Quality Council of India or internationally recognized accreditation bodies.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.8-b": {
+      "domain_id": "BIHAR_MSME_2026-S9.8-b",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.8-b",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.8.b"
+      ],
+      "summary": "Expenditure incurred towards renewal of quality certifications shall not be eligible for reimbursement.",
+      "findings": []
+    },
+    "eligibility-rules/BIHAR_MSME_2026-S9.9-c": {
+      "domain_id": "BIHAR_MSME_2026-S9.9-c",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "BIHAR_MSME_2026-S9.9-c",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s9.9.9.c"
+      ],
+      "summary": "Eligible enterprises shall submit applications for Stamp Duty Reimbursement within six months from the date of commencement of commercial production.",
+      "findings": []
+    },
+    "eligibility-rules/MSME_SAMADHAAN-DELAYED-PAYMENT-INTEREST": {
+      "domain_id": "MSME_SAMADHAAN-DELAYED-PAYMENT-INTEREST",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "MSME_SAMADHAAN-DELAYED-PAYMENT-INTEREST",
+      "scheme_id": "MSME_SAMADHAAN",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "msme_samadhaan.msme_samadhaan_homepage_fetched_2026-09-.rule.msme_samadhaan-delayed-payment-interest"
+      ],
+      "summary": "The buyer is liable to pay compound interest with the monthly rests to the supplier on the amount at the three times of the bank rate notified by RBI in case he does not make payment to the supplier for his supplies of goods or services within 45 days of the acceptance of the goods/service rendered.",
+      "findings": []
+    },
+    "eligibility-rules/MSME_SAMADHAAN-MSEFC-90-DAY": {
+      "domain_id": "MSME_SAMADHAAN-MSEFC-90-DAY",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "MSME_SAMADHAAN-MSEFC-90-DAY",
+      "scheme_id": "MSME_SAMADHAAN",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "msme_samadhaan.msme_samadhaan_homepage_fetched_2026-09-.rule.msme_samadhaan-msefc-90-day"
+      ],
+      "summary": "Every reference made to the Micro and Small Enterprise Facilitation Council (MSEFC) shall be decided within a period of ninety days from the date of making such a reference.",
+      "findings": []
+    },
+    "eligibility-rules/TREDS-OPERATOR-CAPITAL": {
+      "domain_id": "TREDS-OPERATOR-CAPITAL",
+      "type": "EligibilityRule",
+      "entity_type": "eligibility_rule",
+      "title": "TREDS-OPERATOR-CAPITAL",
+      "scheme_id": "TREDS",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [],
+      "chunk_ids": [
+        "treds.rbi_treds_guidelines_updated_2018-07-02.rule.treds-operator-capital"
+      ],
+      "summary": "An entity wishing to operate a TReDS platform must have minimum paid-up equity capital of Rs. 25 crore, since a TReDS operator cannot assume credit risk. Foreign shareholding follows the extant foreign investment policy, with outside shareholders capped at 10% of equity capital, and promoters must demonstrate sound credentials and integrity with a minimum 5-year business track record.",
+      "findings": []
+    },
+    "glossary/AI": {
+      "domain_id": "AI",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "AI",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "AI"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/AIFS": {
+      "domain_id": "AIFS",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "AIFs",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "AIFs"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/B2B": {
+      "domain_id": "B2B",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "B2B",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "B2B"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/B2C": {
+      "domain_id": "B2C",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "B2C",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "B2C"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/BIADA": {
+      "domain_id": "BIADA",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "BIADA",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "BIADA"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/BLUY": {
+      "domain_id": "BLUY",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "BLUY",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "BLUY"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/CGTMSE": {
+      "domain_id": "CGTMSE",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "CGTMSE",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "CGTMSE"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/EDC": {
+      "domain_id": "EDC",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "EDC",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "EDC"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/EDP": {
+      "domain_id": "EDP",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "EDP",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "EDP"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/GDP": {
+      "domain_id": "GDP",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "GDP",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "GDP"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/GOI": {
+      "domain_id": "GOI",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "GoI",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "GoI"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/GSDP": {
+      "domain_id": "GSDP",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "GSDP",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "GSDP"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/GSTIN": {
+      "domain_id": "GSTIN",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "GSTIN",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "GSTIN"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/IOT": {
+      "domain_id": "IOT",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "IoT",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "IoT"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/IT-ITES": {
+      "domain_id": "IT-ITES",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "IT/ITeS",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "IT/ITeS"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/ITR": {
+      "domain_id": "ITR",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "ITR",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "ITR"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/MMUY": {
+      "domain_id": "MMUY",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "MMUY",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "MMUY"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/MOOCS": {
+      "domain_id": "MOOCS",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "MOOCs",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "MOOCs"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/MOU": {
+      "domain_id": "MOU",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "MoU",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "MoU"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/MSME": {
+      "domain_id": "MSME",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "MSME",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "MSME"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/ODOP": {
+      "domain_id": "ODOP",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "ODOP",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "ODOP"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/PAN": {
+      "domain_id": "PAN",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "PAN",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "PAN"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/PMEGP": {
+      "domain_id": "PMEGP",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "PMEGP",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "PMEGP"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/PMFME": {
+      "domain_id": "PMFME",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "PMFME",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "PMFME"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/RAMP": {
+      "domain_id": "RAMP",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "RAMP",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "RAMP"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/SEBI": {
+      "domain_id": "SEBI",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "SEBI",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "SEBI"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "glossary/TREDS": {
+      "domain_id": "TREDS",
+      "type": "GlossaryTerm",
+      "entity_type": "glossary_term",
+      "title": "TReDS",
+      "scheme_id": null,
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "TReDS"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-INTEREST-SUBSIDY": {
+      "domain_id": "BIHAR_MSME_2026-INTEREST-SUBSIDY",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Interest Subsidy",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Interest Subsidy"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item.interest_subsidy.all"
+      ],
+      "summary": "micro: NO RATE/AMOUNT SPECIFIED IN SOURCE -- section 9.2 states claim conditions (annual basis; claimable only after full interest payment) but no rate, cap, or tenure anywhere in the document; small: NO RATE/AMOUNT SPECIFIED IN SOURCE -- section 9.2 states claim conditions (annual basis; claimable only after full interest payment) but no rate, cap, or tenure anywhere in the document; medium: NO R",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM1": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM1",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Capital Subsidy",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Capital Subsidy"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item1.capital_subsidy.medium",
+        "bihar_msme_2026.draft-v1.s7_9.item1.capital_subsidy.micro",
+        "bihar_msme_2026.draft-v1.s7_9.item1.capital_subsidy.small"
+      ],
+      "summary": "micro: 30% of Fixed Capital Investment (Cap 25 Lakhs) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 25 Lakhs) in B Category District as defined in BIIPP Policy; small: 30% of Fixed Capital Investment (Cap 1.5 Crore) in A Category District as defined in BIPP Policy; 25% of Fixed Capital Investment (Cap 1.5 Crore) in B Category District as defined in BIIPP Po",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM10": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM10",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Quality Certification",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Quality Certification"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item10.quality_certification.all"
+      ],
+      "summary": "micro: 100% reimbursement of certification and consulting charges subject to maximum of 2 lakhs for National Certification and 10 Lakhs for International Certification; small: 100% reimbursement of certification and consulting charges subject to maximum of 2 lakhs for National Certification and 10 Lakhs for International Certification; medium: 100% reimbursement of certification and consulting cha",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM11": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM11",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Subsidy for Asset creation for Intellectual Property",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Subsidy for Asset creation for Intellectual Property"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item11.subsidy_for_asset_creation_for_intellectual_property.all"
+      ],
+      "summary": "micro: 75% subsidy on the cost of filing of the application for patent registration including the cost of first time maintenance fee of the granted application, subject to a maximum of Rs. 3 Lakhs per patent registration; small: 75% subsidy on the cost of filing of the application for patent registration including the cost of first time maintenance fee of the granted application, subject to a maxi",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM12": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM12",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Trade Mark Registration for GI registration",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Trade Mark Registration for GI registration"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item12.trade_mark_registration_for_gi_registration.all"
+      ],
+      "summary": "micro: 50% subsidy on the cost of filing of the application for Trade Mark registration including the cost of first time maintenance fee of the granted application, subject to a maximum of Rs. 25, 000 per Trade Mark if GI registration; small: 50% subsidy on the cost of filing of the application for Trade Mark registration including the cost of first time maintenance fee of the granted application,",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM13": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM13",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Incentive for SME exchange",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Incentive for SME exchange"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item13.incentive_for_sme_exchange.medium",
+        "bihar_msme_2026.draft-v1.s7_9.item13.incentive_for_sme_exchange.micro",
+        "bihar_msme_2026.draft-v1.s7_9.item13.incentive_for_sme_exchange.small"
+      ],
+      "summary": "micro: Not applicable (no assistance shown for Micro enterprises in the source table); small: One time assistance of 20% of the expenditure incurred for listing subject to a maximum of 5 Lakhs for successful listing on SME exchange; medium: One time assistance of 20% of the expenditure incurred for listing subject to a maximum of 5 Lakhs for successful listing on SME exchange",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM14": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM14",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Net SGST Reimbursement",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Net SGST Reimbursement"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item14.net_sgst_reimbursement.all"
+      ],
+      "summary": "micro: 50% for 6 years with annual cap of 5% of Annual turnover; small: 50% for 6 years with annual cap of 5% of Annual turnover; medium: 50% for 6 years with annual cap of 5% of Annual turnover",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM15": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM15",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "E-Commerce Adoption",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "E-Commerce Adoption"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item15.e-commerce_adoption.all"
+      ],
+      "summary": "micro: 75% reimbursement of e-commerce platform subscription charges, subject to a maximum assistance of ₹1.00 lakh per unit, one time; small: 75% reimbursement of e-commerce platform subscription charges, subject to a maximum assistance of ₹1.00 lakh per unit, one time; medium: 75% reimbursement of e-commerce platform subscription charges, subject to a maximum assistance of ₹1.00 lakh per unit, o",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM16": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM16",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Export Linked Performance Subsidy",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Export Linked Performance Subsidy"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item16.export_linked_performance_subsidy.all"
+      ],
+      "summary": "micro: Export performance incentive at 1% of incremental export growth, subject to a maximum assistance of ₹20.00 lakh per unit per financial year; small: Export performance incentive at 1% of incremental export growth, subject to a maximum assistance of ₹20.00 lakh per unit per financial year; medium: Export performance incentive at 1% of incremental export growth, subject to a maximum assistance",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM17": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM17",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Revival package for units",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Revival package for units"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item17.revival_package_for_units.medium",
+        "bihar_msme_2026.draft-v1.s7_9.item17.revival_package_for_units.micro",
+        "bihar_msme_2026.draft-v1.s7_9.item17.revival_package_for_units.small"
+      ],
+      "summary": "micro: Revival package for units closed for more than one year, with investment up to INR 1 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE; small: Revival package for units closed for more than one year, with investment up to INR 5 Crore -- NO RATE/AMOUNT SPECIFIED IN SOURCE; medium: Revival package for units closed for more than one year, with investment up to INR 12 Crore -- NO RATE/AMOUNT SPECIFIE",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM2": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM2",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Additional Subsidy for disadvantaged group",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Additional Subsidy for disadvantaged group"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item2.additional_subsidy_for_disadvantaged_group.all"
+      ],
+      "summary": "micro: Additional 10% for women/SC/ST/BC/PwD/Transgender with maximum cap of 7 Crore; small: Additional 10% for women/SC/ST/BC/PwD/Transgender with maximum cap of 7Crore; medium: Additional 10% for women/SC/ST/BC/PwD/Transgender with maximum cap of 7 Crore",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM3": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM3",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Additional Subsidy for Scaling up",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Additional Subsidy for Scaling up"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item3.additional_subsidy_for_scaling_up.all"
+      ],
+      "summary": "micro: 5% additional capital subsidy (Maximum Cap 25 Lakhs); small: 5% additional capital subsidy (Maximum Cap 25 Lakhs); medium: 5% additional capital subsidy (Maximum Cap 25 Lakhs)",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM4": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM4",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Payroll subsidy",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Payroll subsidy"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item4.payroll_subsidy.medium",
+        "bihar_msme_2026.draft-v1.s7_9.item4.payroll_subsidy.micro",
+        "bihar_msme_2026.draft-v1.s7_9.item4.payroll_subsidy.small"
+      ],
+      "summary": "micro: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more than 10 persons, subject to a maximum of Rs, 24,000/- per employee per annum; small: Reimbursement of employer's contribution to the EPF for the first three years from the date of commencement of production, if the unit has employed more th",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM5": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM5",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Low Tension Power Tariff Subsidy",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Low Tension Power Tariff Subsidy"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item5.low_tension_power_tariff_subsidy.all"
+      ],
+      "summary": "micro: 20% of the power charges paid by the enterprise for the first 3 years from the date of commencement of production or from the date of power connection, whichever is later; small: 20% of the power charges paid by the enterprise for the first 3 years from the date of commencement of production or from the date of power connection, whichever is later; medium: 20% of the power charges paid by t",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM6": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM6",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Roof Top Solar Subsidy",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Roof Top Solar Subsidy"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item6.roof_top_solar_subsidy.all"
+      ],
+      "summary": "micro: 25% of the cost of Roof Top Solar set up to the capacity of 300 Kw, subject to a maximum limit of 5.0 Lakhs; small: 25% of the cost of Roof Top Solar set up to the capacity of 300 Kw, subject to a maximum limit of 5.0 Lakhs; medium: 25% of the cost of Roof Top Solar set up to the capacity of 300 Kw, subject to a maximum limit of 5.0 Lakhs",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM7": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM7",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Energy Audit Incentive",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Energy Audit Incentive"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item7.energy_audit_incentive.all"
+      ],
+      "summary": "micro: 75% of the cost of the audit subject to a maximum of 1 lakhs per energy audit; small: 75% of the cost of the audit subject to a maximum of 1 lakhs per energy audit; medium: 75% of the cost of the audit subject to a maximum of 1 lakhs per energy audit",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM8": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM8",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Water Audit Incentive",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Water Audit Incentive"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item8.water_audit_incentive.all"
+      ],
+      "summary": "micro: 75% of the cost of the audit subject to a maximum of 1 lakhs per water audit; small: 75% of the cost of the audit subject to a maximum of 1 lakhs per water audit; medium: 75% of the cost of the audit subject to a maximum of 1 lakhs per water audit",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S7.9-ITEM9": {
+      "domain_id": "BIHAR_MSME_2026-S7.9-ITEM9",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Stamp Duty",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Stamp Duty"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s7_9.item9.stamp_duty.all"
+      ],
+      "summary": "micro: 100% stamp duty reimbursement on land purchase to new manufacturing enterprises; small: 100% stamp duty reimbursement on land purchase to new manufacturing enterprises; medium: 100% stamp duty reimbursement on land purchase to new manufacturing enterprises",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S8.1": {
+      "domain_id": "BIHAR_MSME_2026-S8.1",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "R&D and Testing Centre Capital Incentives",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "R&D and Testing Centre Capital Incentives"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s8.8.1.r&d_and_testing_centre_capital_incentives"
+      ],
+      "summary": "other: State Government shall provide capital subsidy equivalent to 5% of eligible Plant & Machinery investment, subject to a maximum of ₹25 lakh.",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S8.2": {
+      "domain_id": "BIHAR_MSME_2026-S8.2",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Special Package for Emerging Industries",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Special Package for Emerging Industries"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s8.8.2.special_package_for_emerging_industries"
+      ],
+      "summary": "other: 25% Capital Subsidy on eligible Plant & Machinery investment, subject to a maximum of ₹10 Crore.",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S8.3": {
+      "domain_id": "BIHAR_MSME_2026-S8.3",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Private MSME Park Development Subsidies",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Private MSME Park Development Subsidies"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s8.8.3.private_msme_park_development_subsidies"
+      ],
+      "summary": "other: The State will provide ₹2 Crore assistance for Nano Clusters and ₹5 Crore assistance for Mega Clusters.",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S8.4": {
+      "domain_id": "BIHAR_MSME_2026-S8.4",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Heritage Cluster Infrastructure Grants",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Heritage Cluster Infrastructure Grants"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s8.8.4.heritage_cluster_infrastructure_grants"
+      ],
+      "summary": "other: 90% Grant-in-Aid of project cost up to ₹3 Crore for Mega Clusters and 90% Grant-in-Aid of project cost up to ₹1 Crore for Mini Clusters.",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S8.5": {
+      "domain_id": "BIHAR_MSME_2026-S8.5",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Export and Supply Chain Intervention Subsidies",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Export and Supply Chain Intervention Subsidies"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s8.8.5.export_and_supply_chain_intervention_subsidies"
+      ],
+      "summary": "other: Support to be provided as per approved project proposals and scheme guidelines.",
+      "findings": []
+    },
+    "incentives/BIHAR_MSME_2026-S8.6": {
+      "domain_id": "BIHAR_MSME_2026-S8.6",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "MSME Retail Outlet Development Subsidies",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "MSME Retail Outlet Development Subsidies"
+      ],
+      "chunk_ids": [
+        "bihar_msme_2026.draft-v1.s8.8.6.msme_retail_outlet_development_subsidies"
+      ],
+      "summary": "other: Rental assistance, setup grants, and space allotment support as per approved norms and scheme guidelines.",
+      "findings": []
+    },
+    "incentives/CGTMSE-GUARANTEE-FEE": {
+      "domain_id": "CGTMSE-GUARANTEE-FEE",
+      "type": "Incentive",
+      "entity_type": "incentive",
+      "title": "Credit Guarantee Fee",
+      "scheme_id": "CGTMSE",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Credit Guarantee Fee"
+      ],
+      "chunk_ids": [
+        "cgtmse.cgtmse_homepage_fetched_2026-09-23.incentive.credit_guarantee_fee"
+      ],
+      "summary": "other: Reduced the guarantee fee to a minimum level of 0.37% pa",
+      "findings": []
+    },
+    "schemes/BIHAR_MSME_2026": {
+      "domain_id": "BIHAR_MSME_2026",
+      "type": "Scheme",
+      "entity_type": "scheme",
+      "title": "Bihar MSME Policy 2026 (Draft)",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Bihar MSME Policy 2026 (Draft)",
+        "MSME-2026"
+      ],
+      "chunk_ids": [],
+      "summary": "Draft MSME policy of the Government of Bihar setting out financial incentives, eligibility conditions, sector classifications and district categorisation for micro, small and medium enterprises. Not yet notified: validity runs five years from a notification date that does not exist yet.",
+      "findings": []
+    },
+    "schemes/CGTMSE": {
+      "domain_id": "CGTMSE",
+      "type": "Scheme",
+      "entity_type": "scheme",
+      "title": "Credit Guarantee Fund Trust for Micro and Small Enterprises",
+      "scheme_id": "CGTMSE",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Credit Guarantee Fund Trust for Micro and Small Enterprises",
+        "CGTMSE"
+      ],
+      "chunk_ids": [],
+      "summary": "Jointly established by the Ministry of MSME and SIDBI to catalyse institutional credit to Micro & Small Enterprises by providing collateral- and/or third-party-guarantee-free credit guarantee cover through eligible Member Lending Institutions (MLIs).",
+      "findings": []
+    },
+    "schemes/MSME_SAMADHAAN": {
+      "domain_id": "MSME_SAMADHAAN",
+      "type": "Scheme",
+      "entity_type": "scheme",
+      "title": "MSME Samadhaan — Delayed Payment Monitoring System",
+      "scheme_id": "MSME_SAMADHAAN",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "MSME Samadhaan — Delayed Payment Monitoring System",
+        "SAMADHAAN"
+      ],
+      "chunk_ids": [],
+      "summary": "An online portal for a Micro or Small Enterprise supplier to file a reference against a buyer who has not paid within the statutory window, for resolution before the Micro and Small Enterprises Facilitation Council (MSEFC). Filing has since moved to the MSME ODR Portal (odr.msme.gov.in); this scheme record covers the underlying delayed- payment rule, which is unchanged.",
+      "findings": []
+    },
+    "schemes/TREDS": {
+      "domain_id": "TREDS",
+      "type": "Scheme",
+      "entity_type": "scheme",
+      "title": "Trade Receivables Discounting System",
+      "scheme_id": "TREDS",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Trade Receivables Discounting System",
+        "TReDS"
+      ],
+      "chunk_ids": [],
+      "summary": "An institutional mechanism, regulated by RBI, that lets MSMEs convert trade receivables owed by corporate/government buyers into immediate liquid funds by auctioning invoices to financiers, without recourse to the MSME if the buyer later defaults.",
+      "findings": []
+    },
+    "sectors/ADVANCED-TEXTILES-TECHNICAL-TEXTILES-EMERGING": {
+      "domain_id": "ADVANCED-TEXTILES-TECHNICAL-TEXTILES-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Advanced Textiles (Technical Textiles)",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Advanced Textiles (Technical Textiles)"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/AEROSPACE-DEFENCE-MANUFACTURING-EMERGING": {
+      "domain_id": "AEROSPACE-DEFENCE-MANUFACTURING-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Aerospace & Defence Manufacturing",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Aerospace & Defence Manufacturing"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/ANY-INDUSTRY-WHICH-IMPACTS-THE-ENVIRONMENT-NEGATIVELY-NEGATIVE_LIST": {
+      "domain_id": "ANY-INDUSTRY-WHICH-IMPACTS-THE-ENVIRONMENT-NEGATIVELY-NEGATIVE_LIST",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Any industry which impacts the environment negatively",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Any industry which impacts the environment negatively"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/ARMS-AND-AMMUNITION-PRIORITY": {
+      "domain_id": "ARMS-AND-AMMUNITION-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Arms and Ammunition",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Arms and Ammunition"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/ARTIFICIAL-INTELLIGENCE-AI-INTERNET-OF-THINGS-IOT-ROBOTICS-A-EMERGING": {
+      "domain_id": "ARTIFICIAL-INTELLIGENCE-AI-INTERNET-OF-THINGS-IOT-ROBOTICS-A-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Artificial Intelligence (AI), Internet of Things (IoT), Robotics & Automation",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Artificial Intelligence (AI), Internet of Things (IoT), Robotics & Automation"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/AUTOMOBILES-PRIORITY": {
+      "domain_id": "AUTOMOBILES-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Automobiles",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Automobiles"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/BAMBOO-CANE-CRAFT-HERITAGE_CLUSTER": {
+      "domain_id": "BAMBOO-CANE-CRAFT-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Bamboo & Cane Craft",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Bamboo & Cane Craft"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/BANANA-FIBRE-PRODUCTS-HERITAGE_CLUSTER": {
+      "domain_id": "BANANA-FIBRE-PRODUCTS-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Banana Fibre Products",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Banana Fibre Products"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/BATTERY-AND-ENERGY-STORAGE-SYSTEMS-EMERGING": {
+      "domain_id": "BATTERY-AND-ENERGY-STORAGE-SYSTEMS-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Battery and Energy Storage Systems",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Battery and Energy Storage Systems"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/BEVERAGES-SPIRITS-AND-VINEGARS-PRIORITY": {
+      "domain_id": "BEVERAGES-SPIRITS-AND-VINEGARS-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Beverages, Spirits and Vinegars",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Beverages, Spirits and Vinegars"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/BHAGALPURI-SILK-TUSSAR-MULBERRY-HERITAGE_CLUSTER": {
+      "domain_id": "BHAGALPURI-SILK-TUSSAR-MULBERRY-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Bhagalpuri Silk (Tussar & Mulberry)",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Bhagalpuri Silk (Tussar & Mulberry)"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/BIOTECHNOLOGY-EMERGING": {
+      "domain_id": "BIOTECHNOLOGY-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Biotechnology",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Biotechnology"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/BULLION-GEMS-AND-JEWELLERY-MANUFACTURING-PRIORITY": {
+      "domain_id": "BULLION-GEMS-AND-JEWELLERY-MANUFACTURING-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Bullion, Gems and Jewellery Manufacturing",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Bullion, Gems and Jewellery Manufacturing"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/CERAMIC-PRODUCTS-PRIORITY": {
+      "domain_id": "CERAMIC-PRODUCTS-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Ceramic Products",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Ceramic Products"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/CIRCULAR-ECONOMY-WASTE-RECYCLING-TECHNOLOGIES-EMERGING": {
+      "domain_id": "CIRCULAR-ECONOMY-WASTE-RECYCLING-TECHNOLOGIES-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Circular Economy & Waste Recycling Technologies",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Circular Economy & Waste Recycling Technologies"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/CLOCKS-AND-WATCHES-PRIORITY": {
+      "domain_id": "CLOCKS-AND-WATCHES-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Clocks and Watches",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Clocks and Watches"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/CREATION-FOR-MEDIA-AND-ENTERTAINMENT-HOUSES-HIGH_PRIORITY": {
+      "domain_id": "CREATION-FOR-MEDIA-AND-ENTERTAINMENT-HOUSES-HIGH_PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Creation for Media and Entertainment Houses",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Creation for Media and Entertainment Houses"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/DATA-CENTRES-CLOUD-INFRASTRUCTURE-EMERGING": {
+      "domain_id": "DATA-CENTRES-CLOUD-INFRASTRUCTURE-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Data Centres & Cloud Infrastructure",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Data Centres & Cloud Infrastructure"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/DRONES-AND-UNMANNED-SYSTEMS-EMERGING": {
+      "domain_id": "DRONES-AND-UNMANNED-SYSTEMS-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Drones and Unmanned Systems",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Drones and Unmanned Systems"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/ELECTRIC-VEHICLE-EV-HIGH_PRIORITY": {
+      "domain_id": "ELECTRIC-VEHICLE-EV-HIGH_PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Electric Vehicle (EV)",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Electric Vehicle (EV)"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/ELECTRIC-VEHICLES-EV-AND-EV-COMPONENTS-EMERGING": {
+      "domain_id": "ELECTRIC-VEHICLES-EV-AND-EV-COMPONENTS-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Electric Vehicles (EV) and EV Components",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Electric Vehicles (EV) and EV Components"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/ELECTRONICS-SYSTEM-DESIGN-MANUFACTURING-ESDM-EMERGING": {
+      "domain_id": "ELECTRONICS-SYSTEM-DESIGN-MANUFACTURING-ESDM-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Electronics System Design & Manufacturing (ESDM)",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Electronics System Design & Manufacturing (ESDM)"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/FERTILIZERS-PRIORITY": {
+      "domain_id": "FERTILIZERS-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Fertilizers",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Fertilizers"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/FMCG-PRODUCTS-SOAP-DETERGENTS-WASHING-PREPARATIONS-ORGANICS-PRIORITY": {
+      "domain_id": "FMCG-PRODUCTS-SOAP-DETERGENTS-WASHING-PREPARATIONS-ORGANICS-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "FMCG Products (Soap, Detergents, Washing Preparations, Organics, etc.)",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "FMCG Products (Soap, Detergents, Washing Preparations, Organics, etc.)"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/FOOD-PROCESSING-HIGH_PRIORITY": {
+      "domain_id": "FOOD-PROCESSING-HIGH_PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Food Processing",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Food Processing"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/FURNITURE-MANUFACTURING-PLASTIC-GLASS-LEATHER-MODULAR-MDF-AL-PRIORITY": {
+      "domain_id": "FURNITURE-MANUFACTURING-PLASTIC-GLASS-LEATHER-MODULAR-MDF-AL-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Furniture Manufacturing (Plastic, Glass, Leather, Modular, MDF, Aluminium, Metal, or a combination of these materials)",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Furniture Manufacturing (Plastic, Glass, Leather, Modular, MDF, Aluminium, Metal, or a combination of these materials)"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/GENERAL-MANUFACTURING-PRIORITY": {
+      "domain_id": "GENERAL-MANUFACTURING-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "General Manufacturing",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "General Manufacturing"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/GLASS-AND-GLASSWARE-PRIORITY": {
+      "domain_id": "GLASS-AND-GLASSWARE-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Glass and Glassware",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Glass and Glassware"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/GREEN-HYDROGEN-EMERGING": {
+      "domain_id": "GREEN-HYDROGEN-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Green Hydrogen",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Green Hydrogen"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/HANDLOOM-COTTON-WEAVING-HERITAGE_CLUSTER": {
+      "domain_id": "HANDLOOM-COTTON-WEAVING-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Handloom & Cotton Weaving",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Handloom & Cotton Weaving"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/HEALTH-AND-WELLNESS-CENTRES-PRIORITY": {
+      "domain_id": "HEALTH-AND-WELLNESS-CENTRES-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Health and Wellness Centres",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Health and Wellness Centres"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/HEALTHCARE-PRIORITY": {
+      "domain_id": "HEALTHCARE-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Healthcare",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Healthcare"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/INFORMATION-TECHNOLOGY-ENABLED-SERVICES-ITES-ELECTRONICS-SYS-HIGH_PRIORITY": {
+      "domain_id": "INFORMATION-TECHNOLOGY-ENABLED-SERVICES-ITES-ELECTRONICS-SYS-HIGH_PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Information Technology Enabled Services (ITeS), Electronics System Design and Manufacturing (ESDM), and Global Capability Centres (GCC)",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Information Technology Enabled Services (ITeS), Electronics System Design and Manufacturing (ESDM), and Global Capability Centres (GCC)"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/JUTE-NATURAL-FIBRE-PRODUCTS-HERITAGE_CLUSTER": {
+      "domain_id": "JUTE-NATURAL-FIBRE-PRODUCTS-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Jute & Natural Fibre Products",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Jute & Natural Fibre Products"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/LAC-LAC-PRODUCTS-HERITAGE_CLUSTER": {
+      "domain_id": "LAC-LAC-PRODUCTS-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Lac & Lac Products",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Lac & Lac Products"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/LOGISTICS-HIGH_PRIORITY": {
+      "domain_id": "LOGISTICS-HIGH_PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Logistics",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Logistics"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/MADHUBANI-PAINTING-HERITAGE_CLUSTER": {
+      "domain_id": "MADHUBANI-PAINTING-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Madhubani Painting",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Madhubani Painting"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/MAKHANA-PROCESSING-VALUE-ADDITION-HERITAGE_CLUSTER": {
+      "domain_id": "MAKHANA-PROCESSING-VALUE-ADDITION-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Makhana Processing & Value Addition",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Makhana Processing & Value Addition"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/MANJUSHA-ART-HERITAGE_CLUSTER": {
+      "domain_id": "MANJUSHA-ART-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Manjusha Art",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Manjusha Art"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/MECHANICAL-APPLIANCES-PRIORITY": {
+      "domain_id": "MECHANICAL-APPLIANCES-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Mechanical Appliances",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Mechanical Appliances"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/MEDICAL-DEVICES-PHARMACEUTICALS-EMERGING": {
+      "domain_id": "MEDICAL-DEVICES-PHARMACEUTICALS-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Medical Devices & Pharmaceuticals",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Medical Devices & Pharmaceuticals"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/METAL-CRAFT-BRASS-IRON-BELL-METAL-HERITAGE_CLUSTER": {
+      "domain_id": "METAL-CRAFT-BRASS-IRON-BELL-METAL-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Metal Craft (Brass, Iron & Bell Metal)",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Metal Craft (Brass, Iron & Bell Metal)"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/MITHILA-TEXTILE-APPAREL-HERITAGE_CLUSTER": {
+      "domain_id": "MITHILA-TEXTILE-APPAREL-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Mithila Textile & Apparel",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Mithila Textile & Apparel"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/OTHER-HERITAGE-TRADITIONAL-CLUSTERS-AS-NOTIFIED-BY-THE-STATE-HERITAGE_CLUSTER": {
+      "domain_id": "OTHER-HERITAGE-TRADITIONAL-CLUSTERS-AS-NOTIFIED-BY-THE-STATE-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Other Heritage & Traditional Clusters as notified by the State Government",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Other Heritage & Traditional Clusters as notified by the State Government"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/PAINTS-AND-CHEMICAL-PRODUCTS-PRIORITY": {
+      "domain_id": "PAINTS-AND-CHEMICAL-PRODUCTS-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Paints and Chemical Products",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Paints and Chemical Products"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/PHARMACEUTICALS-AND-MEDICAL-DEVICES-HIGH_PRIORITY": {
+      "domain_id": "PHARMACEUTICALS-AND-MEDICAL-DEVICES-HIGH_PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Pharmaceuticals and Medical Devices",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Pharmaceuticals and Medical Devices"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/PLASTIC-AND-RUBBER-PRIORITY": {
+      "domain_id": "PLASTIC-AND-RUBBER-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Plastic and Rubber",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Plastic and Rubber"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/PRECISION-ENGINEERING-EMERGING": {
+      "domain_id": "PRECISION-ENGINEERING-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Precision Engineering",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Precision Engineering"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/RENEWABLE-AND-GREEN-ENERGY-INCLUDING-CBG-FUEL-BASED-ETHANOL-HIGH_PRIORITY": {
+      "domain_id": "RENEWABLE-AND-GREEN-ENERGY-INCLUDING-CBG-FUEL-BASED-ETHANOL-HIGH_PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Renewable and Green Energy (including CBG, Fuel-based Ethanol, and Methanol)",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Renewable and Green Energy (including CBG, Fuel-based Ethanol, and Methanol)"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/RENEWABLE-GREEN-ENERGY-EMERGING": {
+      "domain_id": "RENEWABLE-GREEN-ENERGY-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Renewable & Green Energy",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Renewable & Green Energy"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/SEMICONDUCTOR-ELECTRONICS-COMPONENTS-EMERGING": {
+      "domain_id": "SEMICONDUCTOR-ELECTRONICS-COMPONENTS-EMERGING",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Semiconductor & Electronics Components",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Semiconductor & Electronics Components"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/SIKKI-GRASS-CRAFT-HERITAGE_CLUSTER": {
+      "domain_id": "SIKKI-GRASS-CRAFT-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Sikki Grass Craft",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Sikki Grass Craft"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/SMALL-MACHINE-MANUFACTURING-PRIORITY": {
+      "domain_id": "SMALL-MACHINE-MANUFACTURING-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Small Machine Manufacturing",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Small Machine Manufacturing"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/SPORTS-GOODS-MANUFACTURING-PRIORITY": {
+      "domain_id": "SPORTS-GOODS-MANUFACTURING-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Sports Goods Manufacturing",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Sports Goods Manufacturing"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/STONE-CARVING-STONE-CRAFT-HERITAGE_CLUSTER": {
+      "domain_id": "STONE-CARVING-STONE-CRAFT-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Stone Carving & Stone Craft",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Stone Carving & Stone Craft"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/SUJANI-EMBROIDERY-HERITAGE_CLUSTER": {
+      "domain_id": "SUJANI-EMBROIDERY-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Sujani Embroidery",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Sujani Embroidery"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/TERRACOTTA-POTTERY-HERITAGE_CLUSTER": {
+      "domain_id": "TERRACOTTA-POTTERY-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Terracotta & Pottery",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Terracotta & Pottery"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/TEXTILES-AND-LEATHER-HIGH_PRIORITY": {
+      "domain_id": "TEXTILES-AND-LEATHER-HIGH_PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Textiles and Leather",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Textiles and Leather"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/TIKULI-ART-HERITAGE_CLUSTER": {
+      "domain_id": "TIKULI-ART-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Tikuli Art",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Tikuli Art"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/TOYS-MANUFACTURING-HIGH_PRIORITY": {
+      "domain_id": "TOYS-MANUFACTURING-HIGH_PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Toys Manufacturing",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Toys Manufacturing"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/UNITS-MANUFACTURING-ALCOHOLIC-BEVERAGES-NEGATIVE_LIST": {
+      "domain_id": "UNITS-MANUFACTURING-ALCOHOLIC-BEVERAGES-NEGATIVE_LIST",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Units manufacturing alcoholic beverages",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Units manufacturing alcoholic beverages"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/UNITS-MANUFACTURING-ASBESTOS-NEGATIVE_LIST": {
+      "domain_id": "UNITS-MANUFACTURING-ASBESTOS-NEGATIVE_LIST",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Units manufacturing asbestos",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Units manufacturing asbestos"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/UNITS-MANUFACTURING-NARCOTIC-DRUGS-NEGATIVE_LIST": {
+      "domain_id": "UNITS-MANUFACTURING-NARCOTIC-DRUGS-NEGATIVE_LIST",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Units manufacturing narcotic drugs",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Units manufacturing narcotic drugs"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/WASTE-RECYCLING-PRIORITY": {
+      "domain_id": "WASTE-RECYCLING-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Waste Recycling",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Waste Recycling"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/WATER-HYACINTH-PRODUCTS-HERITAGE_CLUSTER": {
+      "domain_id": "WATER-HYACINTH-PRODUCTS-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Water Hyacinth Products",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Water Hyacinth Products"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/WOOD-BASED-INDUSTRIES-PRIORITY": {
+      "domain_id": "WOOD-BASED-INDUSTRIES-PRIORITY",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Wood-Based Industries",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Wood-Based Industries"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    },
+    "sectors/WOOD-CRAFT-WOODEN-FURNITURE-HERITAGE_CLUSTER": {
+      "domain_id": "WOOD-CRAFT-WOODEN-FURNITURE-HERITAGE_CLUSTER",
+      "type": "Sector",
+      "entity_type": "sector",
+      "title": "Wood Craft & Wooden Furniture",
+      "scheme_id": "BIHAR_MSME_2026",
+      "trust": "machine-confirmed",
+      "status": "stable",
+      "aliases": [
+        "Wood Craft & Wooden Furniture"
+      ],
+      "chunk_ids": [],
+      "summary": "",
+      "findings": []
+    }
+  },
+  "edges": [
+    {
+      "from": "districts/ARWAL-BIIPP-REGION-A",
+      "to": "districts/ARWAL",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/ARWAL-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/ARWAL-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/AURANGABAD-BIIPP-REGION-A",
+      "to": "districts/AURANGABAD",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/AURANGABAD-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/AURANGABAD-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/BANKA-BIIPP-REGION-A",
+      "to": "districts/BANKA",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/BANKA-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/BANKA-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/BEGUSARAI-BIIPP-REGION-B",
+      "to": "districts/BEGUSARAI",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/BEGUSARAI-BIIPP-REGION-B",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/BEGUSARAI-BIIPP-REGION-B",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/BHAGALPUR-BIIPP-REGION-A",
+      "to": "districts/BHAGALPUR",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/BHAGALPUR-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/BHAGALPUR-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/BHOJPUR-BIIPP-REGION-A",
+      "to": "districts/BHOJPUR",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/BHOJPUR-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/BHOJPUR-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/BUXAR-BIIPP-REGION-B",
+      "to": "districts/BUXAR",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/BUXAR-BIIPP-REGION-B",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/BUXAR-BIIPP-REGION-B",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/DARBHANGA-BIIPP-REGION-A",
+      "to": "districts/DARBHANGA",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/DARBHANGA-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/DARBHANGA-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/EAST-CHAMPARAN-BIIPP-REGION-A",
+      "to": "districts/EAST-CHAMPARAN",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/EAST-CHAMPARAN-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/EAST-CHAMPARAN-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/GAYA-BIIPP-REGION-B",
+      "to": "districts/GAYA",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/GAYA-BIIPP-REGION-B",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/GAYA-BIIPP-REGION-B",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/GOPALGANJ-BIIPP-REGION-A",
+      "to": "districts/GOPALGANJ",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/GOPALGANJ-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/GOPALGANJ-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/JAMUI-BIIPP-REGION-A",
+      "to": "districts/JAMUI",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/JAMUI-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/JAMUI-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/JEHANABAD-BIIPP-REGION-A",
+      "to": "districts/JEHANABAD",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/JEHANABAD-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/JEHANABAD-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/KAIMUR-BIIPP-REGION-A",
+      "to": "districts/KAIMUR",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/KAIMUR-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/KAIMUR-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/KATIHAR-BIIPP-REGION-A",
+      "to": "districts/KATIHAR",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/KATIHAR-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/KATIHAR-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/KHAGARIA-BIIPP-REGION-A",
+      "to": "districts/KHAGARIA",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/KHAGARIA-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/KHAGARIA-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/KISHANGANJ-BIIPP-REGION-A",
+      "to": "districts/KISHANGANJ",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/KISHANGANJ-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/KISHANGANJ-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/LAKHISARAI-BIIPP-REGION-A",
+      "to": "districts/LAKHISARAI",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/LAKHISARAI-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/LAKHISARAI-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/MADHEPURA-BIIPP-REGION-A",
+      "to": "districts/MADHEPURA",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/MADHEPURA-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/MADHEPURA-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/MADHUBANI-BIIPP-REGION-A",
+      "to": "districts/MADHUBANI",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/MADHUBANI-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/MADHUBANI-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/MUNGER-BIIPP-REGION-A",
+      "to": "districts/MUNGER",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/MUNGER-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/MUNGER-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/MUZAFFARPUR-BIIPP-REGION-B",
+      "to": "districts/MUZAFFARPUR",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/MUZAFFARPUR-BIIPP-REGION-B",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/MUZAFFARPUR-BIIPP-REGION-B",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/NALANDA-BIIPP-REGION-A",
+      "to": "districts/NALANDA",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/NALANDA-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/NALANDA-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/NAWADA-BIIPP-REGION-A",
+      "to": "districts/NAWADA",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/NAWADA-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/NAWADA-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/PATNA-BIIPP-REGION-B",
+      "to": "districts/PATNA",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/PATNA-BIIPP-REGION-B",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/PATNA-BIIPP-REGION-B",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/PURNEA-BIIPP-REGION-A",
+      "to": "districts/PURNEA",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/PURNEA-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/PURNEA-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/ROHTAS-BIIPP-REGION-A",
+      "to": "districts/ROHTAS",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/ROHTAS-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/ROHTAS-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/SAHARSA-BIIPP-REGION-A",
+      "to": "districts/SAHARSA",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/SAHARSA-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/SAHARSA-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/SAMASTIPUR-BIIPP-REGION-A",
+      "to": "districts/SAMASTIPUR",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/SAMASTIPUR-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/SAMASTIPUR-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/SARAN-BIIPP-REGION-A",
+      "to": "districts/SARAN",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/SARAN-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/SARAN-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/SHEIKHPURA-BIIPP-REGION-A",
+      "to": "districts/SHEIKHPURA",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/SHEIKHPURA-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/SHEIKHPURA-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/SHEOHAR-BIIPP-REGION-A",
+      "to": "districts/SHEOHAR",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/SHEOHAR-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/SHEOHAR-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/SITAMARHI-BIIPP-REGION-A",
+      "to": "districts/SITAMARHI",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/SITAMARHI-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/SITAMARHI-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/SIWAN-BIIPP-REGION-A",
+      "to": "districts/SIWAN",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/SIWAN-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/SIWAN-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/SUPAUL-BIIPP-REGION-A",
+      "to": "districts/SUPAUL",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/SUPAUL-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/SUPAUL-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/VAISHALI-BIIPP-REGION-B",
+      "to": "districts/VAISHALI",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/VAISHALI-BIIPP-REGION-B",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/VAISHALI-BIIPP-REGION-B",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "districts/WEST-CHAMPARAN-BIIPP-REGION-A",
+      "to": "districts/WEST-CHAMPARAN",
+      "kind": "classifies",
+      "w": 1.0
+    },
+    {
+      "from": "districts/WEST-CHAMPARAN-BIIPP-REGION-A",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "districts/WEST-CHAMPARAN-BIIPP-REGION-A",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-a",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-07",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-a",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-a",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-07",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-b",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-c",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-d",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-06",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-d",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-d",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-06",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-e",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-04",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-e",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.1-e",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-04",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.10-a",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.10-b",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.2-a",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-03",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.2-a",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.2-a",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-03",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.2-b",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-03",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.2-b",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.2-b",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-03",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.3-a",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.3-b",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.3-c",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-08",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.3-c",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.3-c",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-08",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.4-a",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.4-b",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.4-c",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.4-d",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.5-a",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.5-b",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.6-a",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.7-b",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-16",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.7-b",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.7-b",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-16",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.7-c",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-16",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.7-c",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.7-c",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-16",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.8-a",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.8-b",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.9-c",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-16",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.9-c",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/BIHAR_MSME_2026-S9.9-c",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-16",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "eligibility-rules/MSME_SAMADHAAN-DELAYED-PAYMENT-INTEREST",
+      "to": "schemes/MSME_SAMADHAAN",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/MSME_SAMADHAAN-MSEFC-90-DAY",
+      "to": "schemes/MSME_SAMADHAAN",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/TREDS-OPERATOR-CAPITAL",
+      "to": "schemes/TREDS",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "eligibility-rules/TREDS-OPERATOR-CAPITAL",
+      "to": "schemes/TREDS",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-INTEREST-SUBSIDY",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.2-a",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-INTEREST-SUBSIDY",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.2-b",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-INTEREST-SUBSIDY",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-03",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-INTEREST-SUBSIDY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-INTEREST-SUBSIDY",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-03",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.1-a",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.1-b",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.1-c",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.1-d",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.1-e",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-02",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-07",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-20",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-02",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-07",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM1",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-20",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM10",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.8-a",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM10",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.8-b",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM10",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM11",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM12",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM13",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.10-a",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM13",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.10-b",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM13",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-13",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM13",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM13",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-13",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM14",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-14",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM14",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM14",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-14",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM15",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM16",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM17",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-09",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM17",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM17",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-09",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM2",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.1-a",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM2",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.1-b",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM2",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.1-c",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM2",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.1-d",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM2",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.1-e",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM2",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-05",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM2",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM2",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-05",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM3",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.3-a",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM3",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.3-b",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM3",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.3-c",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM3",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-08",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM3",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM3",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-08",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM4",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.4-a",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM4",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.4-b",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM4",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.4-c",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM4",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.4-d",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM4",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM5",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.5-a",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM5",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.5-b",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM5",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM6",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.6-a",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM6",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM7",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.7-b",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM7",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.7-c",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM7",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM8",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM9",
+      "to": "eligibility-rules/BIHAR_MSME_2026-S9.9-c",
+      "kind": "governed_by",
+      "w": 1.0
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S7.9-ITEM9",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S8.1",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S8.2",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-04",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S8.2",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S8.2",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-04",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S8.3",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S8.4",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-11",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S8.4",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S8.4",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-11",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S8.5",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/BIHAR_MSME_2026-S8.6",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/CGTMSE-GUARANTEE-FEE",
+      "to": "ambiguities/CGTMSE-AMB-01",
+      "kind": "flagged_by",
+      "w": 0.95
+    },
+    {
+      "from": "incentives/CGTMSE-GUARANTEE-FEE",
+      "to": "schemes/CGTMSE",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "incentives/CGTMSE-GUARANTEE-FEE",
+      "to": "ambiguities/CGTMSE-AMB-01",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "schemes/BIHAR_MSME_2026",
+      "to": "ambiguities/BIHAR_MSME_2026-AMB-17",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "schemes/CGTMSE",
+      "to": "incentives/CGTMSE-GUARANTEE-FEE",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "schemes/MSME_SAMADHAAN",
+      "to": "acts/MSMED_ACT_2006",
+      "kind": "rests_on",
+      "w": 0.9
+    },
+    {
+      "from": "schemes/MSME_SAMADHAAN",
+      "to": "eligibility-rules/MSME_SAMADHAAN-DELAYED-PAYMENT-INTEREST",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "schemes/MSME_SAMADHAAN",
+      "to": "eligibility-rules/MSME_SAMADHAAN-MSEFC-90-DAY",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "schemes/TREDS",
+      "to": "acts/PAYMENT_SETTLEMENT_SYSTEMS_ACT_2007",
+      "kind": "rests_on",
+      "w": 0.9
+    },
+    {
+      "from": "schemes/TREDS",
+      "to": "eligibility-rules/TREDS-OPERATOR-CAPITAL",
+      "kind": "prose_link",
+      "w": 0.3
+    },
+    {
+      "from": "sectors/ADVANCED-TEXTILES-TECHNICAL-TEXTILES-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/AEROSPACE-DEFENCE-MANUFACTURING-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/ANY-INDUSTRY-WHICH-IMPACTS-THE-ENVIRONMENT-NEGATIVELY-NEGATIVE_LIST",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/ARMS-AND-AMMUNITION-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/ARTIFICIAL-INTELLIGENCE-AI-INTERNET-OF-THINGS-IOT-ROBOTICS-A-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/AUTOMOBILES-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/BAMBOO-CANE-CRAFT-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/BANANA-FIBRE-PRODUCTS-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/BATTERY-AND-ENERGY-STORAGE-SYSTEMS-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/BEVERAGES-SPIRITS-AND-VINEGARS-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/BHAGALPURI-SILK-TUSSAR-MULBERRY-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/BIOTECHNOLOGY-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/BULLION-GEMS-AND-JEWELLERY-MANUFACTURING-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/CERAMIC-PRODUCTS-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/CIRCULAR-ECONOMY-WASTE-RECYCLING-TECHNOLOGIES-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/CLOCKS-AND-WATCHES-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/CREATION-FOR-MEDIA-AND-ENTERTAINMENT-HOUSES-HIGH_PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/DATA-CENTRES-CLOUD-INFRASTRUCTURE-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/DRONES-AND-UNMANNED-SYSTEMS-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/ELECTRIC-VEHICLE-EV-HIGH_PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/ELECTRIC-VEHICLES-EV-AND-EV-COMPONENTS-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/ELECTRONICS-SYSTEM-DESIGN-MANUFACTURING-ESDM-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/FERTILIZERS-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/FMCG-PRODUCTS-SOAP-DETERGENTS-WASHING-PREPARATIONS-ORGANICS-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/FOOD-PROCESSING-HIGH_PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/FURNITURE-MANUFACTURING-PLASTIC-GLASS-LEATHER-MODULAR-MDF-AL-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/GENERAL-MANUFACTURING-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/GLASS-AND-GLASSWARE-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/GREEN-HYDROGEN-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/HANDLOOM-COTTON-WEAVING-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/HEALTH-AND-WELLNESS-CENTRES-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/HEALTHCARE-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/INFORMATION-TECHNOLOGY-ENABLED-SERVICES-ITES-ELECTRONICS-SYS-HIGH_PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/JUTE-NATURAL-FIBRE-PRODUCTS-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/LAC-LAC-PRODUCTS-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/LOGISTICS-HIGH_PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/MADHUBANI-PAINTING-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/MAKHANA-PROCESSING-VALUE-ADDITION-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/MANJUSHA-ART-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/MECHANICAL-APPLIANCES-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/MEDICAL-DEVICES-PHARMACEUTICALS-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/METAL-CRAFT-BRASS-IRON-BELL-METAL-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/MITHILA-TEXTILE-APPAREL-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/OTHER-HERITAGE-TRADITIONAL-CLUSTERS-AS-NOTIFIED-BY-THE-STATE-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/PAINTS-AND-CHEMICAL-PRODUCTS-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/PHARMACEUTICALS-AND-MEDICAL-DEVICES-HIGH_PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/PLASTIC-AND-RUBBER-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/PRECISION-ENGINEERING-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/RENEWABLE-AND-GREEN-ENERGY-INCLUDING-CBG-FUEL-BASED-ETHANOL-HIGH_PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/RENEWABLE-GREEN-ENERGY-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/SEMICONDUCTOR-ELECTRONICS-COMPONENTS-EMERGING",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/SIKKI-GRASS-CRAFT-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/SMALL-MACHINE-MANUFACTURING-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/SPORTS-GOODS-MANUFACTURING-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/STONE-CARVING-STONE-CRAFT-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/SUJANI-EMBROIDERY-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/TERRACOTTA-POTTERY-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/TEXTILES-AND-LEATHER-HIGH_PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/TIKULI-ART-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/TOYS-MANUFACTURING-HIGH_PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/UNITS-MANUFACTURING-ALCOHOLIC-BEVERAGES-NEGATIVE_LIST",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/UNITS-MANUFACTURING-ASBESTOS-NEGATIVE_LIST",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/UNITS-MANUFACTURING-NARCOTIC-DRUGS-NEGATIVE_LIST",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/WASTE-RECYCLING-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/WATER-HYACINTH-PRODUCTS-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/WOOD-BASED-INDUSTRIES-PRIORITY",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    },
+    {
+      "from": "sectors/WOOD-CRAFT-WOODEN-FURNITURE-HERITAGE_CLUSTER",
+      "to": "schemes/BIHAR_MSME_2026",
+      "kind": "in_scheme",
+      "w": 0.4
+    }
+  ],
+  "broken_links": [],
+  "hub_types": [
+    "scheme"
+  ]
+}

@@ -19,6 +19,16 @@
   --error-text: #a12f22;
   --shadow: rgba(20, 15, 30, 0.08) 0 4px 16px -4px;
 
+  /* Source origin ("which architectural layer answered this") and OKF
+     trust tiers -- distinct from --accent so a mixed-origin answer's
+     citations are visually distinguishable, not just labelled. */
+  --origin-vector: #4a90d9;
+  --origin-okf: #2f9e6e;
+  --origin-graph: #c9702e;
+  --trust-unverified: #b0abbd;
+  --trust-machine: #4a90d9;
+  --trust-human: #2f9e6e;
+
   --sans: system-ui, 'Segoe UI', Roboto, 'Noto Sans Devanagari', sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
@@ -53,6 +63,13 @@
     --error-border: #6b2b23;
     --error-text: #f3b3ac;
     --shadow: rgba(0, 0, 0, 0.4) 0 4px 16px -4px;
+
+    --origin-vector: #6fa8e0;
+    --origin-okf: #4cc190;
+    --origin-graph: #e08f4f;
+    --trust-unverified: #6b6778;
+    --trust-machine: #6fa8e0;
+    --trust-human: #4cc190;
   }
 }
 

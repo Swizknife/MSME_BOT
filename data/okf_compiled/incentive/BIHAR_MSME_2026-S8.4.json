@@ -1,0 +1,43 @@
+{
+  "incentive_id": "BIHAR_MSME_2026-S8.4",
+  "scheme_id": "BIHAR_MSME_2026",
+  "name": "Heritage Cluster Infrastructure Grants",
+  "item_no": "8.4",
+  "incentive_type": "grant_in_aid",
+  "category_rates": [
+    {
+      "enterprise_category": "other",
+      "rate_text": "90% Grant-in-Aid of project cost up to ₹3 Crore for Mega Clusters and 90% Grant-in-Aid of project cost up to ₹1 Crore for Mini Clusters.",
+      "rate_value": null,
+      "cap_value": null,
+      "cap_unit": null
+    }
+  ],
+  "varies_by_category": false,
+  "district_scope": [],
+  "sector_scope": [],
+  "eligibility_rule_ids": [],
+  "ambiguity_flags": [
+    "BIHAR_MSME_2026-AMB-11"
+  ],
+  "status": "active",
+  "source": {
+    "source_id": "BIHAR_MSME_POLICY_2026",
+    "source_url": "https://state.bihar.gov.in/industries/",
+    "source_document_version": "draft-v1",
+    "fetch_date": "2026-08-23",
+    "fetch_method": "manual",
+    "extraction_method": "hand_transcribed",
+    "page_or_section_ref": "section 8.4",
+    "page_start": 20,
+    "page_end": 20,
+    "verification_status": "verified",
+    "verified_by": "verify_policy_data.py (figure tokens checked against extracted text)",
+    "verified_at": "2026-09-23T00:00:00",
+    "checksum": null
+  },
+  "cross_references": [
+    "ambiguities/BIHAR_MSME_2026-AMB-11"
+  ],
+  "_body": "## Heritage Cluster Infrastructure Grants\n\nSection 8.4 of the residual incentives and support provisions (page 20).\n\nOpen questions: [BIHAR_MSME_2026-AMB-11](/ambiguities/BIHAR_MSME_2026-AMB-11.md)."
+}

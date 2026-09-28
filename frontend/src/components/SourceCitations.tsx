@@ -1,5 +1,15 @@
 import { useState } from "react";
-import type { Source } from "../api/chat";
+import type { Source, SourceOrigin } from "../api/chat";
+
+// Which architectural layer produced a citation -- a mixed-origin okf_rag
+// answer can carry all three at once, and colouring them differently is
+// what lets a user see which parts of an answer came from where, not just
+// that the answer exists.
+const ORIGIN_LABEL: Record<SourceOrigin, string> = {
+  vector: "Retrieved text",
+  okf: "Structured fact",
+  graph: "Linked fact",
+};
 
 /**
  * Renders the numbered [S1][S2].. sources a response was grounded in as
@@ -22,11 +32,16 @@ export function SourceCitations({ sources }: { sources: Source[] }) {
           <button
             key={s.tag}
             type="button"
-            className={"source-chip" + (openTag === s.tag ? " source-chip--open" : "")}
+            className={
+              "source-chip" +
+              ` source-chip--${s.origin}` +
+              (openTag === s.tag ? " source-chip--open" : "")
+            }
             onClick={() => setOpenTag(openTag === s.tag ? null : s.tag)}
             aria-expanded={openTag === s.tag}
           >
-            [{s.tag}] {s.clause_path || "Source"} · p.{s.page_start}
+            [{s.tag}] {s.clause_path || "Source"}
+            {s.page_start ? ` · p.${s.page_start}` : ""}
           </button>
         ))}
       </div>
@@ -38,8 +53,12 @@ export function SourceCitations({ sources }: { sources: Source[] }) {
             return (
               <>
                 <div className="source-detail__path">
-                  {s.clause_path || "Bihar MSME Policy 2026 (Draft)"} · page{" "}
-                  {s.page_start === s.page_end ? s.page_start : `${s.page_start}–${s.page_end}`}
+                  <span className={`source-origin-tag source-origin-tag--${s.origin}`}>
+                    {ORIGIN_LABEL[s.origin]}
+                  </span>
+                  {s.clause_path || "Bihar MSME Policy 2026 (Draft)"}
+                  {s.page_start > 0 &&
+                    ` · page ${s.page_start === s.page_end ? s.page_start : `${s.page_start}–${s.page_end}`}`}
                 </div>
                 <p className="source-detail__text">{s.text}</p>
               </>

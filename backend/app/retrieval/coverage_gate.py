@@ -43,20 +43,39 @@ class GateDecision:
     tau_soft: float
 
 
-def _load_thresholds() -> tuple[float, float]:
+def _load_thresholds(source_type: str | None = None) -> tuple[float, float]:
+    """Multi-source amendment (docs/OKF_RAG_IMPLEMENTATION.md section 5):
+    reranker score distributions differ by source register -- a scraped
+    HTML FAQ page and a structured policy PDF don't rerank on the same
+    scale -- so thresholds can be keyed by source_type. Falls back to
+    `default` (or the hardcoded constants) when no by_source_type entry
+    exists for the given type, or when no source_type is known at all,
+    which is always true today since exactly one source is indexed."""
     if not THRESHOLDS_PATH.exists():
         return DEFAULT_TAU_HARD, DEFAULT_TAU_SOFT
     try:
         import yaml
 
         data = yaml.safe_load(THRESHOLDS_PATH.read_text(encoding="utf-8")) or {}
-        return float(data.get("tau_hard", DEFAULT_TAU_HARD)), float(data.get("tau_soft", DEFAULT_TAU_SOFT))
+        by_type = data.get("by_source_type") or {}
+        if source_type and source_type in by_type:
+            entry = by_type[source_type]
+            return float(entry.get("tau_hard", DEFAULT_TAU_HARD)), float(entry.get("tau_soft", DEFAULT_TAU_SOFT))
+        default = data.get("default") or data  # tolerate the flat pre-multi-source shape too
+        return float(default.get("tau_hard", DEFAULT_TAU_HARD)), float(default.get("tau_soft", DEFAULT_TAU_SOFT))
     except Exception:
         return DEFAULT_TAU_HARD, DEFAULT_TAU_SOFT
 
 
 def decide(reranked: list[tuple[object, float]]) -> GateDecision:
-    tau_hard, tau_soft = _load_thresholds()
+    # Threshold by the top-ranked chunk's own source_type when the payload
+    # carries one; a mixed shortlist is thresholded by whichever source
+    # produced the candidate actually being judged, not a single global
+    # figure that a scraped-HTML source's noisier scores would miscalibrate.
+    source_type = None
+    if reranked:
+        source_type = reranked[0][0].payload.get("source_type")
+    tau_hard, tau_soft = _load_thresholds(source_type)
     top_score = reranked[0][1] if reranked else 0.0
 
     if top_score < tau_hard:
@@ -67,6 +86,35 @@ def decide(reranked: list[tuple[object, float]]) -> GateDecision:
         action = "answer"
 
     return GateDecision(action=action, top_score=top_score, tau_hard=tau_hard, tau_soft=tau_soft)
+
+
+def okf_coverage(evidence) -> GateDecision:
+    """The Coverage Gate's OKF-mode counterpart: no reranker score exists,
+    because okf mode issues no vector search at all. Confidence here is
+    binary -- either the graph assembled real, trustworthy evidence about
+    what the query named, or it did not -- not a threshold on a continuous
+    score, so `top_score` is a coarse three-level stand-in (0 / 0.5 / 1.0)
+    kept only so GateDecision stays the one type every caller downstream
+    (the ladder, the UI's low_confidence flag) already knows how to read.
+
+    Levels, in the order they're checked:
+      no entry points matched the query -> abstain (nothing to traverse from)
+      entry points matched but the walk reached nothing -> abstain
+      nodes reached, but none above 'unverified' trust -> answer_low_confidence
+      at least one node is machine-confirmed or human-reviewed -> answer
+    """
+    tau_hard, tau_soft = _load_thresholds()
+    if not evidence or not evidence.entry_points:
+        return GateDecision(action="abstain", top_score=0.0, tau_hard=tau_hard, tau_soft=tau_soft)
+    if not evidence.nodes:
+        return GateDecision(action="abstain", top_score=0.0, tau_hard=tau_hard, tau_soft=tau_soft)
+
+    trusted = [n for n in evidence.nodes if n.trust != "unverified"]
+    if not trusted:
+        return GateDecision(
+            action="answer_low_confidence", top_score=0.5, tau_hard=tau_hard, tau_soft=tau_soft
+        )
+    return GateDecision(action="answer", top_score=1.0, tau_hard=tau_hard, tau_soft=tau_soft)
 
 
 ABSTAIN_TEMPLATE_EN = (

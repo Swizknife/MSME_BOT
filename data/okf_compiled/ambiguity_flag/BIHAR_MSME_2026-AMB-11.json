@@ -1,0 +1,28 @@
+{
+  "id": "BIHAR_MSME_2026-AMB-11",
+  "local_id": "AMB-11",
+  "scope": "single_source",
+  "source_ids": [
+    "BIHAR_MSME_POLICY_2026"
+  ],
+  "clause_refs": [
+    "Heritage Cluster Annexure",
+    "8.4"
+  ],
+  "page_refs": [
+    27,
+    20
+  ],
+  "issue_type": "inoperative",
+  "severity": "advisory",
+  "description": "The heritage-cluster annexure is titled 'eligible for special incentive under the Policy', but section 8.4 grants go to clusters (infrastructure), not to individual units within a heritage cluster. No unit-level special incentive is quantified.",
+  "public_disclosure_en": "The heritage-cluster list is titled as being eligible for a 'special incentive', but the only related grant in the draft (section 8.4) goes to cluster infrastructure, not to individual heritage-craft businesses.",
+  "public_disclosure_hi": "विरासत समूह सूची को 'विशेष प्रोत्साहन' के लिए पात्र बताया गया है, लेकिन प्रारूप में संबंधित अनुदान (धारा 8.4) समूह अवसंरचना के लिए है, न कि व्यक्तिगत विरासत-शिल्प व्यवसायों के लिए।",
+  "status": "open",
+  "resolution": null,
+  "resolved_by": null,
+  "resolved_at": null,
+  "supersedes_version": null,
+  "cross_references": [],
+  "_body": "## AMB-11 — inoperative (advisory)\n\nThe heritage-cluster annexure is titled 'eligible for special incentive under the Policy', but section 8.4 grants go to clusters (infrastructure), not to individual units within a heritage cluster. No unit-level special incentive is quantified.\n\n**Clauses:** Heritage Cluster Annexure, 8.4  \n**Pages:** 27, 20"
+}
