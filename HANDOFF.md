@@ -1,6 +1,5 @@
 # Handoff — Bihar MSME Chatbot (OKF + RAG)
 
-**Last updated:** 2026-09-23 · **By:** Soumya Sharma (soumyasharma2402@gmail.com), with Claude
 
 ## What this project is
 
